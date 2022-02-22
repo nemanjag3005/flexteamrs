@@ -6,8 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary': '#FFD700',
+        'primary': '#ECC770',
         'primary-metallic' : '#D4AF37',
+      },
+      backgroundImage: {
+        'hero1': "url('/bg.jpg')",
       }
     },
   },

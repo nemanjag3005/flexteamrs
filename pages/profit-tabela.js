@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
-import Hero from '../components/Hero';
 
-export default function Home() {
+
+export default function ProfitTabela() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -18,8 +18,7 @@ export default function Home() {
       </Head>
         <Navbar toggle={toggle} isOpen={isOpen}/>
         <Sidebar toggle={toggle} isOpen={isOpen}/>
-        <Hero />
-
+        
       </div>
       
   )
