@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -10,6 +11,11 @@ const Sidebar = ({ isOpen, toggle }) => {
     >
       <nav className="bg-black border-b border-w-4xl px-4 py-4 md:py-6 border-primary transition duration-500">
         <div className="container flex flex-nowrap justify-between items-center mx-auto max-w-6xl">
+        <Link href='/'>
+          <Image src='/flex1.png' width='50px' height='60px'  >
+
+          </Image>
+        </Link>
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
@@ -60,7 +66,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </Link>
           </li>
           <li>
-            <Link href="onama">
+            <Link href="profit-tabela">
               <span className="text-gray-200 flex py-2 cursor-pointer px-4 rounded hover:text-primary hover:bg-gray-500 border-gray-500 text-2xl">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

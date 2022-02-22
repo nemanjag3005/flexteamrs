@@ -7,7 +7,7 @@ const Navbar = ({ isOpen, toggle }) => {
     <nav className="w-screen bg-black ">
       <div className="container px-4 py-4 border-b border-primary md:py-6 flex flex-nowrap shadow-xl justify-between items-center mx-auto max-w-6xl">
         <Link href='/'>
-          <Image src='/flex1.png' width='100px' height='100px'>
+          <Image src='/flex1.png' width='50px' height='60px'  >
 
           </Image>
         </Link>
@@ -51,7 +51,7 @@ const Navbar = ({ isOpen, toggle }) => {
               </Link>
             </li>
             <li>
-              <Link href="onama">
+              <Link href="profit-tabela">
                 <span className="block py-2 cursor-pointer text-gray-200 px-4 hover:text-primary-metallic text-2xl">
                   Tabela Profita
                 </span>
