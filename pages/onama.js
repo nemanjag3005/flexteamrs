@@ -19,8 +19,7 @@ export default function About() {
       </Head>
         <Sidebar toggle={toggle} isOpen={isOpen}/>
         <Biography toggle={toggle} isOpen={isOpen}/>
-
-      </div>
+    </div>
       
   )
 }
