@@ -4,9 +4,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    borderRadius: {
-      'xl': '2rem'
-    },
     extend: {
       colors: {
         'primary': '#ECC770',
@@ -24,7 +21,10 @@ module.exports = {
       fontSize: {
         'xxxs': '.50rem',
         'xxs': '.60rem'
-      }
+      },
+      borderRadius: {
+        'xl': '2rem'
+      },
     },
   },
   plugins: [],
