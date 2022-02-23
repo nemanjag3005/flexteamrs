@@ -4,12 +4,16 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    borderRadius: {
+      'xl': '2rem'
+    },
     extend: {
       colors: {
         'primary': '#ECC770',
         'primary-metallic' : '#D4AF37',
         'gold-100': '#FCF6BA',
         'gold-900': '#AA771C',
+        'pale': 'rgba(103,103,103,0.2)'
       },
       backgroundImage: {
         'hero1': "url('/bg.jpg')",
