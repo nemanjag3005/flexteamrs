@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
-const Biography = () => {
+const Biography = ({ isOpen, toggle }) => {
   return (
     <div className='bg-secondary  bg-no-repeat bg-fixed bg-cover'>
+       <Navbar toggle={toggle} isOpen={isOpen}/>
       <div>
         <p className="text-center text-gray-200">
           <span className="text-primary">Flex Team</span> se smatra jednim od elitnih sportskih stranica ove ere, koji je postavio brojne rekorde u 
