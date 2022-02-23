@@ -4,17 +4,28 @@ import Image from "next/image";
 
 const Navbar = ({ isOpen, toggle }) => {
   return (
-    <nav className="w-screen bg-black ">
-      <div className="container px-4 py-4 border-b border-primary md:py-6 flex flex-nowrap shadow-xl justify-between items-center mx-auto max-w-6xl">
-        <Link href='/'>
-          <Image src='/flex1.png' width='50px' height='60px'  >
-
-          </Image>
+    <nav className=" bg-transparent">
+      <div className="container px-4 py-4  md:py-6 flex flex-nowrap  justify-between items-center mx-auto max-w-6xl">
+        <Link href="/">
+          <div className="px-6 py-6 rounded-lg">
+            <div className="relative group rounded-lg">
+              <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-100 to-gold-900 rounded-lg filter blur opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+              <button className="relative px-2 py-1 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
+                <Image
+                  className="rounded-lg"
+                  src="/flex1.png"
+                  width="56px"
+                  height="65px"
+                  
+                ></Image>
+              </button>
+            </div>
+          </div>
         </Link>
         <button
           onClick={toggle}
           type="button"
-          className="inline-flex items-center p-2 text-sm rounded-lg md:hidden  focus:outline-none focus:ring-2 text-gray-200 hover:bg-gray-700 focus:ring-gray-600"
+          className="inline-flex items-center p-2 text-sm rounded-lg md:hidden  focus:outline-none focus:ring-2 text-gray-200 focus:ring-gray-600"
         >
           <svg
             className=" w-8 h-8"
