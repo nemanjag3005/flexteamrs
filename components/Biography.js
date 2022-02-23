@@ -5,8 +5,11 @@ const Biography = () => {
     <div className='bg-secondary  bg-no-repeat bg-fixed bg-cover'>
       <div>
         <p className="text-center text-gray-200">
-          <span className="text-primary">Flex Team</span> se smatra jednim od elitnih sportskih stranica ove ere, koji je postavio brojne rekorde u analizi sportskih dogadjaja. Danas je Flex Team organizacija koja pruza mocne clanske pakete za sve one koji zele da zarade od sporta. Poznat sam kao Matija Lazic, jedan od najtraženijih i najuspešnijih sportskih tipstera na Balkanu. Izgradio sam izuzetnu karijeru i ugled u poslednjih  godinu
-          dana i stekao bogatstvo. Moja imovina vredi više od pola miliona i dolazi sa načinom života koji se samo može zamisliti. Dozvolite mi da vam pomognem u izgradnji života i karijere iz snova svojim znanjem i veštinama u industriji sportskih klađenja.
+          <span className="text-primary">Flex Team</span> se smatra jednim od elitnih sportskih stranica ove ere, koji je postavio brojne rekorde u 
+          analizi sportskih dogadjaja. Danas je Flex Team organizacija koja pruza mocne clanske pakete za sve one koji zele da zarade od sporta.
+           Poznat sam kao Matija Lazic, jedan od najtraženijih i najuspešnijih sportskih tipstera na Balkanu. Izgradio sam izuzetnu karijeru i ugled u poslednjih  godinu
+          dana i stekao bogatstvo. Moja imovina vredi više od pola miliona i dolazi sa načinom života koji se samo može zamisliti. Dozvolite mi da vam pomognem u 
+          izgradnji života i karijere iz snova svojim znanjem i veštinama u industriji sportskih klađenja.
           <br /><br />
           Ovo je vaša prilika da radite sa najboljima u poslu i na akciji!
           <br /><br />
