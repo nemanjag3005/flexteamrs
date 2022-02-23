@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar';
 import Hero from '../components/Hero';
 import TicketSection from '../components/TicketSection';
 import NewsSection from '../components/NewsSection';
+import Footer from '../components/Footer';
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ export default function Home() {
         <Hero toggle={toggle} isOpen={isOpen}/>
         <TicketSection />
         <NewsSection />
+        <Footer />
       </div>
       
   )

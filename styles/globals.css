@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 .text-shadow {
-  text-shadow: 2px 2px  #393D3f;
+  text-shadow: 2px 2px #393D3f;
 }
 .text-shadow-md {
   text-shadow: 4px 4px 8px black;

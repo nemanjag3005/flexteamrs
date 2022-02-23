@@ -3,7 +3,7 @@ import Ticket from "./Ticket";
 
 const TicketSection = () => {
   return (
-    <div className="bg-hero2 bg-no-repeat bg-cover px-4 border-t-2 border-gray-800">
+    <div className="bg-hero2 bg-no-repeat bg-cover px-4 border-t-2 border-gray-800 pb-24">
       <div className="flex items-center justify-center flex-wrap">
         <div className="grid gap-4 grid-cols-2">
           <div className="-rotate-6 space-y-3">
