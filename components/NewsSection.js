@@ -16,7 +16,7 @@ const NewsSection = () => {
               <p className="font-bold text-xl text-gray-300">Instagram</p>
             </div>
             <img
-              src="/bg.jpg"
+              src="/laske.png"
               className="rounded-xl shadow-md border-2 border-primary h-48 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>

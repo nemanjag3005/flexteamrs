@@ -5,12 +5,12 @@ import Navbar from "./Navbar";
 
 const Hero = ({ isOpen, toggle }) => {
   return (
-    <div className="bg-hero1  bg-no-repeat bg-fixed bg-cover">
+    <div className="bg-hero1  bg-no-repeat bg-cover">
       <Navbar toggle={toggle} isOpen={isOpen}/>
       <div className="grid">
-        <div className="flex py-4 px-4 flex-col items-center justify-center text-4xl text-primary mt-8">
+        <div className="flex py-4 px-4 flex-col items-center justify-center text-5xl text-primary mt-8">
           <div className="w-full px-4 mb-12">
-          <div className="pt-[56.25%] flex relative">
+          <div className="pt-[56.25%] flex relative shadow-lg">
             <ReactPlayer
               width="100%"
               height="100%"

@@ -13,7 +13,7 @@ module.exports = {
         'pale': 'rgba(103,103,103,0.2)'
       },
       backgroundImage: {
-        'hero1': "url('/bg.jpg')",
+        'hero1': "linear-gradient(to bottom, rgba(22, 22, 27, 0.9), rgba(41,41,52,0.8)), url('/bg.jpg')",
         'secondary': "url('/bg4.png')",
         'hero2': "url('/bg2.jpg')",
         'hero3': "url('/bg3.jpg')"
