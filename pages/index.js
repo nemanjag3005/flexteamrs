@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
-import Hero from '../components/Hero';
-import TicketSection from '../components/TicketSection';
-import NewsSection from '../components/NewsSection';
+import Hero from '../components/Landing/Hero';
+import TicketSection from '../components/Landing/TicketSection';
+import NewsSection from '../components/Landing/NewsSection';
 import Footer from '../components/Footer';
 
 export default function Home() {
