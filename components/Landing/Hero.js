@@ -19,7 +19,7 @@ const Hero = ({ isOpen, toggle }) => {
           <div className=" rounded-lg">
             <div className="relative group rounded-lg">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-100 to-gold-900 rounded-lg filter blur opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-          <div className="pt-[56.25%] flex relative shadow-lg">
+          <div className="pt-[56.25%] flex bg-black relative shadow-lg">
             <ReactPlayer
               width="100%"
               height="100%"
