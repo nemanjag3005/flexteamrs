@@ -1,11 +1,17 @@
 import Image from "next/image";
 import React from "react";
 import ReactPlayer from "react-player";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 
 const Hero = ({ isOpen, toggle }) => {
   return (
-    <div className="bg-hero1  bg-no-repeat bg-cover">
+    <div className="bg-hero1  bg-no-repeat bg-cover relative overflow-hidden">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent text-8xl tracking-widest top-[15%] left-36 ">
+        FLEX
+      </h1>
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl tracking-widest top-[45%] left-2 ">
+        TEAM
+      </h1>
       <Navbar toggle={toggle} isOpen={isOpen}/>
       <div className="grid">
         <div className="flex py-4 px-4 flex-col items-center justify-center text-5xl text-primary mt-8">
@@ -15,7 +21,7 @@ const Hero = ({ isOpen, toggle }) => {
               width="100%"
               height="100%"
               style={{ position: "absolute", top: "0", left: "0" }}
-              url="https://www.youtube.com/watch?v=79pwXIqngAI"
+              url="https://www.youtube.com/watch?v=D7QAtvTpIbI"
               controls
             />
           </div>
