@@ -6,10 +6,10 @@ import Navbar from "../Navbar";
 const Hero = ({ isOpen, toggle }) => {
   return (
     <div className="bg-hero1  bg-no-repeat bg-cover relative overflow-hidden">
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent text-8xl tracking-widest top-[15%] left-36 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent text-8xl tracking-widest top-[15%] left-36 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl tracking-widest top-[45%] left-2 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl tracking-widest top-[45%] left-2 ">
         TEAM
       </h1>
       <Navbar toggle={toggle} isOpen={isOpen}/>

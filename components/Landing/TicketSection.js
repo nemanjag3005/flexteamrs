@@ -7,16 +7,16 @@ const TicketSection = () => {
     
     <div className="bg-hero2 bg-no-repeat bg-cover px-4 border-t-2 border-gray-800 pb-24 relative">
       
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl tracking-widest top-[15%] left-2 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl tracking-widest top-[15%] left-2 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent text-8xl tracking-widest top-[35%] left-36 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent text-8xl tracking-widest top-[35%] left-36 ">
         TEAM
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary-metallic text-8xl tracking-widest top-[60%] left-2 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary-metallic text-8xl tracking-widest top-[60%] left-2 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-primary to-transparent text-8xl tracking-widest top-[75%] left-36 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary to-transparent text-8xl tracking-widest top-[75%] left-36 ">
         TEAM
       </h1>
       
