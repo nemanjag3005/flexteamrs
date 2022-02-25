@@ -4,10 +4,11 @@ import Image from "next/image";
 
 const Navbar = ({ isOpen, toggle }) => {
   return (
-    <nav className=" bg-transparent">
-      <div className="container px-4 py-4  md:py-6 flex flex-nowrap  justify-between items-center mx-auto max-w-6xl">
+    <nav className=" bg-transparent md:mb-20">
+      <div className="container px-2 py-4 relative flex flex-nowrap md:border-b-2 border-primary justify-between items-center mx-auto max-w-6xl">
+      <div className="absolute hidden md:block -inset-0.5 bg-gradient-to-r from-gold-100 to-gold-900 rounded-lg top-[100%] filter blur opacity-100 transition duration-1000 h-2 group-hover:duration-200 animate-tilt"></div>
         <Link href="/">
-          <div className="px-6 py-6 rounded-lg">
+          <div className="px-6 py-6 md:py-2 rounded-lg">
             <div className="relative group rounded-lg">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-100 to-gold-900 rounded-lg filter blur opacity-75 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
               <button className="relative px-2 py-1 bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600">
@@ -53,17 +54,17 @@ const Navbar = ({ isOpen, toggle }) => {
           </svg>
         </button>
         <div className="hidden md:block w-full md:w-auto">
-          <ul className="flex flex-col my-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm ">
+          <ul className="flex flex-col md:flex-row md:space-x-8 md:mt-0 md:text-sm ">
             <li>
               <Link href="onama">
-                <span className="block py-2 cursor-pointer text-gray-200 px-4 hover:text-primary-metallic text-2xl ">
+                <span className="block py-2 text-shadow italic cursor-pointer   transition-all ease-in-out duration-300 text-gray-200 px-4 hover:text-primary-metallic text-2xl ">
                   O Nama
                 </span>
               </Link>
             </li>
             <li>
               <Link href="profit-tabela">
-                <span className="block py-2 cursor-pointer text-gray-200 px-4 hover:text-primary-metallic text-2xl">
+                <span className="block py-2 text-shadow italic cursor-pointer text-gray-200 px-4 hover:text-primary-metallic text-2xl">
                   Tabela Profita
                 </span>
               </Link>

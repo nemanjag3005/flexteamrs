@@ -5,13 +5,14 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-hero2 bg-cover flex items-center justify-center flex-col border-t-2 border-primary relative">
-        <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent text-8xl tracking-widest top-[30%] left-36 ">
+      
+        {/* <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 md:opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic md:tracking-widestest md:top-[20%] md:left-[30%] to-transparent md:text-9xl text-8xl tracking-widest top-[30%] left-36 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl tracking-widest top-[55%] left-2 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 md:opacity-30 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest from-transparent to-primary md:top-[60%] md:left-[45%] text-8xl md:text-9xl tracking-widest top-[55%] left-2 ">
         TEAM
-      </h1>
-      <div className="flex flex-wrap justify-center md:justify-between w-full max-w-4xl items-center py-4 px-8">
+      </h1> */}
+      <div className="flex flex-wrap justify-center md:justify-between w-full max-w-4xl  items-center md:py-12 py-4 px-8">
         <div className="p-4 mb-6">
           <Image src="/flex1.png" height="130px" width="111px"></Image>
         </div>
@@ -116,10 +117,11 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="py-4 px-8 text-gray-200 text-xs text-center">
+      <div className="py-4 px-8 text-gray-200 text-xs md:pb-12 text-center">
         © 2022 Flex Team. All rights reserved.
       </div>
-    </div>
+      </div>
+    
   );
 };
 

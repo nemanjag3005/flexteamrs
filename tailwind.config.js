@@ -20,11 +20,19 @@ module.exports = {
       },
       fontSize: {
         'xxxs': '.50rem',
-        'xxs': '.60rem'
+        'xxs': '.60rem',
+        '10xl': '12rem',
       },
       borderRadius: {
         'xl': '2rem'
       },
+      letterSpacing: {
+        'widestest': '5rem' 
+      },
+      boxShadow: {
+        'custom': 'inset 0 0 0 0 #D4AF37',
+        'custom-hover': 'inset 100px 0 0 0 #D4AF37'
+      }
     },
   },
   plugins: [],

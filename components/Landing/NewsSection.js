@@ -2,27 +2,28 @@ import React from "react";
 
 const NewsSection = () => {
   return (
-    <div className="bg-hero3 border-t-2 border-gray-200 pb-24 relative ">
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent text-8xl tracking-widest top-[8%] left-36 ">
+    <div className="bg-hero3 border-t-2 border-gray-200 pb-24 relative flex justify-center">
+      <div className="w-full max-w-7xl relative ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[20%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[8%] left-36 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl tracking-widest top-[28%] left-2 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[28%] left-2 ">
         TEAM
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl tracking-widest top-[60%] left-2 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[50%] from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[60%] left-2 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent text-8xl tracking-widest top-[80%] left-36 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[70%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[80%] left-36 ">
         TEAM
       </h1>
-      <div className="relative text-center -mt-32">
-        <img src="/brush-stroke.svg" className=" -rotate-3 w-96"></img>
-        <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-700 text-shadow-lg to-gray-900 text-5xl -rotate-3 font-bold absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+      <div className="relative text-center md:-mt-48 -mt-32">
+        <img src="/brush-stroke.svg" className=" -rotate-3 mx-auto md:w-5/12 w-96"></img>
+        <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-700 text-shadow-lg md:text-6xl lg:text-7xl to-gray-900 text-5xl -rotate-3 font-bold absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
           NOVOSTI
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-y-8 mb-12 px-8">
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-10 gap-y-8 mb-12 px-8">
+        <div className="flex justify-center flex-col w-full">
           <a href="https://www.instagram.com/p/CZ4WcO1sZD7-8h1aaFkpoX86IF1rusvzURtAvY0/" target='_blank' rel="noreferrer" className="group relative flex ">
             <div className=" absolute rounded-xl top-0 bg-hero3 left-0 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20 ">
             <svg
@@ -39,7 +40,7 @@ const NewsSection = () => {
             </div>
             <img
               src="/laske.png"
-              className="rounded-xl shadow-md border-2 z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
+              className="rounded-xl shadow-md border-2 md:border-gray-200 object-top z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
           <h1 className="text-gray-200 text-2xl text-center mt-4">
@@ -48,7 +49,7 @@ const NewsSection = () => {
           </h1>
         </div>
         <div>
-          <a href="https://www.youtube.com/watch?v=79pwXIqngAI" target='_blank' rel="noreferrer" className="group relative flex">
+          <a href="https://www.youtube.com/watch?v=79pwXIqngAI" target='_blank' rel="noreferrer" className="group md:h-72 relative flex">
             <div className=" absolute rounded-xl top-0 bg-hero3 left-0 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20">
             <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -64,7 +65,7 @@ const NewsSection = () => {
             </div>
             <img
               src="https://img.youtube.com/vi/79pwXIqngAI/maxresdefault.jpg"
-              className="rounded-xl shadow-md border-2 z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
+              className="rounded-xl shadow-md border-2 z-30 border-primary h-48 md:h-72 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
           <h1 className="text-gray-200 text-2xl text-center mt-4">
@@ -72,7 +73,7 @@ const NewsSection = () => {
             <span className="text-primary italic text-shadow">YOUTUBE</span>
           </h1>
         </div>
-        <div>
+        <div className="flex justify-center flex-col w-full">
           <a href="#" className="group relative flex">
             <div className=" absolute rounded-xl top-0 left-0 bg-hero3 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20">
               <svg
@@ -93,13 +94,14 @@ const NewsSection = () => {
             </div>
             <img
               src="/bg.jpg"
-              className="rounded-xl shadow-md border-2 z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
+              className="rounded-xl shadow-md border-2 z-30 md:border-gray-200 border-primary h-48 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
           <h1 className="text-gray-200 text-2xl text-center mt-4">
             FLEX TEAM{" "}
             <span className="text-primary italic text-shadow">TIKETI</span>
           </h1>
+        </div>
         </div>
       </div>
     </div>
