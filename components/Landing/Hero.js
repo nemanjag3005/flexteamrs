@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import ReactPlayer from "react-player";
 import Navbar from "../Navbar";
+import Link from "next/link";
 
 const Hero = ({ isOpen, toggle }) => {
   return (
@@ -27,14 +28,18 @@ const Hero = ({ isOpen, toggle }) => {
               />
             </div>
           </div>
-          <div className="">
+          <div className="flex items-center justify-center flex-col">
           <h1 className="font-bold italic tracking-tight text-shadow">
             PODIGNI SVOJE ULOGE
           </h1>
-          <p className="text-gray-200 py-4 text-lg md:text-xl mb-12">
+          <p className="text-gray-200 py-4 text-lg md:text-xl">
             Rezultati ne lažu! Ovo je vaša prilika da radite sa najboljima u
             poslu i da se upustite u akciju. Pretplatite se na Flex Team.
           </p>
+          <button className="text-gray-200 mb-12 font-bold italic shadow-xl md:mr-auto px-4 mt-4 py-2 text-2xl md:text-4xl md:px-6 rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-[#D6A756]">
+            <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-200 to-gray-600 hover:from-gray-200 hover:to-gray-400">PRETPLATI SE</h1>
+          </button>
+          
           </div>
           <div className="w-full hidden md:block col-span-2 max-w-3xl">
             <div className="pt-[56.25%] flex bg-black relative shadow-lg">

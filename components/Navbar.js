@@ -58,14 +58,14 @@ const Navbar = ({ isOpen, toggle }) => {
             <li>
               <Link href="onama">
                 <span className="block py-2 text-shadow italic cursor-pointer   transition-all ease-in-out duration-300 text-gray-200 px-4 hover:text-primary-metallic text-2xl ">
-                  O Nama
+                  O NAMA
                 </span>
               </Link>
             </li>
             <li>
               <Link href="profit-tabela">
                 <span className="block py-2 text-shadow italic cursor-pointer text-gray-200 px-4 hover:text-primary-metallic text-2xl">
-                  Tabela Profita
+                  TABELA PROFITA
                 </span>
               </Link>
             </li>

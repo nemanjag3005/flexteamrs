@@ -10,10 +10,10 @@ const NewsSection = () => {
       <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[28%] left-2 ">
         TEAM
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[50%] from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[60%] left-2 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[50%] from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[65%] left-2 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[70%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[80%] left-36 ">
+      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[70%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[90%] left-36 ">
         TEAM
       </h1>
       <div className="relative text-center md:-mt-48 -mt-32">
@@ -39,17 +39,17 @@ const NewsSection = () => {
               <p className="font-bold text-xl text-gray-300">Instagram</p>
             </div>
             <img
-              src="/laske.png"
-              className="rounded-xl shadow-md border-2 md:border-gray-200 object-top z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
+              src="/flex.png"
+              className="rounded-xl shadow-md border-2 md:border-gray-200 md:h-54  z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
-          <h1 className="text-gray-200 text-2xl text-center mt-4">
+          <h1 className="text-gray-200 text-2xl md:text-3xl text-center mt-4">
             FLEX TEAM{" "}
             <span className="text-primary italic text-shadow">INSTAGRAM</span>
           </h1>
         </div>
         <div>
-          <a href="https://www.youtube.com/watch?v=79pwXIqngAI" target='_blank' rel="noreferrer" className="group md:h-72 relative flex">
+          <a href="https://www.youtube.com/watch?v=79pwXIqngAI" target='_blank' rel="noreferrer" className="group  relative flex">
             <div className=" absolute rounded-xl top-0 bg-hero3 left-0 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20">
             <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -65,10 +65,10 @@ const NewsSection = () => {
             </div>
             <img
               src="https://img.youtube.com/vi/79pwXIqngAI/maxresdefault.jpg"
-              className="rounded-xl shadow-md border-2 z-30 border-primary h-48 md:h-72 w-full object-cover group-hover:opacity-25"
+              className="rounded-xl shadow-md border-2 z-30 border-primary h-48 md:h-80 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
-          <h1 className="text-gray-200 text-2xl text-center mt-4">
+          <h1 className="text-gray-200 text-2xl md:text-4xl text-center mt-4">
             FLEX TEAM{" "}
             <span className="text-primary italic text-shadow">YOUTUBE</span>
           </h1>
@@ -93,11 +93,11 @@ const NewsSection = () => {
               <p className="font-bold text-xl text-gray-300">Tiketi</p>
             </div>
             <img
-              src="/bg.jpg"
-              className="rounded-xl shadow-md border-2 z-30 md:border-gray-200 border-primary h-48 w-full object-cover group-hover:opacity-25"
+              src="/Tiket.png"
+              className="rounded-xl shadow-md border-2 z-30 md:border-gray-200 border-primary h-48 md:h-54 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
-          <h1 className="text-gray-200 text-2xl text-center mt-4">
+          <h1 className="text-gray-200 text-2xl md:text-3xl text-center mt-4">
             FLEX TEAM{" "}
             <span className="text-primary italic text-shadow">TIKETI</span>
           </h1>
