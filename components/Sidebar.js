@@ -10,10 +10,10 @@ const Sidebar = ({ isOpen, toggle }) => {
       }`}
     >
       
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45  from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[20%] left-36 ">
+      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45  from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[20%] left-36 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45 from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[31%] left-2 ">
+      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45 from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[31%] left-2 ">
         TEAM
       </h1>
       

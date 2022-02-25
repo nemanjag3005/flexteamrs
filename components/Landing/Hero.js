@@ -8,10 +8,10 @@ const Hero = ({ isOpen, toggle }) => {
   return (
     <div className="bg-hero1  bg-no-repeat bg-cover relative overflow-hidden flex justify-center">
       <div className="w-full max-w-7xl md:mb-20 relative">
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent md:text-10xl text-8xl md:tracking-widestest tracking-widest top-[15%] left-[40%] ">
+      <h1 className="absolute pointer-events-none z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent md:text-10xl text-8xl md:tracking-widestest tracking-widest top-[15%] left-[40%] ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl md:tracking-widestest md:left-[0%] md:text-10xl md:top-[75%] tracking-widest top-[45%] left-[2%] ">
+      <h1 className="absolute pointer-events-none z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl md:tracking-widestest md:left-[0%] md:text-10xl md:top-[75%] tracking-widest top-[45%] left-[2%] ">
         TEAM
       </h1>
       <Navbar toggle={toggle} isOpen={isOpen} />
