@@ -27,7 +27,8 @@ module.exports = {
         'xl': '2rem'
       },
       letterSpacing: {
-        'widestest': '5rem' 
+        'widestest': '5rem',
+        'mobile-widestest': '1.5rem' 
       },
       boxShadow: {
         'custom': 'inset 0 0 0 0 #D4AF37',

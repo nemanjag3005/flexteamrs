@@ -4,16 +4,16 @@ const NewsSection = () => {
   return (
     <div className="bg-hero3 border-t-2 border-gray-200 pb-24 relative flex justify-center">
       <div className="w-full max-w-7xl relative ">
-      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[20%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[8%] left-36 ">
+      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[20%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-mobile-widestest top-[8%] left-36 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[28%] left-2 ">
+      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest from-transparent md:text-9xl to-primary text-8xl tracking-mobile-widestest top-[28%] left-2 ">
         TEAM
       </h1>
-      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[50%] from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[65%] left-2 ">
+      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[50%] from-transparent md:text-9xl to-primary text-8xl tracking-mobile-widestest top-[65%] left-2 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[70%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[90%] left-36 ">
+      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[70%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-mobile-widestest top-[90%] left-36 ">
         TEAM
       </h1>
       <div className="relative text-center md:-mt-48 -mt-32">

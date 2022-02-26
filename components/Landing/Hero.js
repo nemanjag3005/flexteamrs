@@ -8,10 +8,10 @@ const Hero = ({ isOpen, toggle }) => {
   return (
     <div className="bg-hero1  bg-no-repeat bg-cover relative overflow-hidden flex justify-center">
       <div className="w-full max-w-7xl md:mb-20 relative">
-      <h1 className="absolute pointer-events-none z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent md:text-10xl text-8xl md:tracking-widestest tracking-widest top-[15%] left-[40%] ">
+      <h1 className="absolute pointer-events-none z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic to-transparent md:text-10xl text-8xl md:tracking-widestest tracking-mobile-widestest top-[15%] left-[40%] ">
         FLEX
       </h1>
-      <h1 className="absolute pointer-events-none z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl md:tracking-widestest md:left-[0%] md:text-10xl md:top-[75%] tracking-widest top-[45%] left-[2%] ">
+      <h1 className="absolute pointer-events-none z-0 font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r from-transparent to-primary text-8xl md:tracking-widestest md:left-[0%] md:text-10xl md:top-[75%] tracking-mobile-widestest top-[45%] left-[2%] ">
         TEAM
       </h1>
       <Navbar toggle={toggle} isOpen={isOpen} />
@@ -37,7 +37,7 @@ const Hero = ({ isOpen, toggle }) => {
             poslu i da se upustite u akciju. Pretplatite se na Flex Team.
           </p>
           <button className="text-gray-200 mb-12 font-bold italic shadow-xl md:mr-auto px-4 mt-4 py-2 text-2xl md:text-4xl md:px-6 rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-[#D6A756]">
-            <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-200 to-gray-500 hover:from-gray-200 hover:to-gray-400">PRETPLATI SE</h1>
+            <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-200 to-gray-400 hover:from-gray-200 hover:to-gray-300">PRETPLATI SE</h1>
           </button>
           
           </div>
