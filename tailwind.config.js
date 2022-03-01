@@ -24,7 +24,9 @@ module.exports = {
         '10xl': '12rem',
       },
       borderRadius: {
-        'xl': '2rem'
+        'xl': '2rem',
+        'xxl': '3rem',
+        'sl': '1.5rem' // 
       },
       letterSpacing: {
         'widestest': '5rem',
