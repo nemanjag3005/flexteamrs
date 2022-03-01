@@ -37,7 +37,6 @@ const Biography = ({ isOpen, toggle }) => {
             Voli vas ceo <span className="text-primary">Flex Team!</span>
 
           </p>
--
           <div className='hidden md:block ml-auto group relative flex justify-center w-11/12'>
             <div className='absolute h-full rounded-sl border-4 bg-gradient-to-b from-transparent to-black inset-x-0 bottom-0 z-20 grid grid-flow-col items-end  transition-opacity opacity-0 group-hover:opacity-100 duration-500'>
               <div className='mb-5 mx-10 grid grid-flow-col items-end justify-around'>
