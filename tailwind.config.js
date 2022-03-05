@@ -7,9 +7,10 @@ module.exports = {
     extend: {
       colors: {
         'primary': '#ECC770',
-        'primary-metallic' : '#D4AF37',
+        'primary-metallic' : '#D6A756',
         'gold-100': '#FCF6BA',
         'gold-900': '#AA771C',
+        'platinum': '#8babc2',
         'pale': 'rgba(103,103,103,0.2)'
       },
       backgroundImage: {
