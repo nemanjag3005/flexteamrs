@@ -9,25 +9,23 @@ const Sidebar = ({ isOpen, toggle }) => {
         isOpen == true ? "block translate-x-0" : "hidden -translate-x-full"
       }`}
     >
-      
       <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45  from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[20%] left-36 ">
         FLEX
       </h1>
       <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45 from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[31%] left-2 ">
         TEAM
       </h1>
-      
-      
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45 from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[65%] left-0 ">
+
+      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45 from-transparent md:text-9xl to-primary text-8xl tracking-widest top-[65%] left-0 ">
         FLEX
       </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45 from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[95%] left-0 ">
+      <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45 from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[95%] left-0 ">
         TEAM
       </h1>
-      
+
       <nav className="bg-black border-b border-w-4xl px-4 py-6 border-primary transition relative duration-500">
         <div className="container flex flex-nowrap justify-between items-center  mx-auto ">
-        <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-100 mr-[0.12rem] to-gold-900 top-[100%] filter opacity-100 transition duration-1000 h-2 group-hover:duration-200 animate-tilt"></div>
+          <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-100 mr-[0.12rem] to-gold-900 top-[100%] filter opacity-100 transition duration-1000 h-2 group-hover:duration-200 animate-tilt"></div>
           <Link href="/">
             <Image src="/flex1.png" width="56px" height="65px"></Image>
           </Link>
@@ -58,7 +56,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         </div>
       </nav>
       <div className="flex h-full w-full items-left justify-start flex-col">
-        <ul className="space-y-4 px-4 py-4 mt-32">
+        <ul className="space-y-4 px-4 py-4 mt-24">
           <li>
             <Link href="onama">
               <span className="text-gray-200 flex py-2 text-shadow italic cursor-pointer px-4 rounded hover:text-primary hover:bg-gray-500 border-gray-500 text-2xl">
@@ -98,6 +96,48 @@ const Sidebar = ({ isOpen, toggle }) => {
                   />
                 </svg>
                 PROFIT TABELA
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="tiketi">
+              <span className="text-gray-200 text-shadow italic flex py-2 cursor-pointer px-4 rounded hover:text-primary hover:bg-gray-500 border-gray-500 text-2xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8 w-8 mr-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
+                  />
+                </svg>
+                NAŠI TIKETI
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="paketi">
+              <span className="text-gray-200 text-shadow italic flex py-2 cursor-pointer px-4 rounded hover:text-primary hover:bg-gray-500 border-gray-500 text-2xl">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-8 w-8 mr-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+                  />
+                </svg>
+                PAKETI
               </span>
             </Link>
           </li>
