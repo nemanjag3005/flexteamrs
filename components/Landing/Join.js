@@ -1,4 +1,5 @@
 import React from "react";
+import Link from 'next/link';
 
 const Join = () => {
   return (
@@ -14,7 +15,8 @@ const Join = () => {
           Uđi u Flex Team I Promeni Sebi Život.
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 w-full py-8 space-y-6 md:space-y-0 md:space-x-6">
-          <div className="flex items-center flex-col border-2 border-primary-metallic shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
+        <Link href='paketi'>
+          <div className="flex items-center cursor-pointer flex-col border-2 border-primary-metallic shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
             <div className="bg-primary-metallic py-2 w-full text-center">
               <h1 className="text-shadow italic uppercase text-3xl text-gray-200">
                 Standard Vip
@@ -127,7 +129,9 @@ const Join = () => {
               </ul>
             </div>
           </div>
-          <div className="flex items-center flex-col border-2 border-platinum shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
+          </Link>
+          <Link href='paketi'>
+          <div className="flex cursor-pointer items-center flex-col border-2 border-platinum shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
             <div className="bg-gradient-to-r via-platinum from-[#01FFFF] to-[#00ECFA] w-full py-2 text-center">
               <h1 className="text-shadow uppercase italic text-3xl text-gray-200">
                 Admin Premium
@@ -240,8 +244,9 @@ const Join = () => {
               </ul>
             </div>
           </div>
+          </Link>
         </div>
-        <p className="text-gray-200 text-lg mb-12 md:mx-auto">
+        <p className="text-gray-200 text-lg mb-2 md:mx-auto">
           Bez obzira na to koji paket uzmete, profit je{" "}
           <span className="text-primary-metallic inline-block">
             garantovan
@@ -262,9 +267,13 @@ const Join = () => {
           </span>
         . Razlika je samo u veličini profita!
         </p>
-        <h1 className="text-5xl md:mb-12 uppercase md:text-7xl text-shadow text-primary italic font-bold mb-6">
-          Kako se učlaniti?
-        </h1>
+        <div className="mx-auto mb-16 md:mb-32 md:mt-4">
+        <Link href='/profit-tabela'>
+          <button className="text-gray-200 font-bold italic mt-4 shadow-xl px-4 py-2 text-2xl md:text-4xl rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-primary-metallic">
+            <h1 className="text-transparent bg-clip-text uppercase bg-gradient-to-b from-gray-200 to-gray-400 hover:from-gray-200 hover:to-gray-300">Kako se učlaniti?</h1>
+          </button>
+          </Link>
+          </div>
       </div>
     </div>
   );

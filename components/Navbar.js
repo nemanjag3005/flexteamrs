@@ -69,6 +69,20 @@ const Navbar = ({ isOpen, toggle }) => {
                 </span>
               </Link>
             </li>
+            <li>
+              <Link href="tiketi">
+                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out text-gray-200 px-4 hover:text-primary-metallic text-2xl">
+                  NAŠI TIKETI
+                </span>
+              </Link>
+            </li>
+            <li>
+              <Link href="paketi">
+                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out text-gray-200 px-4 hover:text-primary-metallic text-2xl">
+                  PAKETI
+                </span>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
