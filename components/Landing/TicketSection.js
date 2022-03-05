@@ -41,7 +41,7 @@ const TicketSection = () => {
             pakete svima koji žele da zarade u sportu.
           </p>
           <Link href='/profit-tabela'>
-          <button className="text-gray-200 font-bold italic mt-10 shadow-xl px-4 py-2 text-2xl md:text-4xl rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-[#D6A756]">
+          <button className="text-gray-200 font-bold italic mt-10 shadow-xl px-4 py-2 text-2xl md:text-4xl rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-primary-metallic">
             <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-200 to-gray-400 hover:from-gray-200 hover:to-gray-300">PROFIT TABELA</h1>
           </button>
           </Link>
