@@ -5,7 +5,7 @@ import Ticket from "./Ticket";
 const TicketSection = () => {
   return (
     
-    <div className="bg-hero2 bg-no-repeat bg-cover px-4 border-t-2 border-gray-800 pb-24 flex justify-center relative">
+    <div className="bg-hero2 bg-no-repeat bg-cover px-4 border-t-2 border-gray-800 pb-16 flex justify-center relative">
       <div className="w-full max-w-7xl md:mb-20 relative">
       <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-30 text-transparent bg-clip-text bg-gradient-to-r md:text-10xl md:tracking-widestest from-transparent to-primary text-8xl tracking-mobile-widestest md:top-[10%] top-[15%] md:left-[40%] left-[2%] ">
         FLEX
