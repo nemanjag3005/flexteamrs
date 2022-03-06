@@ -1,14 +1,11 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
-import Hero from '../components/Landing/Hero';
-import TicketSection from '../components/Landing/TicketSection';
-import NewsSection from '../components/Landing/NewsSection';
-import Footer from '../components/Footer';
-import Join from '../components/Landing/Join';
+import Services from '../components/PaketiPage/Services';
 
-export default function Home() {
+
+export default function Paketi() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -21,10 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <Sidebar toggle={toggle} isOpen={isOpen}/>
-        <Hero toggle={toggle} isOpen={isOpen}/>
-        <TicketSection />
-        <Join />
-        <NewsSection />
+        <Services toggle={toggle} isOpen={isOpen}/>
         <Footer />
       </div>
       

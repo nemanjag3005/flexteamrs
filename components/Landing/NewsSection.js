@@ -16,9 +16,9 @@ const NewsSection = () => {
       <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest md:left-[70%] from-primary-metallic md:text-9xl to-transparent text-8xl tracking-mobile-widestest top-[90%] left-36 ">
         TEAM
       </h1>
-      <div className="relative text-center md:-mt-48 -mt-32">
-        <img src="/brush-stroke.svg" className=" -rotate-3 mx-auto md:w-5/12 w-96"></img>
-        <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-700 text-shadow-lg md:text-6xl lg:text-7xl to-gray-900 text-5xl -rotate-3 font-bold absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
+      <div className="relative text-center pointer-events-none md:-mt-48 -mt-32">
+        <img src="/brush-stroke.svg" className=" pointer-events-none -rotate-3 mx-auto md:w-5/12 w-96"></img>
+        <h1 className="text-transparent pointer-events-none bg-clip-text bg-gradient-to-b from-gray-700 text-shadow-lg md:text-6xl lg:text-7xl to-gray-900 text-5xl -rotate-3 font-bold absolute top-[50%] left-[50%] transform translate-x-[-50%] translate-y-[-50%]">
           NOVOSTI
         </h1>
       </div>
@@ -40,7 +40,7 @@ const NewsSection = () => {
             </div>
             <img
               src="/flex.png"
-              className="rounded-xl shadow-md border-2 md:border-gray-200 md:h-54  z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
+              className="rounded-xl ease-in-out transform transition duration-300 hover:scale-105 shadow-md border-2 md:border-gray-200 md:h-54  z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
           <h1 className="text-gray-200 text-2xl md:text-3xl text-center mt-4">
@@ -65,7 +65,7 @@ const NewsSection = () => {
             </div>
             <img
               src="https://img.youtube.com/vi/79pwXIqngAI/maxresdefault.jpg"
-              className="rounded-xl shadow-md border-2 z-30 border-primary h-48 md:h-80 w-full object-cover group-hover:opacity-25"
+              className="rounded-xl shadow-md border-2 z-30 ease-in-out transform transition duration-300 hover:scale-105 border-primary h-48 md:h-80 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
           <h1 className="text-gray-200 text-2xl md:text-4xl text-center mt-4">
@@ -94,7 +94,7 @@ const NewsSection = () => {
             </div>
             <img
               src="/Tiket.png"
-              className="rounded-xl shadow-md border-2 z-30 md:border-gray-200 border-primary h-48 md:h-54 w-full object-cover group-hover:opacity-25"
+              className="rounded-xl ease-in-out transform transition duration-300 hover:scale-105 shadow-md border-2 z-30 md:border-gray-200 border-primary h-48 md:h-54 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
           <h1 className="text-gray-200 text-2xl md:text-3xl text-center mt-4">
