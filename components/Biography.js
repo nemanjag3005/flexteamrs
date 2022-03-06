@@ -7,7 +7,7 @@ const Biography = ({ isOpen, toggle }) => {
   const [ratio, setRatio] = useState(16/9)
 
   return (
-    <div className='bg-secondary  bg-no-repeat bg-local bg-cover pb-2 min-h-screen'>
+    <div className='bg-secondary  bg-no-repeat bg-local bg-cover pb-12 min-h-screen'>
        <Navbar toggle={toggle} isOpen={isOpen}/>
        <div className='w-full flex items-center justify-center'>
       <div className='mx-5 max-w-7xl
