@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 
 
 export default function ProfitTabela() {
@@ -18,7 +19,7 @@ export default function ProfitTabela() {
       </Head>
         <Navbar toggle={toggle} isOpen={isOpen}/>
         <Sidebar toggle={toggle} isOpen={isOpen}/>
-        
+        <Footer />
       </div>
       
   )
