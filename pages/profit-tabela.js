@@ -2,11 +2,8 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
-<<<<<<< HEAD
 import Main from '../components/ProfitGraphs/Main';
-=======
 import Footer from '../components/Footer';
->>>>>>> 3ea2e1745a792cab84a16ba760fcadf46c91a4f6
 
 
 export default function ProfitTabela() {
@@ -22,11 +19,8 @@ export default function ProfitTabela() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <Sidebar toggle={toggle} isOpen={isOpen}/>
-<<<<<<< HEAD
         <Main toggle={toggle} isOpen={isOpen}/>
-=======
         <Footer />
->>>>>>> 3ea2e1745a792cab84a16ba760fcadf46c91a4f6
       </div>
       
   )

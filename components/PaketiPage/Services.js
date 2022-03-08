@@ -3,7 +3,7 @@ import Navbar from "../Navbar";
 
 const Services = ({ isOpen, toggle }) => {
   return (
-    <div className="bg-secondary bg-cover flex justify-center">
+    <div className="bg-secondary bg-repeat-y flex justify-center">
       <div className="max-w-7xl flex w-full flex-col">
         <Navbar toggle={toggle} isOpen={isOpen} />
         <div className="px-6 w-full py-4">
