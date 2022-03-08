@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
-import Main from '../components/ProfitGraphs/Main';
+import Main from '../components/ProfitTable/Main';
 import Footer from '../components/Footer';
 
 

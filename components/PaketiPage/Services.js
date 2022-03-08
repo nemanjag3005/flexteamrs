@@ -17,26 +17,357 @@ const Services = ({ isOpen, toggle }) => {
             ispracen jakim ulogom)
           </p>
           <div className="hidden md:block py-12">
-            <div className="flex flex-col w-full">
-              <div className="flex w-full justify-between items-center">
-                <h1 className="text-gray-300">Paket</h1>
-                <h1 className="text-gray-200">Standard Vip</h1>
-                <h1 className="text-gray-200">Admin Premium</h1>
-              </div>
-              <div className="flex w-full justify-between items-center">
-              <h1 className="text-gray-300">Cena</h1>
-                <h1 className="text-4xl text-primary-metallic ">
-                  30€ <span className="text-lg text-gray-400">/mesečno</span>
-                </h1>
-                <h1 className="text-4xl text-primary-metallic ">
-                  100€ <span className="text-lg text-gray-400">/mesečno</span>
-                </h1>
-              </div>
-              <div className="flex w-full justify-between items-center">
-              <h1 className="text-gray-300">Šta dobijaš?</h1>
-              </div>
-              <div>
-              <h1 className="text-gray-300">Kako?</h1>
+            <div className="flex flex-col mt-8">
+              <div className="py-2 -my-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+                <div className="inline-block min-w-full overflow-hidden align-middle border-b border-zinc-600 shadow sm:rounded-lg">
+                  <table className="min-w-full border-2 border-zinc-600">
+                    <thead>
+                      <tr>
+                        <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-400 uppercase border-b border-zinc-600 bg-zinc-600">
+                          Paketi
+                        </th>
+                        <th className="px-6 py-3 text-lg font-medium text-shadow leading-4 tracking-wider text-left text-primary-metallic uppercase border-b border-zinc-600 bg-zinc-600">
+                          Standard Vip
+                        </th>
+                        <th className="px-6 py-3 text-lg font-bold text-shadow leading-4 tracking-wider text-left text-platinum uppercase border-b border-zinc-600 bg-zinc-600">
+                          Admin Premium
+                        </th>
+                      </tr>
+                    </thead>
+
+                    <tbody className="bg-transparent">
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5  text-gray-200">
+                                Cena
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <h1 className="text-4xl text-shadow text-primary-metallic ">
+                            30€{" "}
+                            <span className="text-lg text-shadow-none text-gray-400">
+                              /mesečno
+                            </span>
+                          </h1>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <h1 className="text-4xl text-shadow text-primary-metallic ">
+                            100€{" "}
+                            <span className="text-lg text-shadow-none text-gray-400">
+                              /mesečno
+                            </span>
+                          </h1>
+                        </td>
+                      </tr>
+                      <tr className="bg-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-lg italic font-medium text-shadow leading-5 text-gray-200">
+                                Šta Dobijaš?
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600"></td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600"></td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5 text-gray-200">
+                                Garantovan Profit
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5 text-gray-200">
+                                Dnevni tiketi
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5 text-gray-200">
+                                Dostupnost 24h
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5 text-gray-200">
+                                Free Tiketi Sigurnosti
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5 text-gray-200">
+                                Uvid u Naše Tikete
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
+                      </tr>
+                      <tr className="bg-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-xl italic text-shadow font-medium leading-5 text-gray-200">
+                                Kako?
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600"></td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600"></td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap">
+                          <div className="flex items-center">
+                            <div className="ml-4"></div>
+                          </div>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap">
+                          <p className="text-gray-200 max-w-lg text-md ">
+                            📈Standard vip📈 je grupa koja se nalazi na telegram
+                            aplikaciji u kojoj se svakoga dana salje najbolji i
+                            najsigurniji moguci tiket odabran za pravljenje
+                            najveceg profita tog dana. Najcesce su u pitanju
+                            singlovi kvota 1.6 - 2.3✅ naravno izmedju ostalog i
+                            dublovi. Najbitnije sto je na vama je da se
+                            zargonski receno samo pretvorite u “robota” i sve
+                            sto se posalje samo automatski odigrate , naravno
+                            ispraceno sa procentualnim ulogom koji smo mi
+                            prethodno poslali u grupi . Vremenom gledate kako se
+                            mesec sve vise priblizava kraju tako ce vasa banka
+                            rasti iz dana u dan to je CINJENICA✅👑. Jer sve ovo
+                            sto mi prezentujemo pretstavlja REALNU pricu i
+                            ispravnost a ne za razliku od ostalih “pricanje
+                            bajki” … Prilikom prvog susreta sa ubacivanjem u
+                            nasu grupu nakon vase uplate pre svakog igranja
+                            kliknite na pinovanu poruku gde se nalazi lista
+                            pravila obaveznih za pridrzavanje ukoliko zelis da
+                            ti garantujem profit. Uzivajte u igri vas FLEX
+                            TEAM.✅👑🌎
+                          </p>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap ">
+                          <p className="text-gray-200 max-w-lg text-md">
+                            🌎Admin premium🌎 - Placanjem pristupa ovoj grupi
+                            automatski si sebi obezbedio uvid u apsolutno sve
+                            sto cu odigrati datog meseca kao i u to koliko cu
+                            novca uloziti na odredjeni tiket. Svaki put kada ja
+                            igram dobices 5,6 h pre utakmice sliku tog tiketa sa
+                            slikom moje uplate na njemu. Uzivaj i gledaj kako
+                            najbolji svih vremena gradi svoj profit apsolutno
+                            svaki mesec bez izuzetaka. Vaš FLEX TEAM📈
+                          </p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
           </div>

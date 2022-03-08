@@ -10,26 +10,31 @@ const Main = ({ toggle, isOpen }) => {
   const data2022 = MonthsData2022;
   const data2021 = MonthsData2021;
   return (
-    <div className="bg-secondary bg-cover flex justify-center">
+    <div className="bg-secondary bg-repeat flex justify-center">
       <div className="max-w-7xl w-full flex flex-col py-2">
         <Navbar toggle={toggle} isOpen={isOpen} />
-        <div className="px-6 flex flex-col justify-center py-4">
-          <h1 className="text-5xl italic text-shadow text-primary font-bold">
+        <div className="px-3">
+        <div className="px-3 mb-8 flex rounded-xl bg-gradient-to-b from-transparent to-pale flex-col justify-center py-4">
+          <div className="grid grid-cols-1 w-full">
+          <div className="mx-auto">
+          <h1 className="text-5xl md:text-7xl italic text-shadow text-primary font-bold">
             PROFIT TABELA
           </h1>
-          <h1 className="text-2xl text-gray-200 italic text-shadow text-center mt-2 mb-6">
+          <h1 className="text-2xl md:text-4xl text-gray-200 italic text-shadow mt-2 mb-6">
             - &quot;Rezultati ne lažu&quot;
           </h1>
-          <p className="text-lg mb-8 text-gray-200">
+          <p className="text-lg md:max-w-xl mb-8 text-gray-200">
             Istina Vam je na dohvat ruke. Za razliku od drugih tipstera, mi vam
             naše rezultate direktno pokazujemo. Profit tabela prikazuje svaki
             odigran tiket kao i rezultat za svaki dan, mesec i godinu. <br />{" "}
             Vaš Flex Team.
           </p>
-          <h1 className="text-shadow mb-1 text-gray-200 text-2xl italic mx-auto border-b-2 border-gray-200">
+          </div>
+          <div className="w-full flex flex-col justify-center">
+          <h1 className="text-shadow mb-1 text-gray-200 text-2xl mx-auto italic text-center border-b-2 border-gray-200">
             {year}. Godina
           </h1>
-          <div className="w-full py-4 grid grid-cols-1">
+          <div className="w-full py-4 grid grid-cols-1 md:max-w-xl md:mx-auto">
             {year == 2022 ? (
               <>
                 {data2022.map((data2022, index) => (
@@ -58,7 +63,7 @@ const Main = ({ toggle, isOpen }) => {
               </h1>
             )}
           </div>
-          <div className="flex mx-auto mb-6">
+          <div className="flex mx-auto shadow-lg mb-6">
             <button
               onClick={() => setYear(year - 1)}
               className="border-2 group rounded-l-lg px-1 border-primary"
@@ -110,6 +115,9 @@ const Main = ({ toggle, isOpen }) => {
               </svg>
             </button>
           </div>
+          </div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
