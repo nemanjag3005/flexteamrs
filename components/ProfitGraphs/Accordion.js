@@ -48,21 +48,21 @@ const Accordion = ({ mesec, profit, dani }) => {
         className="overflow-auto transition-max-height duration-700 ease-in-out"
       >
         <div className="py-4 px-4">
-          <div class="flex flex-col">
-            <div class="inline-block min-w-full overflow-hidden align-middle border-b border-gray-200 shadow sm:rounded-lg">
-              <table class="min-w-full">
+          <div className="flex flex-col">
+            <div className="inline-block min-w-full overflow-hidden align-middle border-b border-gray-200 shadow sm:rounded-lg">
+              <table className="min-w-full">
                 <thead>
                   <tr>
-                    <th class="px-3 py-3 text-xs font-medium leading-4 text-left text-gray-200 uppercase border-b border-gray-200">
+                    <th className="px-3 py-3 text-xs font-medium leading-4 text-left text-gray-200 uppercase border-b border-gray-200">
                       Dan
                     </th>
-                    <th class="px-3 py-3 text-xs font-medium leading-4 text-left text-gray-200 uppercase border-b border-gray-200">
+                    <th className="px-3 py-3 text-xs font-medium leading-4 text-left text-gray-200 uppercase border-b border-gray-200">
                       Kvota
                     </th>
-                    <th class="px-3 py-3 text-xs font-medium leading-4 text-left text-gray-200 uppercase border-b border-gray-200">
+                    <th className="px-3 py-3 text-xs font-medium leading-4 text-left text-gray-200 uppercase border-b border-gray-200">
                       Ulog
                     </th>
-                    <th class="px-3 py-3 text-xs font-medium leading-4 text-left text-gray-200 uppercase border-b border-gray-200">
+                    <th className="px-3 py-3 text-xs font-medium leading-4 text-left text-gray-200 uppercase border-b border-gray-200">
                       Profit
                     </th>
                   </tr>
@@ -71,16 +71,16 @@ const Accordion = ({ mesec, profit, dani }) => {
                 <tbody>
                   {dani.map((dani) => (
                     <tr key={dani}>
-                      <td class="px-3 py-1 whitespace-no-wrap border-b border-gray-200">
-                        <div class="flex items-center">
-                          <div class="text-sm font-medium leading-5 text-gray-200">
+                      <td className="px-3 py-1 whitespace-no-wrap border-b border-gray-200">
+                        <div className="flex items-center">
+                          <div className="text-sm font-medium leading-5 text-gray-200">
                             {dani.dan}
                           </div>
                         </div>
                       </td>
 
-                      <td class="px-3 py-1 whitespace-no-wrap border-b border-gray-200">
-                        <div class="text-sm leading-5 text-primary">
+                      <td className="px-3 py-1 whitespace-no-wrap border-b border-gray-200">
+                        <div className="text-sm leading-5 text-primary">
                           {dani.kvota}{" "}
                           {dani.prosao ? (
                             <svg
@@ -116,15 +116,15 @@ const Accordion = ({ mesec, profit, dani }) => {
                         </div>
                       </td>
 
-                      <td class="px-3 py-1 whitespace-no-wrap border-b border-gray-200">
-                        <span class="inline-flex px-2 text-xs font-semibold leading-5 text-green-800 bg-green-100 rounded-full">
+                      <td className="px-3 py-1 whitespace-no-wrap border-b border-gray-200">
+                        <span className="inline-flex px-2 text-xs font-semibold leading-5 text-green-800 bg-green-100 rounded-full">
                           {dani.ulog}
                         </span>
                       </td>
 
-                      <td class="px-3 py-1 text-sm leading-5 text-primary whitespace-no-wrap border-b border-gray-200">
+                      <td className="px-3 py-1 text-sm leading-5 text-primary whitespace-no-wrap border-b border-gray-200">
                         <span
-                          class={`inline-flex px-2 text-xs font-semibold leading-5 text-gray-200 ${
+                          className={`inline-flex px-2 text-xs font-semibold leading-5 text-gray-200 ${
                             dani.prosao ? "bg-green-600" : "bg-red-600"
                           } rounded-full`}
                         >
