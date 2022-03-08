@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
 import Router from 'next/router';
 import Biography from '../components/Biography';
+import Footer from '../components/Footer'
 
 export default function About() {
   const [isOpen, setIsOpen] = useState(false);
