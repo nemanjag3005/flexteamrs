@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
 import Tickets from '../components/Tickets';
+import Footer from '../components/Footer';
 
 export default function Tiketi() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +19,7 @@ export default function Tiketi() {
       </Head>
         <Sidebar toggle={toggle} isOpen={isOpen}/>
         <Tickets toggle={toggle} isOpen={isOpen}/>
+        <Footer />
       </div>
       
   )

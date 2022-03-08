@@ -36,10 +36,11 @@ const Hero = ({ isOpen, toggle }) => {
             Rezultati ne lažu! Ovo je vaša prilika da radite sa najboljima u
             poslu i da se upustite u akciju. Pretplatite se na Flex Team.
           </p>
+          <Link href='/paketi'>
           <button className="text-gray-200 mb-12 font-bold italic shadow-xl md:mr-auto px-4 mt-4 py-2 text-2xl md:text-4xl md:px-6 rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-[#D6A756]">
             <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-200 to-gray-400 hover:from-gray-200 hover:to-gray-300">PRETPLATI SE</h1>
           </button>
-          
+          </Link>
           </div>
           <div className="w-full hidden md:block col-span-2 max-w-3xl">
             <div className="pt-[56.25%] flex bg-black relative shadow-lg">
