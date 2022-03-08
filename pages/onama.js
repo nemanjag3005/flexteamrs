@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Sidebar from '../components/Sidebar';
 import Router from 'next/router';
 import Biography from '../components/Biography';
-import Footer from '../components/Footer'
+import Footer from '../components/Footer;
 
 export default function About() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +20,7 @@ export default function About() {
       </Head>
         <Sidebar toggle={toggle} isOpen={isOpen}/>
         <Biography toggle={toggle} isOpen={isOpen}/>
+        <Footer />
     </>
       
   )

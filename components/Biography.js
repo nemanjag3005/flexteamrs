@@ -76,7 +76,6 @@ const Biography = ({ isOpen, toggle }) => {
                       />
                     </svg>
                   </a>
-
                   <a
                     href="https://www.instagram.com/flex_team_1"
                     target="_blank"
