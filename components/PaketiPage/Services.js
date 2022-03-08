@@ -17,19 +17,19 @@ const Services = ({ isOpen, toggle }) => {
             ispracen jakim ulogom)
           </p>
           <div className="hidden md:block py-12">
-            <div className="flex flex-col mt-8">
+            <div className="flex flex-col mt-2">
               <div className="py-2 -my-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-                <div className="inline-block min-w-full overflow-hidden align-middle border-b border-zinc-600 shadow sm:rounded-lg">
+                <div className="inline-block min-w-full overflow-hidden align-middle border-b border-zinc-600 shadow-md rounded-lg">
                   <table className="min-w-full border-2 border-zinc-600">
                     <thead>
                       <tr>
                         <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-400 uppercase border-b border-zinc-600 bg-zinc-600">
                           Paketi
                         </th>
-                        <th className="px-6 py-3 text-lg font-medium text-shadow leading-4 tracking-wider text-left text-primary-metallic uppercase border-b border-zinc-600 bg-zinc-600">
+                        <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-primary-metallic uppercase border-b border-zinc-600 bg-zinc-600">
                           Standard Vip
                         </th>
-                        <th className="px-6 py-3 text-lg font-bold text-shadow leading-4 tracking-wider text-left text-platinum uppercase border-b border-zinc-600 bg-zinc-600">
+                        <th className="px-6 py-3 text-xl font-bold text-shadow leading-4 tracking-wider text-center text-platinum uppercase border-b border-zinc-600 bg-zinc-600">
                           Admin Premium
                         </th>
                       </tr>
@@ -48,7 +48,7 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <h1 className="text-4xl text-shadow text-primary-metallic ">
+                          <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
                             30€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
                               /mesečno
@@ -57,7 +57,7 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <h1 className="text-4xl text-shadow text-primary-metallic ">
+                          <h1 className="text-4xl text-shadow text-center text-primary-metallic ">
                             100€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
                               /mesečno
@@ -69,7 +69,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <div className="flex items-center">
                             <div className="ml-4">
-                              <div className="text-lg italic font-medium text-shadow leading-5 text-gray-200">
+                              <div className="text-xl italic font-medium text-shadow leading-5 text-gray-200">
                                 Šta Dobijaš?
                               </div>
                             </div>
@@ -94,7 +94,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -111,7 +111,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -139,7 +139,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -156,7 +156,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -184,7 +184,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -201,7 +201,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -229,7 +229,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -246,7 +246,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -274,24 +274,7 @@ const Services = ({ isOpen, toggle }) => {
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </td>
-
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-zinc-400"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -301,6 +284,23 @@ const Services = ({ isOpen, toggle }) => {
                               strokeLinecap="round"
                               strokeLinejoin="round"
                               d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
                             />
                           </svg>
                         </td>
@@ -507,7 +507,7 @@ const Services = ({ isOpen, toggle }) => {
               </div>
             </div>
           </div>
-          <h1 className="text-5xl md:text-7xl text-primary text-shadow italic font-bold mb-12">
+          <h1 className="text-5xl md:text-7xl text-primary text-shadow italic md:mt-8 font-bold mb-12">
             PRETPLATI SE
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-12 w-full md:space-y-0 mb-16 space-y-6">
@@ -550,7 +550,7 @@ const Services = ({ isOpen, toggle }) => {
               </p>
             </div>
           </div>
-          <h1 className="text-5xl md:text-7xl text-primary text-shadow italic font-bold md:mb-20 mb-12">
+          <h1 className="text-5xl md:text-7xl text-primary text-shadow italic font-bold md:mb-20 md:mt-24 mb-12">
             ČESTO POSTAVLJANA PITANJA...
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 md:space-y-0 items-center w-full mb-16 space-y-6">
