@@ -24,9 +24,9 @@ const Accordion = ({ mesec, profit, dani }) => {
         onClick={() => toggleAccordion()}
       >
         <h1 className="inline-block text-shadow text-2xl italic text-gray-200">
-          {mesec}{" "}
-          <span className="text-primary-metallic ml-4">{profit} Profit</span>
-        </h1>
+          {mesec}{" "}</h1>
+          <span className="bg-green-600 rounded-full px-2 py-1 text-md text-shadow-none text-gray-50 not-italic">{profit} Profit</span>
+        
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className={`${rotate} inline-block h-6 w-6 stroke-gray-200`}
