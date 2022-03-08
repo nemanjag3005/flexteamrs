@@ -18,7 +18,7 @@ const Main = ({ toggle, isOpen }) => {
             PROFIT TABELA
           </h1>
           <h1 className="text-2xl text-gray-200 italic text-shadow text-center mt-2 mb-6">
-            - "Rezultati ne lažu"
+            - &quot;Rezultati ne lažu&quot;
           </h1>
           <p className="text-lg mb-8 text-gray-200">
             Istina Vam je na dohvat ruke. Za razliku od drugih tipstera, mi vam
