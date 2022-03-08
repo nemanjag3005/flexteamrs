@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const NewsSection = () => {
   return (
@@ -74,7 +75,8 @@ const NewsSection = () => {
           </h1>
         </div>
         <div className="flex justify-center flex-col w-full">
-          <a href="#" className="group relative flex">
+          <Link href='/tiketi'>
+          <p className="group relative flex cursor-pointer">
             <div className=" absolute rounded-xl top-0 left-0 bg-hero3 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +98,8 @@ const NewsSection = () => {
               src="/Tiket.png"
               className="rounded-xl ease-in-out transform transition duration-300 hover:scale-105 shadow-md border-2 z-30 md:border-gray-200 border-primary h-48 md:h-54 w-full object-cover group-hover:opacity-25"
             ></img>
-          </a>
+          </p>
+          </Link>
           <h1 className="text-gray-200 text-2xl md:text-3xl text-center mt-4">
             FLEX TEAM{" "}
             <span className="text-primary italic text-shadow">TIKETI</span>
