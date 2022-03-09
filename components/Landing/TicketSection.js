@@ -49,7 +49,7 @@ const TicketSection = () => {
             </div>
           </div>
           <div className="px-4 py-4 flex items-center justify-center flex-col mt-12">
-            <h1 className="text-primary italic font-bold text-5xl md:text-7xl text-shadow">
+            <h1 className="text-primary animate__animated animate__fadeInRight italic font-bold text-5xl md:text-7xl text-shadow">
               TOP TIKETI OVE GODINE
             </h1>
             <p className="text-gray-200 mt-6 md:text-xl">

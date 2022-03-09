@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Navbar";
+import 'animate.css';
 
 const Services = ({ isOpen, toggle }) => {
   return (
@@ -7,6 +8,7 @@ const Services = ({ isOpen, toggle }) => {
       <div className="max-w-7xl flex w-full flex-col">
         <Navbar toggle={toggle} isOpen={isOpen} />
         <div className="px-6 w-full py-4">
+          <div className="animate__animated animate__fadeInLeft">
           <h1 className="uppercase md:text-7xl text-5xl mb-6 italic font-bold text-primary text-shadow">
             Naši Paketi
           </h1>
@@ -16,6 +18,7 @@ const Services = ({ isOpen, toggle }) => {
             pregled nasih tiketa na koje mi stavljamo pare od kojih je svaki
             ispracen jakim ulogom)
           </p>
+          </div>
           <div className="hidden md:block py-12">
             <div className="flex flex-col mt-2">
               <div className="py-2 -my-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">

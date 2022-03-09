@@ -1,12 +1,13 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
+import 'animate.css';
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
     <div
-      className={`h-full w-4/5 bg-hero3 z-40 fixed top-0 left-0 shadow-xl transition ease-in-out duration-300 ${
-        isOpen == true ? "block translate-x-0" : "hidden -translate-x-full"
+      className={`h-full w-4/5 bg-hero3 z-40 animate__animated animate__faster fixed top-0 left-0 shadow-xl transition ease-in-out duration-300 ${
+        isOpen == true ? "block translate-x-0 animate__fadeInLeft" : "hidden -translate-x-full animate__fadeOutLeft"
       }`}
     >
       <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45  from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[20%] left-36 ">
