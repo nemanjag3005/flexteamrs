@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import MonthsData2022 from "./MonthsData2022";
 import Accordion from "./Accordion";
 import MonthsData2021 from "./MonthsData2021";
+import 'animate.css';
 
 const Main = ({ toggle, isOpen }) => {
   const [year, setYear] = useState(2022);
@@ -16,7 +17,7 @@ const Main = ({ toggle, isOpen }) => {
         <div className="px-3">
         <div className="px-3 mb-8 flex rounded-xl bg-gradient-to-b from-transparent to-pale flex-col justify-center py-4">
           <div className="grid grid-cols-1 w-full">
-          <div className="mx-auto">
+          <div className="mx-auto animate__animated animate__fadeInUp">
           <h1 className="text-5xl md:text-7xl italic text-shadow text-primary font-bold">
             PROFIT TABELA
           </h1>
