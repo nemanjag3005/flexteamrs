@@ -1,5 +1,6 @@
 import React from "react";
 import { useRef, useState } from "react";
+import "animate.css";
 
 const Accordion = ({ mesec, profit, dani }) => {
   const [active, setActive] = useState(false);
@@ -18,14 +19,14 @@ const Accordion = ({ mesec, profit, dani }) => {
     );
   };
   return (
-    <div className="flex flex-col mb-1 bg-zinc-700 shadow-lg border-2 border-primary-metallic rounded-md">
+    <div className="flex animate__animated animate__fadeInUp animate__faster flex-col mb-1 bg-hero3 shadow-lg border-2 border-primary-metallic rounded-md">
       <button
         className="py-5 shadow px-4 box-border appearance-none cursor-pointer focus:outline-none flex items-center justify-between"
         onClick={() => toggleAccordion()}
       >
-        <h1 className="inline-block text-shadow text-2xl italic text-gray-200">
+        <h1 className="inline-block w-32 text-left text-shadow text-2xl italic text-gray-200">
           {mesec}{" "}</h1>
-          <span className="bg-green-600 rounded-full px-2 py-1 text-md text-shadow-none text-gray-50 not-italic">{profit} Profit</span>
+          <span className="bg-green-600 shadow-xl rounded-full px-2 py-1 text-md text-shadow-none text-gray-50 not-italic">{profit} Profit</span>
         
         <svg
           xmlns="http://www.w3.org/2000/svg"

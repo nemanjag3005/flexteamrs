@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css';
 
 const NewsSection = () => {
   return (
@@ -25,6 +27,7 @@ const NewsSection = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-10 gap-y-8 mb-12 px-8">
         <div className="flex justify-center flex-col w-full">
+        <AnimationOnScroll animateIn="animate__fadeInUp" delay={200} animateOnce={true}>
           <a href="https://www.instagram.com/p/CZ4WcO1sZD7-8h1aaFkpoX86IF1rusvzURtAvY0/" target='_blank' rel="noreferrer" className="group relative flex ">
             <div className=" absolute rounded-xl top-0 bg-hero3 left-0 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20 ">
             <svg
@@ -48,8 +51,11 @@ const NewsSection = () => {
             FLEX TEAM{" "}
             <span className="text-primary italic text-shadow">INSTAGRAM</span>
           </h1>
+          </AnimationOnScroll>
         </div>
+
         <div>
+        <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
           <a href="https://www.youtube.com/watch?v=79pwXIqngAI" target='_blank' rel="noreferrer" className="group  relative flex">
             <div className=" absolute rounded-xl top-0 bg-hero3 left-0 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20">
             <svg
@@ -73,8 +79,11 @@ const NewsSection = () => {
             FLEX TEAM{" "}
             <span className="text-primary italic text-shadow">YOUTUBE</span>
           </h1>
+          </AnimationOnScroll>
         </div>
+        
         <div className="flex justify-center flex-col w-full">
+        <AnimationOnScroll animateIn="animate__fadeInUp" delay={200} animateOnce={true}>
           <Link href='/tiketi'>
           <p className="group relative flex cursor-pointer">
             <div className=" absolute rounded-xl top-0 left-0 bg-hero3 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20">
@@ -104,7 +113,9 @@ const NewsSection = () => {
             FLEX TEAM{" "}
             <span className="text-primary italic text-shadow">TIKETI</span>
           </h1>
+          </AnimationOnScroll>
         </div>
+        
         </div>
       </div>
     </div>

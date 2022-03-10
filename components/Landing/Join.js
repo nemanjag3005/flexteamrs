@@ -1,5 +1,7 @@
 import React from "react";
 import Link from "next/link";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css';
 
 const Join = () => {
   return (
@@ -34,6 +36,7 @@ const Join = () => {
           </div>
           <div>
             <div className="grid grid-cols-1 md:grid-cols-2 w-full py-8 space-y-6 md:space-y-0 md:space-x-4">
+            <AnimationOnScroll animateIn="animate__fadeInUp" animateOnce={true}>
               <Link href="paketi">
                 <div className="flex items-center cursor-pointer flex-col border-2 border-primary-metallic shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
                   <div className="bg-primary-metallic py-2 w-full text-center">
@@ -149,6 +152,8 @@ const Join = () => {
                   </div>
                 </div>
               </Link>
+              </AnimationOnScroll>
+              <AnimationOnScroll animateIn="animate__fadeInUp" delay={200} animateOnce={true}>
               <Link href="paketi">
                 <div className="flex cursor-pointer items-center flex-col border-2 border-platinum shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
                   <div className="bg-gradient-to-r via-platinum from-[#01FFFF] to-[#00ECFA] w-full py-2 text-center">
@@ -264,6 +269,7 @@ const Join = () => {
                   </div>
                 </div>
               </Link>
+              </AnimationOnScroll>
             </div>
 
             <p className="text-gray-200 text-lg mb-2 md:mx-auto">
