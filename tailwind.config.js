@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'transbl' : 'rgba( 0, 0, 0, 0.5)',
         'primary': '#ECC770',
         'primary-metallic' : '#D6A756',
         'gold-100': '#FCF6BA',
@@ -37,6 +38,18 @@ module.exports = {
       boxShadow: {
         'custom': 'inset 0 0 0 0 #D4AF37',
         'custom-hover': 'inset 100px 0 0 0 #D4AF37'
+      },
+      borderWidth: {
+        '3': '3px'
+      },
+      gridTemplateColumns: {
+        'dynamic': 'repeat(auto-fit, minmax(150px, 1fr))',
+      },
+      minWidth: {
+        '2xl':'72rem',
+      },
+      width: {
+        'xl': '32rem',
       }
     },
   },

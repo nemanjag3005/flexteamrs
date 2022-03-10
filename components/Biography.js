@@ -17,7 +17,7 @@ const Biography = ({ isOpen, toggle }) => {
             <div className="md:hidden flex justify-center">
               <img
                 src="/laske.png"
-                className="w-11/12 h-auto object-cover className=w-auto h-auto rounded-sl border-4 object-contain z-10"
+                className="w-11/12 h-auto className=w-auto rounded-sl border-4 object-contain z-10"
               />
             </div>
             <p className="text-center text-gray-200">
