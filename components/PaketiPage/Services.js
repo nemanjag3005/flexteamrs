@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar";
 import 'animate.css';
+import Image from "next/image";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 const Services = ({ isOpen, toggle }) => {
   return (
@@ -8,7 +10,8 @@ const Services = ({ isOpen, toggle }) => {
       <div className="max-w-7xl flex w-full flex-col">
         <Navbar toggle={toggle} isOpen={isOpen} />
         <div className="px-6 w-full py-4">
-          <div className="animate__animated animate__fadeInLeft">
+          <div className="grid grid-cols-1 md:grid-cols-2">
+          <div className="animate__animated animate__fadeInUp">
           <h1 className="uppercase md:text-7xl text-5xl mb-6 italic font-bold text-primary text-shadow">
             Naši Paketi
           </h1>
@@ -19,20 +22,25 @@ const Services = ({ isOpen, toggle }) => {
             ispracen jakim ulogom)
           </p>
           </div>
+          <div className="ml-auto mr-auto hidden md:block">
+            <Image src='/flex_icon_large.png' width='170px' height='195px' >
+              </Image>
+          </div>
+          </div>
           <div className="hidden md:block py-12">
             <div className="flex flex-col mt-2">
               <div className="py-2 -my-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
-                <div className="inline-block min-w-full overflow-hidden align-middle border-b border-zinc-600 shadow-md rounded-lg">
-                  <table className="min-w-full border-2 border-zinc-600">
-                    <thead>
-                      <tr>
-                        <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-400 uppercase border-b border-zinc-600 bg-zinc-600">
+                <div className="inline-block min-w-full overflow-hidden align-middle shadow-md rounded-lg">
+                  <table className="min-w-full border-2 border-primary rounded-lg shadow-lg">
+                    <thead >
+                      <tr >
+                        <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-400 uppercase border-b border-primary-metallic bg-hero3">
                           Paketi
                         </th>
-                        <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-primary-metallic uppercase border-b border-zinc-600 bg-zinc-600">
+                        <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-primary-metallic uppercase border-b border-primary-metallic bg-hero3">
                           Standard Vip
                         </th>
-                        <th className="px-6 py-3 text-xl font-bold text-shadow leading-4 tracking-wider text-center text-platinum uppercase border-b border-zinc-600 bg-zinc-600">
+                        <th className="px-6 py-3 text-xl font-bold text-shadow leading-4 tracking-wider text-center text-platinum uppercase border-b border-primary-metallic bg-hero3">
                           Admin Premium
                         </th>
                       </tr>
@@ -40,7 +48,7 @@ const Services = ({ isOpen, toggle }) => {
 
                     <tbody className="bg-transparent">
                       <tr>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-md font-medium leading-5  text-gray-200">
@@ -50,7 +58,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
                             30€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
@@ -59,7 +67,7 @@ const Services = ({ isOpen, toggle }) => {
                           </h1>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <h1 className="text-4xl text-shadow text-center text-primary-metallic ">
                             100€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
@@ -68,8 +76,8 @@ const Services = ({ isOpen, toggle }) => {
                           </h1>
                         </td>
                       </tr>
-                      <tr className="bg-zinc-600">
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                      <tr className="bg-hero3">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-xl italic font-medium text-shadow leading-5 text-gray-200">
@@ -79,9 +87,9 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600"></td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600"></td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
@@ -264,7 +272,7 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
                       </tr>
                       <tr>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-md font-medium leading-5 text-gray-200">
@@ -274,7 +282,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
@@ -291,7 +299,7 @@ const Services = ({ isOpen, toggle }) => {
                           </svg>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-green-500 mx-auto"
@@ -308,8 +316,8 @@ const Services = ({ isOpen, toggle }) => {
                           </svg>
                         </td>
                       </tr>
-                      <tr className="bg-zinc-600">
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                      <tr className="bg-hero3">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-xl italic text-shadow font-medium leading-5 text-gray-200">
@@ -319,9 +327,9 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600"></td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600"></td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-no-wrap">
@@ -514,6 +522,7 @@ const Services = ({ isOpen, toggle }) => {
             PRETPLATI SE
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-12 w-full md:space-y-0 mb-16 space-y-6">
+          <AnimationOnScroll animateIn="animate__fadeInUp" offset={200} animateOnce={true}>
             <div>
               <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
                 <span className="text-7xl text-primary-metallic text-shadow">
@@ -526,6 +535,8 @@ const Services = ({ isOpen, toggle }) => {
                 pošalji sliku uplatnice na *nalog*.
               </p>
             </div>
+            </AnimationOnScroll>
+            <AnimationOnScroll animateIn="animate__fadeInUp" delay={200} offset={150} animateOnce={true}>
             <div>
               <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
                 <span className="text-7xl text-primary-metallic text-shadow">
@@ -539,6 +550,8 @@ const Services = ({ isOpen, toggle }) => {
                 paketu!
               </p>
             </div>
+            </AnimationOnScroll>
+            <AnimationOnScroll animateIn="animate__fadeInUp" delay={400} offset={200} animateOnce={true}>
             <div>
               <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
                 <span className="text-7xl text-primary-metallic text-shadow">
@@ -552,6 +565,7 @@ const Services = ({ isOpen, toggle }) => {
                 analiza kao i ulog biće objavljeni!
               </p>
             </div>
+            </AnimationOnScroll>
           </div>
           <h1 className="text-5xl md:text-7xl text-primary text-shadow italic font-bold md:mb-20 md:mt-24 mb-12">
             ČESTO POSTAVLJANA PITANJA...

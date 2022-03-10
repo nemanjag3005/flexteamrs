@@ -1,13 +1,16 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import 'animate.css';
+import "animate.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
     <div
       className={`h-full w-4/5 bg-hero3 z-40 animate__animated animate__faster fixed top-0 left-0 shadow-xl transition ease-in-out duration-300 ${
-        isOpen == true ? "block translate-x-0 animate__fadeInLeft" : "hidden -translate-x-full animate__fadeOutLeft"
+        isOpen == true
+          ? "block translate-x-0 animate__fadeInLeft"
+          : "animate__fadeOutLeft hidden -translate-x-full"
       }`}
     >
       <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-10 text-transparent bg-clip-text bg-gradient-to-r rotate-45  from-primary-metallic md:text-9xl to-transparent text-8xl tracking-widest top-[20%] left-36 ">
@@ -28,7 +31,12 @@ const Sidebar = ({ isOpen, toggle }) => {
         <div className="container flex flex-nowrap justify-between items-center  mx-auto ">
           <div className="absolute -inset-0.5 bg-gradient-to-r from-gold-100 mr-[0.12rem] to-gold-900 top-[100%] filter opacity-100 transition duration-1000 h-2 group-hover:duration-200 animate-tilt"></div>
           <Link href="/">
-            <Image src="/flex1.png" width="56px" height="65px"></Image>
+            <Image
+              src="/flex1.png"
+              width="56px"
+              height="65px"
+              className="cursor-pointer"
+            ></Image>
           </Link>
           <button
             data-collapse-toggle="mobile-menu"
@@ -135,7 +143,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"
+                    d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"
                   />
                 </svg>
                 PAKETI

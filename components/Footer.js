@@ -5,13 +5,6 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="bg-hero2 bg-cover flex items-center justify-center flex-col border-t-2 border-primary relative">
-      
-        {/* <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 md:opacity-30 text-transparent bg-clip-text bg-gradient-to-r from-primary-metallic md:tracking-widestest md:top-[20%] md:left-[30%] to-transparent md:text-9xl text-8xl tracking-widest top-[30%] left-36 ">
-        FLEX
-      </h1>
-      <h1 className="absolute z-0 font-['Airbnb Cereal App'] font-bold opacity-20 md:opacity-30 text-transparent bg-clip-text bg-gradient-to-r md:tracking-widestest from-transparent to-primary md:top-[60%] md:left-[45%] text-8xl md:text-9xl tracking-widest top-[55%] left-2 ">
-        TEAM
-      </h1> */}
       <div className="flex flex-wrap justify-center md:justify-between w-full max-w-4xl  items-center md:py-12 py-4 px-8">
         <div className="p-4 mb-6">
           <Image src="/flex1.png" height="130px" width="111px"></Image>
@@ -64,7 +57,8 @@ const Footer = () => {
               <li className="cursor-pointer hover:text-primary">
                 <Link href="/profit-tabela">Profit</Link>
               </li>
-              <li className="cursor-pointer hover:text-primary">Tiketi</li>
+              <li className="cursor-pointer hover:text-primary"><Link href="/tiketi">Tiketi</Link></li>
+              <li className="cursor-pointer hover:text-primary"><Link href="/paketi">Pridruži nam se</Link></li>
             </ul>
           </div>
         </div>

@@ -12,12 +12,58 @@
 .text-shadow-none {
   text-shadow: none;
 }
+
 @tailwind utilities;
 
+.nav {
+  position: relative;
+  border:none;
+}
+.nav:hover {
+  border: none;
+}
 
-   
-      
-  
+.nav::after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  left: 50%;
+  bottom:0;
+  background-color: #D6A756;
+  transition: all ease-in-out .2s;
+}
+
+.nav:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+.tik {
+  position: relative;
+  border:none;
+}
+.tik:hover {
+  border: none;
+}
+
+.tik::after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 2px;
+  left: 50%;
+  bottom:0;
+  background-color: #fff;
+  transition: all ease-in-out .2s;
+}
+
+.tik:hover::after{
+  width: 100%;
+  left: 0;
+}
+
+
 
 
 html,

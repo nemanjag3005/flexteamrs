@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import Ticket from "./Ticket";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import 'animate.css';
 
 const TicketSection = () => {
   return (
@@ -18,13 +20,15 @@ const TicketSection = () => {
         <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent md:hidden block bg-clip-text bg-gradient-to-r from-primary to-transparent text-8xl tracking-mobile-widestest top-[75%] left-36 ">
           TEAM
         </h1>
+        
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-24 ">
+        <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
           <div className="grid gap-4 grid-cols-2">
             <div className="-rotate-6 space-y-3">
               <Ticket variant={"white"} />
               <Ticket variant={"black"} />
               <Link href='/tiketi'>
-              <h1 className="text-gray-200 group ml-2 md:text-3xl hover:underline underline-offset-4 cursor-pointer italic font-bold text-lg">
+              <h1 className="text-gray-200 tik pb-1 group ml-2 md:text-3xl underline-offset-4 cursor-pointer italic font-bold text-lg">
                 VIDI SVE <span className="whitespace-nowrap"> TIKETE<svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6 inline ml-1 align-top md:h-9 md:w-9 group-hover:translate-x-1 ease-in-out transition duration-100"
@@ -48,8 +52,10 @@ const TicketSection = () => {
               <Ticket variant={"white"} />
             </div>
           </div>
+          </AnimationOnScroll>
           <div className="px-4 py-4 flex items-center justify-center flex-col mt-12">
-            <h1 className="text-primary animate__animated animate__fadeInRight italic font-bold text-5xl md:text-7xl text-shadow">
+          <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={true}>
+            <h1 className="text-primary italic font-bold text-5xl md:text-7xl text-shadow">
               TOP TIKETI OVE GODINE
             </h1>
             <p className="text-gray-200 mt-6 md:text-xl">
@@ -58,6 +64,7 @@ const TicketSection = () => {
               rekorde u analizi sportskih dogadjaja. Danas rade za grupu Flex
               Team, pružajući moćne pakete svima koji žele da zarade u sportu.
             </p>
+            </AnimationOnScroll>
             <Link href="/profit-tabela">
               <button className="text-gray-200 font-bold italic mt-10 shadow-xl px-4 py-2 text-2xl md:text-4xl rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-primary-metallic">
                 <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-gray-200 to-gray-400 hover:from-gray-200 hover:to-gray-300">

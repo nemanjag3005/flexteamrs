@@ -17,7 +17,8 @@ module.exports = {
         'hero1': "linear-gradient(to bottom, rgba(22, 22, 27, 0.9), rgba(41,41,52,0.8)), url('/bg.jpg')",
         'secondary': "url('/bg4.png')",
         'hero2': "url('/bg2.jpg')",
-        'hero3': "url('/bg3.jpg')"
+        'hero3': "url('/bg3.jpg')",
+        'gold' : 'linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%)'
       },
       fontSize: {
         'xxxs': '.50rem',

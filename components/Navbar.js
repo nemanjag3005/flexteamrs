@@ -57,28 +57,28 @@ const Navbar = ({ isOpen, toggle }) => {
           <ul className="flex flex-col md:flex-row md:space-x-8 md:mt-0 md:text-sm ">
             <li>
               <Link href="onama">
-                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out  text-gray-200 px-4 hover:text-primary-metallic text-2xl ">
+                <span className="block nav w-[100%] transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out  text-gray-200 px-4 hover:text-primary-metallic text-2xl ">
                   O NAMA
                 </span>
               </Link>
             </li>
             <li>
               <Link href="profit-tabela">
-                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out text-gray-200 px-4 hover:text-primary-metallic text-2xl">
+                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out text-gray-200 nav px-4 hover:text-primary-metallic text-2xl">
                   TABELA PROFITA
                 </span>
               </Link>
             </li>
             <li>
               <Link href="tiketi">
-                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out text-gray-200 px-4 hover:text-primary-metallic text-2xl">
+                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out text-gray-200 nav px-4 hover:text-primary-metallic text-2xl">
                   NAŠI TIKETI
                 </span>
               </Link>
             </li>
             <li>
               <Link href="paketi">
-                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out text-gray-200 px-4 hover:text-primary-metallic text-2xl">
+                <span className="block transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out text-gray-200 nav px-4 hover:text-primary-metallic text-2xl">
                   PAKETI
                 </span>
               </Link>
