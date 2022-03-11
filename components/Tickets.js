@@ -72,7 +72,7 @@ const Tickets = ({ isOpen, toggle }) => {
               );
             })}
             <div
-              className={`fixed z-40 left-0 top-0 h-full w-full overflow-auto bg-transbl grid items-center justify-center place-items-center ${
+              className={`fixed bg-fixed z-40 left-0 top-0 h-full w-full overflow-auto bg-transbl grid items-center justify-center place-items-center ${
                 ticketOpen ? "block" : "hidden"
               }`}
             >
