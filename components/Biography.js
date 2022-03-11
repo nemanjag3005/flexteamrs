@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Navbar from "../components/Navbar";
 import { useState } from "react";
+import "animate.css";
 
 const Biography = ({ isOpen, toggle }) => {
 
@@ -11,7 +12,7 @@ const Biography = ({ isOpen, toggle }) => {
       <div className="w-full flex items-center justify-center">
         <div
           className="mx-5 max-w-7xl
-       p-4 rounded-xl bg-gradient-to-b from-transparent to-pale"
+       p-4 rounded-xl bg-gradient-to-b mb-12 from-transparent to-pale"
         >
           <div className="grid gap-x-10 gap-y-4 grid-cols-1 md:grid-cols-2  items-center">
             <div className="md:hidden flex justify-center">
@@ -20,6 +21,10 @@ const Biography = ({ isOpen, toggle }) => {
                 className="w-11/12 h-auto className=w-auto rounded-sl border-4 object-contain z-10"
               />
             </div>
+            <div>
+            <h1 className="text-primary animate__animated animate__fadeInUp text-center mb-12 italic font-bold text-5xl md:text-7xl text-shadow">
+              O NAMA
+            </h1>
             <p className="text-center text-gray-200">
               <span className="text-primary">Flex Team</span> se smatra jednim
               od{" "}
@@ -55,6 +60,7 @@ const Biography = ({ isOpen, toggle }) => {
               <br />
               Voli vas ceo <span className="text-primary">Flex Team!</span>
             </p>
+            </div>
             <div className="hidden md:block ml-auto group relative flex justify-center w-11/12">
               <div className="absolute h-full rounded-sl border-4 bg-gradient-to-b from-transparent to-black inset-x-0 bottom-0 z-20 grid grid-flow-col items-end  transition-opacity opacity-0 group-hover:opacity-100 duration-500">
                 <div className="mb-5 mx-10 grid grid-flow-col items-end justify-around">

@@ -5,7 +5,7 @@ import 'animate.css';
 
 const Join = () => {
   return (
-    <div className="bg-secondary bg-cover px-4 py-12 border-t-2 border-gray-800 flex justify-center">
+    <div className="bg-secondary bg-repeat px-4 py-12 border-t-2 border-gray-800 flex justify-center">
       <div className="flex justify-center px-4 flex-col w-full max-w-7xl">
         <div className="grid md:my-20 grid-cols-1 md:grid-cols-2 md:space-x-4">
           <div>
@@ -44,7 +44,7 @@ const Join = () => {
                       Standard Vip
                     </h1>
                   </div>
-                  <div className="w-full bg-zinc-800 h-full flex items-center justify-start flex-col py-8 px-4">
+                  <div className="w-full bg-hero3 h-full flex items-center justify-start flex-col py-8 px-4">
                     <h1 className="text-primary-metallic border-b-2 border-gray-200 pb-2 mb-4 text-3xl italic text-shadow">
                       30€
                       <span className="text-gray-200 text-xl italic text-shadow">
@@ -161,7 +161,7 @@ const Join = () => {
                       Admin Premium
                     </h1>
                   </div>
-                  <div className="w-full bg-zinc-800 flex items-center justify-start flex-col py-8 px-4">
+                  <div className="w-full bg-hero3 flex items-center justify-start flex-col py-8 px-4">
                     <h1 className="text-primary-metallic text-3xl mb-4 border-b-2 border-gray-200 pb-2 italic text-shadow">
                       100€
                       <span className="text-gray-200 text-xl italic text-shadow">
