@@ -55,13 +55,6 @@ const Navbar = ({ isOpen, toggle }) => {
         </button>
         <div className="hidden md:block w-full md:w-auto">
           <ul className="flex flex-col md:flex-row md:space-x-8 md:mt-0 md:text-sm ">
-          <li>
-              <Link href="/">
-                <span className="block nav w-[100%] transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out  text-gray-200 px-4 hover:text-primary-metallic text-2xl ">
-                  POČETNA
-                </span>
-              </Link>
-            </li>
             <li>
               <Link href="onama">
                 <span className="block nav w-[100%] transform transition duration-300 hover:scale-110 py-2 text-shadow italic cursor-pointer ease-in-out  text-gray-200 px-4 hover:text-primary-metallic text-2xl ">
