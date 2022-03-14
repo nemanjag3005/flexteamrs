@@ -5,7 +5,7 @@ import "animate.css";
 
 const Join = () => {
   return (
-    <div className="bg-secondary bg-cover px-4 py-12 border-t-2 border-gray-800 flex justify-center">
+    <div className="bg-secondary bg-repeat px-4 py-12 border-t-2 border-gray-800 flex justify-center">
       <div className="flex justify-center px-4 flex-col w-full max-w-7xl">
         <div className="flex md:my-8 flex-col justify-center">
           <div>
