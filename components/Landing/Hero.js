@@ -24,7 +24,7 @@ const Hero = ({ isOpen, toggle }) => {
                 width="100%"
                 height="100%"
                 style={{ position: "absolute", top: "0", left: "0" }}
-                url="https://www.youtube.com/watch?v=D7QAtvTpIbI"
+                url="https://www.youtube.com/watch?v=g78VMDG5pdA"
                 controls
               />
             </div>
@@ -51,7 +51,7 @@ const Hero = ({ isOpen, toggle }) => {
                 width="100%"
                 height="100%"
                 style={{ position: "absolute", top: "0", left: "0" }}
-                url="https://www.youtube.com/watch?v=D7QAtvTpIbI"
+                url="https://www.youtube.com/watch?v=g78VMDG5pdA"
                 controls
               />
             </div>

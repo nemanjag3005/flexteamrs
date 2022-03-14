@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../Navbar";
-import 'animate.css';
+import "animate.css";
 import Image from "next/image";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Services = ({ isOpen, toggle }) => {
   return (
@@ -11,36 +11,42 @@ const Services = ({ isOpen, toggle }) => {
         <Navbar toggle={toggle} isOpen={isOpen} />
         <div className="px-6 w-full py-4">
           <div className="grid grid-cols-1 md:grid-cols-2">
-          <div className="animate__animated animate__fadeInUp">
-          <h1 className="uppercase md:text-7xl text-5xl mb-6 italic font-bold text-primary text-shadow">
-            Naši Paketi
-          </h1>
-          <p className="text-gray-200 text-lg max-w-lg">
-            Clanarina naseg tima je: * 30e (3600rsd) - Standard vip✅ (mesec
-            dana od dana uplate)👑 * 100e(11700)- Admin premium✅ (pristup i
-            pregled nasih tiketa na koje mi stavljamo pare od kojih je svaki
-            ispracen jakim ulogom)
-          </p>
-          </div>
-          <div className="ml-auto mr-auto hidden md:block">
-            <Image src='/flex_icon_large.png' width='170px' height='195px' >
-              </Image>
-          </div>
+            <div className="animate__animated animate__fadeInUp">
+              <h1 className="uppercase md:text-7xl text-5xl mb-6 italic font-bold text-primary text-shadow">
+                Naši Paketi
+              </h1>
+              <p className="text-gray-200 text-lg max-w-lg">
+                Clanarina naseg tima je: * 30e (3600rsd) - Standard vip✅ (mesec
+                dana od dana uplate)👑 * 100e(11700)- Admin premium✅ (pristup i
+                pregled nasih tiketa na koje mi stavljamo pare od kojih je svaki
+                ispracen jakim ulogom)
+              </p>
+            </div>
+            <div className="ml-auto mr-auto hidden md:block">
+              <Image
+                src="/flex_icon_large.png"
+                width="170px"
+                height="195px"
+              ></Image>
+            </div>
           </div>
           <div className="hidden md:block py-12">
             <div className="flex flex-col mt-2">
               <div className="py-2 -my-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
                 <div className="inline-block min-w-full overflow-hidden align-middle shadow-md rounded-lg">
-                  <table className="min-w-full border-2 border-primary rounded-lg shadow-lg">
-                    <thead >
-                      <tr >
+                  <table className="min-w-full table-fixed border-2 border-primary rounded-lg shadow-lg">
+                    <thead>
+                      <tr>
                         <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-400 uppercase border-b border-primary-metallic bg-hero3">
                           Paketi
+                        </th>
+                        <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-gray-400 uppercase border-b border-primary-metallic bg-hero3">
+                          FREE
                         </th>
                         <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-primary-metallic uppercase border-b border-primary-metallic bg-hero3">
                           Standard Vip
                         </th>
-                        <th className="px-6 py-3 text-xl font-bold text-shadow leading-4 tracking-wider text-center text-platinum uppercase border-b border-primary-metallic bg-hero3">
+                        <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-platinum uppercase border-b border-primary-metallic bg-hero3 mr-auto">
                           Admin Premium
                         </th>
                       </tr>
@@ -57,7 +63,14 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
+                          <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
+                            0€{" "}
+                            <span className="text-lg text-shadow-none text-gray-400">
+                              /mesečno
+                            </span>
+                          </h1>
+                        </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
                             30€{" "}
@@ -86,7 +99,7 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
@@ -101,7 +114,22 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -136,6 +164,67 @@ const Services = ({ isOpen, toggle }) => {
                           </svg>
                         </td>
                       </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5 text-gray-200">
+                                Detaljna Analiza
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+                      </tr>
+                      <tr></tr>
                       <tr>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <div className="flex items-center">
@@ -146,7 +235,22 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -186,12 +290,27 @@ const Services = ({ isOpen, toggle }) => {
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-md font-medium leading-5 text-gray-200">
-                                Dostupnost 24h
+                                Podrška 24/7
                               </div>
                             </div>
                           </div>
                         </td>
-
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -236,7 +355,22 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -281,7 +415,22 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -326,7 +475,7 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
@@ -340,7 +489,20 @@ const Services = ({ isOpen, toggle }) => {
 
                         <td className="px-6 py-4 whitespace-no-wrap">
                           <p className="text-gray-200 max-w-lg text-md ">
-                            📈Standard vip📈 je grupa koja se nalazi na telegram
+                          🌎Admin premium🌎 - Placanjem pristupa ovoj grupi
+                            automatski si sebi obezbedio uvid u apsolutno sve
+                            sto cu odigrati datog meseca kao i u to koliko cu
+                            novca uloziti na odredjeni tiket. Svaki put kada ja
+                            igram dobices 5,6 h pre utakmice sliku tog tiketa sa
+                            slikom moje uplate na njemu. Uzivaj i gledaj kako
+                            najbolji svih vremena gradi svoj profit apsolutno
+                            svaki mesec bez izuzetaka. Vaš FLEX TEAM📈
+                          </p>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap ">
+                          <p className="text-gray-200 max-w-lg text-md">
+                          📈Standard vip📈 je grupa koja se nalazi na telegram
                             aplikaciji u kojoj se svakoga dana salje najbolji i
                             najsigurniji moguci tiket odabran za pravljenje
                             najveceg profita tog dana. Najcesce su u pitanju
@@ -362,7 +524,6 @@ const Services = ({ isOpen, toggle }) => {
                             TEAM.✅👑🌎
                           </p>
                         </td>
-
                         <td className="px-6 py-4 whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md">
                             🌎Admin premium🌎 - Placanjem pristupa ovoj grupi
@@ -383,6 +544,128 @@ const Services = ({ isOpen, toggle }) => {
             </div>
           </div>
           <div className="py-12 space-y-6 md:hidden">
+            <div className="border-2 border-zinc-600 rounded-lg">
+              <h1 className="text-4xl uppercase italic px-4 py-2 bg-zinc-600 w-full text-gray-200 text-shadow">
+                Free
+              </h1>
+              <div className="py-6 px-4">
+                <h1 className="text-4xl text-primary-metallic ">
+                  0€ <span className="text-lg text-gray-400">/mesečno</span>
+                </h1>
+
+                <h1 className="text-gray-200 italic text-3xl mt-4 text-shadow w-full border-primary-metallic border-t-2 pt-4">
+                  Šta dobijaš?
+                </h1>
+                <div className="w-full flex mt-6 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Dnevni Tiketi</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-zinc-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M20 12H4"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Garantovan Profit</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Podrška 24/7</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-zinc-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M20 12H4"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Detaljne Analize</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Tiketi Sigurnosti</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-zinc-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M20 12H4"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Uvid u Naše Tikete</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-zinc-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M20 12H4"
+                    />
+                  </svg>
+                </div>
+                <h1 className="text-gray-200 italic text-3xl mt-4 text-shadow w-full border-primary-metallic border-t-2 pt-4">
+                  Kako?
+                </h1>
+                <p className="text-gray-200 text-md mt-4">
+                  📈Teks to free grupi
+                </p>
+              </div>
+            </div>
             <div className="border-2 border-primary-metallic rounded-lg">
               <h1 className="text-4xl uppercase italic px-4 py-2 bg-primary-metallic w-full text-gray-200 text-shadow">
                 Standard Vip
@@ -428,6 +711,74 @@ const Services = ({ isOpen, toggle }) => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Podrška 24/7</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Detaljne Analize</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Tiketi Sigurnosti</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Uvid u Naše Tikete</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-zinc-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M20 12H4"
                     />
                   </svg>
                 </div>
@@ -487,7 +838,75 @@ const Services = ({ isOpen, toggle }) => {
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Garantovan Profit</h1>
+                  <h1 className="text-lg text-gray-200">Veći Profit</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Podrška 24/7</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Detaljne Analize</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Tiketi Sigurnosti</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Uvid u Naše Tikete</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -522,49 +941,63 @@ const Services = ({ isOpen, toggle }) => {
             PRETPLATI SE
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-3 md:space-x-12 w-full md:space-y-0 mb-16 space-y-6">
-          <AnimationOnScroll animateIn="animate__fadeInUp" offset={200} animateOnce={true}>
-            <div>
-              <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
-                <span className="text-7xl text-primary-metallic text-shadow">
-                  1.
-                </span>{" "}
-                UPLATA
-              </h1>
-              <p className="text-md mt-2 text-gray-200">
-                Uplati iznos članarine za izabrati paket na račun /račun/ i
-                pošalji sliku uplatnice na *nalog*.
-              </p>
-            </div>
+            <AnimationOnScroll
+              animateIn="animate__fadeInUp"
+              offset={200}
+              animateOnce={true}
+            >
+              <div>
+                <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
+                  <span className="text-7xl text-primary-metallic text-shadow">
+                    1.
+                  </span>{" "}
+                  UPLATA
+                </h1>
+                <p className="text-md mt-2 text-gray-200">
+                  Uplati iznos članarine za izabrati paket na račun /račun/ i
+                  pošalji sliku uplatnice na *nalog*. Za free grupu nema uplate.
+                </p>
+              </div>
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__fadeInUp" delay={200} offset={150} animateOnce={true}>
-            <div>
-              <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
-                <span className="text-7xl text-primary-metallic text-shadow">
-                  2.
-                </span>{" "}
-                UČLANJENJE
-              </h1>
-              <p className="text-md mt-2 text-gray-200">
-                Učlanjuješ se tako što nakon uplate prvo preuzimaš aplikaciju
-                Telegram nakon čega bivaš ubačen u grupu koja odgovara tvom
-                paketu!
-              </p>
-            </div>
+            <AnimationOnScroll
+              animateIn="animate__fadeInUp"
+              delay={200}
+              offset={150}
+              animateOnce={true}
+            >
+              <div>
+                <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
+                  <span className="text-7xl text-primary-metallic text-shadow">
+                    2.
+                  </span>{" "}
+                  UČLANJENJE
+                </h1>
+                <p className="text-md mt-2 text-gray-200">
+                  Učlanjuješ se tako što nakon uplate prvo preuzimaš aplikaciju
+                  Telegram nakon čega bivaš ubačen u grupu koja odgovara tvom
+                  paketu! Za free grupu jednostavno klikni na ovaj link *link*
+                </p>
+              </div>
             </AnimationOnScroll>
-            <AnimationOnScroll animateIn="animate__fadeInUp" delay={400} offset={200} animateOnce={true}>
-            <div>
-              <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
-                <span className="text-7xl text-primary-metallic text-shadow">
-                  3.
-                </span>{" "}
-                IGRA
-              </h1>
-              <p className="text-md mt-2 text-gray-200">
-                Unutar grupe u Telegramu biće objavljivani Tiketi na dnevnom
-                nivou. Tikete igraš po principu prepiši i igraj. Sva uputstva,
-                analiza kao i ulog biće objavljeni!
-              </p>
-            </div>
+            <AnimationOnScroll
+              animateIn="animate__fadeInUp"
+              delay={400}
+              offset={200}
+              animateOnce={true}
+            >
+              <div>
+                <h1 className="text-4xl text-primary-metallic font-bold text-shadow italic">
+                  <span className="text-7xl text-primary-metallic text-shadow">
+                    3.
+                  </span>{" "}
+                  IGRA
+                </h1>
+                <p className="text-md mt-2 text-gray-200">
+                  Unutar grupe u Telegramu biće objavljivani Tiketi na dnevnom
+                  nivou. Tikete igraš po principu prepiši i igraj. Sva uputstva,
+                  analiza kao i ulog biće objavljeni!
+                </p>
+              </div>
             </AnimationOnScroll>
           </div>
           <h1 className="text-5xl md:text-7xl text-primary text-shadow italic font-bold md:mb-20 md:mt-24 mb-12">
