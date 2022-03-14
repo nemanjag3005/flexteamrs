@@ -7,7 +7,7 @@ import { AnimationOnScroll } from "react-animation-on-scroll";
 const Sidebar = ({ isOpen, toggle }) => {
   return (
     <div
-      className={`h-full w-4/5 bg-hero3 z-40 animate__animated animate__faster fixed top-0 left-0 shadow-xl transition ease-in-out duration-300 ${
+      className={`h-full w-4/5 overflow-y-scroll bg-hero3 z-40 animate__animated animate__faster fixed top-0 left-0 shadow-xl transition ease-in-out duration-300 ${
         isOpen == true
           ? "block translate-x-0 animate__fadeInLeft"
           : "animate__fadeOutLeft hidden -translate-x-full"
