@@ -17,13 +17,13 @@ const Main = ({ toggle, isOpen }) => {
         <Navbar toggle={toggle} isOpen={isOpen} />
         <div className="px-3">
           <div className="px-3 mb-8 flex rounded-xl bg-gradient-to-b from-transparent to-pale flex-col justify-center py-4">
-            <div className="grid grid-cols-1 w-full md:grid-cols-2">
+            <div className="grid grid-cols-1 w-full md:grid-cols-2 mb-4">
               <div className="mx-auto animate__animated animate__fadeInUp">
                 <h1 className="text-5xl md:text-7xl italic text-shadow text-primary font-bold">
                   PROFIT TABELA
                 </h1>
                 <h1 className="text-2xl md:text-4xl text-gray-200 italic text-shadow mt-2 mb-6">
-                  - &quot;Rezultati ne lažu&quot;
+                  Rezultati ne Lažu - <br /> <span className="text-primary">Istina</span>  na Dohvat Ruke
                 </h1>
                 <p className="text-lg md:max-w-xl mb-8 text-gray-200">
                   Istina Vam je na dohvat ruke. Za razliku od drugih tipstera,
@@ -42,39 +42,10 @@ const Main = ({ toggle, isOpen }) => {
               </div>
             </div>
             <div className="w-full flex flex-col justify-center">
-              <h1 className="text-shadow mb-1 text-gray-200 text-2xl mx-auto italic text-center border-b-2 border-gray-200">
+            <h1 className="text-shadow mb-4 text-gray-200 text-2xl mx-auto italic text-center border-b-2 border-gray-200">
                 {year}. Godina
               </h1>
-              <div className="w-full py-4 grid grid-cols-1 md:max-w-lg md:mx-auto">
-                {year == 2022 ? (
-                  <>
-                    {data2022.map((data2022, index) => (
-                      <Accordion
-                        key={index}
-                        mesec={data2022.mesec}
-                        profit={data2022.profit}
-                        dani={data2022.dani}
-                      />
-                    ))}{" "}
-                  </>
-                ) : year == 2021 ? (
-                  <>
-                    {data2021.map((data2021, index) => (
-                      <Accordion
-                        key={index}
-                        mesec={data2021.mesec}
-                        profit={data2021.profit}
-                        dani={data2021.dani}
-                      />
-                    ))}
-                  </>
-                ) : (
-                  <h1 className="text-2xl text-center text-gray-200 italic">
-                    Nema podataka za ovu godinu.
-                  </h1>
-                )}
-              </div>
-              <div className="flex mx-auto shadow-lg mb-6">
+            <div className="flex mx-auto shadow-lg mb-4">
                 <button
                   onClick={() => setYear(year - 1)}
                   className=" group px-1 border-primary"
@@ -130,6 +101,36 @@ const Main = ({ toggle, isOpen }) => {
                   </div>
                 </button>
               </div>
+              <div className="w-full py-4 grid grid-cols-1 md:max-w-lg md:mx-auto">
+                {year == 2022 ? (
+                  <>
+                    {data2022.map((data2022, index) => (
+                      <Accordion
+                        key={index}
+                        mesec={data2022.mesec}
+                        profit={data2022.profit}
+                        dani={data2022.dani}
+                      />
+                    ))}{" "}
+                  </>
+                ) : year == 2021 ? (
+                  <>
+                    {data2021.map((data2021, index) => (
+                      <Accordion
+                        key={index}
+                        mesec={data2021.mesec}
+                        profit={data2021.profit}
+                        dani={data2021.dani}
+                      />
+                    ))}
+                  </>
+                ) : (
+                  <h1 className="text-2xl text-center text-gray-200 italic">
+                    Nema podataka za ovu godinu.
+                  </h1>
+                )}
+              </div>
+              
             </div>
           </div>
         </div>

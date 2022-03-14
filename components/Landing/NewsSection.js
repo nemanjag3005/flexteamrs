@@ -44,7 +44,7 @@ const NewsSection = () => {
             </div>
             <img
               src="/flex.png"
-              className="rounded-xl ease-in-out transform transition duration-300 hover:scale-105 shadow-md border-2 md:border-gray-200 md:h-54  z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
+              className="rounded-xl ease-in-out transform transition duration-300 hover:scale-105 shadow-md border-2 md:border-gray-200 md:h-54 z-30 border-primary h-48 w-full object-cover group-hover:opacity-25"
             ></img>
           </a>
           <h1 className="text-gray-200 text-2xl md:text-3xl text-center mt-4">
