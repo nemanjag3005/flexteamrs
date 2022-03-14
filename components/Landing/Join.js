@@ -26,8 +26,8 @@ const Join = () => {
                 animateOnce={true}
               >
                 <Link href="paketi">
-                  <div className="flex items-center cursor-pointer flex-col border-2 border-zinc-600 shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
-                    <div className="bg-zinc-600 py-2 w-full text-center">
+                  <div className="flex items-center cursor-pointer flex-col border-2 border-green-700 shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
+                    <div className="bg-green-700 py-2 w-full text-center">
                       <h1 className="text-shadow italic uppercase text-3xl text-gray-200">
                         FREE
                       </h1>

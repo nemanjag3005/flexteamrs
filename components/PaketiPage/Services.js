@@ -40,7 +40,7 @@ const Services = ({ isOpen, toggle }) => {
                         <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-400 uppercase border-b border-primary-metallic bg-hero3">
                           Paketi
                         </th>
-                        <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-gray-400 uppercase border-b border-primary-metallic bg-hero3">
+                        <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-green-600 uppercase border-b border-primary-metallic bg-hero3">
                           FREE
                         </th>
                         <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-primary-metallic uppercase border-b border-primary-metallic bg-hero3">
@@ -544,8 +544,8 @@ const Services = ({ isOpen, toggle }) => {
             </div>
           </div>
           <div className="py-12 space-y-6 md:hidden">
-            <div className="border-2 border-zinc-600 rounded-lg">
-              <h1 className="text-4xl uppercase italic px-4 py-2 bg-zinc-600 w-full text-gray-200 text-shadow">
+            <div className="border-2 border-green-700 rounded-lg">
+              <h1 className="text-4xl uppercase italic px-4 py-2 bg-green-700 w-full text-gray-200 text-shadow">
                 Free
               </h1>
               <div className="py-6 px-4">

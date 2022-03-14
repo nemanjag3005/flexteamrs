@@ -22,7 +22,7 @@ const Biography = ({ isOpen, toggle }) => {
               />
             </div>
             <div>
-            <h1 className="text-primary animate__animated animate__fadeInUp text-center mb-12 italic font-bold text-5xl md:text-7xl text-shadow">
+            <h1 className="text-primary animate__animated animate__fadeInUp text-center mt-8 mb-12 italic font-bold text-5xl md:text-7xl text-shadow">
               O NAMA
             </h1>
             <p className="text-center text-gray-200">
