@@ -1,4 +1,4 @@
-import FacebookPlayer from "react-player/facebook";
+
 
 export default [
     //{
