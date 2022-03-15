@@ -11,7 +11,9 @@ const Footer = () => {
         </div>
         <div className="flex justify-center space-x-6 md:space-x-14">
           <div>
-            <h1 className="text-primary md:text-xl md:mb-6 text-md mb-3">Kontakt</h1>
+            <h1 className="text-primary md:text-xl md:mb-6 text-md mb-3">
+              Kontakt
+            </h1>
             <ul className="text-gray-200 text-sm md:text-lg space-y-2">
               <li className="cursor-pointer hover:text-primary">
                 <a href="mailto:flexteamtips@gmail.com">
@@ -52,22 +54,26 @@ const Footer = () => {
             <h1 className="text-primary md:text-xl md:mb-6 mb-3">O Nama</h1>
             <ul className="text-gray-200 text-sm  md:text-lg space-y-2">
               <li className="cursor-pointer hover:text-primary">
-                <Link href="/onama" >Naša Priča</Link>
+                <Link href="/onama">Naša Priča</Link>
               </li>
               <li className="cursor-pointer hover:text-primary">
                 <Link href="/profit-tabela">Profit</Link>
               </li>
-              <li className="cursor-pointer hover:text-primary"><Link href="/tiketi">Tiketi</Link></li>
-              <li className="cursor-pointer hover:text-primary"><Link href="/paketi">Pridruži nam se</Link></li>
+              <li className="cursor-pointer hover:text-primary">
+                <Link href="/tiketi">Tiketi</Link>
+              </li>
+              <li className="cursor-pointer hover:text-primary">
+                <Link href="/paketi">Pridruži nam se</Link>
+              </li>
             </ul>
           </div>
         </div>
       </div>
       <div className="py-4 px-8 text-gray-200 max-w-4xl text-xs md:text-sm text-center">
-        Dozvolite mi da vam pomognem u izgradnji života i karijere iz snova
-        svojim znanjem i veštinama u industriji sportskih klađenja. Rezultati ne
-        lažu! Ovo je vaša prilika da radite sa najboljima u poslu i da se
-        upustite u akciju. Uclanite se u flex Team
+        Dozvolite da vam pomognem u izgradnji života i karijere iz snova svojim
+        znanjem i veštinama u industriji sportskog klađenja. <br /> Ovo je vaša prilika
+        da radite sa najboljima u poslu i da se upustite u akciju. <br /> Učlanite se u
+        Flex Team. Rezultati ne lažu!
       </div>
       <div className="py-4 px-8 flex w-full items-center justify-center space-x-12 text-gray-200">
         <div>
@@ -110,8 +116,7 @@ const Footer = () => {
       <div className="py-4 px-8 text-gray-200 text-xs md:text-sm md:pb-12 text-center">
         © 2022 Flex Team. All rights reserved.
       </div>
-      </div>
-    
+    </div>
   );
 };
 

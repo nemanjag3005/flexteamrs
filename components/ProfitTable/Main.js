@@ -23,16 +23,18 @@ const Main = ({ toggle, isOpen }) => {
                   PROFIT TABELA
                 </h1>
                 <h1 className="text-2xl md:text-4xl text-gray-200 italic text-shadow mt-2 mb-6">
-                  Rezultati ne Lažu - <br /> <span className="text-primary">Istina</span>  na Dohvat Ruke
+                  Rezultati ne Lažu - <br /> Uvid u sve naše tikete
                 </h1>
                 <p className="text-lg md:max-w-xl mb-8 text-gray-200">
-                  Istina Vam je na dohvat ruke. Za razliku od drugih tipstera,
-                  mi vam naše rezultate direktno pokazujemo. Profit tabela
-                  prikazuje svaki odigran tiket kao i rezultat za svaki dan,
-                  mesec i godinu. <br /> Vaš Flex Team.
+                  Za razliku od drugih tipstera, mi vam naše rezultate
+                  predstavljamo bez laži. Profit tabela prikazuje svaki odigran
+                  tiket kao i rezultat za svaki dan, mesec i godinu. <br />
+                  Od početka nam je cilj bio da budemo 100% transparentni i da
+                  sve pokazujemo onako kako jeste. Zbog toga sada imamo ogromnu
+                  zajednicu koja ima poverenja u nas. <br/> Vaš Flex Team.
                 </p>
               </div>
-              
+
               <div className="ml-auto mr-auto hidden md:block">
                 <Image
                   src="/flex_icon_large.png"
@@ -42,29 +44,29 @@ const Main = ({ toggle, isOpen }) => {
               </div>
             </div>
             <div className="w-full flex flex-col justify-center">
-            <h1 className="text-shadow mb-4 text-gray-200 text-2xl mx-auto italic text-center border-b-2 border-gray-200">
+              <h1 className="text-shadow mb-4 text-gray-200 text-2xl mx-auto italic text-center border-b-2 border-gray-200">
                 {year}. Godina
               </h1>
-            <div className="flex mx-auto shadow-lg mb-4">
+              <div className="flex mx-auto shadow-lg mb-4">
                 <button
                   onClick={() => setYear(year - 1)}
                   className=" group px-1 border-primary"
                 >
                   <div className="rounded-full border-2 border-primary group-hover:-translate-x-0.5 transition ease-in-out duration-150">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 stroke-primary "
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M15 19l-7-7 7-7"
-                    />
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 stroke-primary "
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 19l-7-7 7-7"
+                      />
+                    </svg>
                   </div>
                 </button>
                 <button
@@ -84,20 +86,20 @@ const Main = ({ toggle, isOpen }) => {
                   className="group rounded-r-lg px-1 "
                 >
                   <div className="rounded-full border-2 border-primary group-hover:translate-x-0.5 transition ease-in-out duration-150">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 stroke-primary "
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-6 w-6 stroke-primary "
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
                   </div>
                 </button>
               </div>
@@ -130,7 +132,6 @@ const Main = ({ toggle, isOpen }) => {
                   </h1>
                 )}
               </div>
-              
             </div>
           </div>
         </div>

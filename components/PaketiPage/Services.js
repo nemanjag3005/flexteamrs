@@ -16,10 +16,12 @@ const Services = ({ isOpen, toggle }) => {
                 Naši Paketi
               </h1>
               <p className="text-gray-200 text-lg max-w-lg">
-                Clanarina naseg tima je: * 30e (3600rsd) - Standard vip✅ (mesec
-                dana od dana uplate)👑 * 100e(11700)- Admin premium✅ (pristup i
-                pregled nasih tiketa na koje mi stavljamo pare od kojih je svaki
-                ispracen jakim ulogom)
+                Članarina našeg tima je: <br />{" "}
+                <span className="font-bold">30e (3600rsd)</span> - Standard
+                vip✅ (mesec dana od dana uplate) <br />{" "}
+                <span className="font-bold">100e (11700rsd)</span> - Admin
+                premium✅ (pristup i pregled naših tiketa na koje mi stavljamo
+                pare od kojih je svaki ispraćen jakim ulogom)
               </p>
             </div>
             <div className="ml-auto mr-auto hidden md:block">
@@ -175,7 +177,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                        <svg
+                          <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
@@ -236,7 +238,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                        <svg
+                          <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
                             fill="none"
@@ -296,7 +298,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                        <svg
+                          <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
                             fill="none"
@@ -356,7 +358,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                        <svg
+                          <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
                             fill="none"
@@ -489,49 +491,50 @@ const Services = ({ isOpen, toggle }) => {
 
                         <td className="px-6 py-4 whitespace-no-wrap">
                           <p className="text-gray-200 max-w-lg text-md ">
-                          🌎Admin premium🌎 - Placanjem pristupa ovoj grupi
-                            automatski si sebi obezbedio uvid u apsolutno sve
-                            sto cu odigrati datog meseca kao i u to koliko cu
-                            novca uloziti na odredjeni tiket. Svaki put kada ja
-                            igram dobices 5,6 h pre utakmice sliku tog tiketa sa
-                            slikom moje uplate na njemu. Uzivaj i gledaj kako
-                            najbolji svih vremena gradi svoj profit apsolutno
-                            svaki mesec bez izuzetaka. Vaš FLEX TEAM📈
+                            💸Free grupa💸 je grupa koja je nastala kao skup
+                            svih ljudi koji podržavaju flex team nakon
+                            neobrazloženog gašenja Flex Team instagram profila
+                            koji je u datom trenutku imao 36k pratilaca. Sve
+                            novosti, najava novih videa i novih planova se šalju
+                            tu, a takođe kao nagrada za vernost svim ljudima
+                            koji se tu nalaze, jednom u 4 dana im se zahvaljujem
+                            tako što podelim potpuno free tikete na koje su
+                            veliki igrači širom Srbije stavljali novac..✅
+                            Naravno u sklopu free grupe nikada neće biti poslati
+                            tiketi identični onima koje šaljemo u standardu i
+                            premiumu(pošto pristup tim grupama košta). I dalje
+                            najbolji, i dalje nije stvar u lovi, i dalje želim
+                            da nastavim da se borim sa ekipom koju volim..✅👑
                           </p>
                         </td>
 
                         <td className="px-6 py-4 whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md">
-                          📈Standard vip📈 je grupa koja se nalazi na telegram
-                            aplikaciji u kojoj se svakoga dana salje najbolji i
-                            najsigurniji moguci tiket odabran za pravljenje
-                            najveceg profita tog dana. Najcesce su u pitanju
-                            singlovi kvota 1.6 - 2.3✅ naravno izmedju ostalog i
-                            dublovi. Najbitnije sto je na vama je da se
-                            zargonski receno samo pretvorite u “robota” i sve
-                            sto se posalje samo automatski odigrate , naravno
-                            ispraceno sa procentualnim ulogom koji smo mi
-                            prethodno poslali u grupi . Vremenom gledate kako se
-                            mesec sve vise priblizava kraju tako ce vasa banka
-                            rasti iz dana u dan to je CINJENICA✅👑. Jer sve ovo
-                            sto mi prezentujemo pretstavlja REALNU pricu i
-                            ispravnost a ne za razliku od ostalih “pricanje
-                            bajki” … Prilikom prvog susreta sa ubacivanjem u
-                            nasu grupu nakon vase uplate pre svakog igranja
-                            kliknite na pinovanu poruku gde se nalazi lista
-                            pravila obaveznih za pridrzavanje ukoliko zelis da
-                            ti garantujem profit. Uzivajte u igri vas FLEX
-                            TEAM.✅👑🌎
+                            📈Standard vip📈 je grupa koja se nalazi na telegram
+                            aplikaciji u kojoj se svakoga dana šalje najbolji i
+                            najsigurniji mogući tiket odabran za pravljenje
+                            najvećeg profita tog dana. Najčešće su u pitanju
+                            singlovi kvota 1.6-2.3✅ naravno između ostalog i
+                            dublovi. Najbitnije što je na vama samo da se
+                            zavalite u stolicu i sve što se pošalje samo
+                            odigrate , naravno svaki tiket treba ispratiti
+                            procentualnim ulogom koji smo mi prethodno poslali u
+                            grupi. Kako se mesec privodi kraju tako će i vaša
+                            banka rasti iz dana u dan to je ČINJENICA✅👑 Takođ
+                            pre svakog igranja kliknite na pinovanu poruku gde
+                            se nalazi lista pravila obaveznih za pridržavanje
+                            ukoliko želiš da ti garantujem profit. Uživajte u
+                            igri. Vaš FLEX TEAM.✅👑🌎
                           </p>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md">
-                            🌎Admin premium🌎 - Placanjem pristupa ovoj grupi
+                            🌎Admin premium🌎 - Plaćanjem pristupa ovoj grupi
                             automatski si sebi obezbedio uvid u apsolutno sve
-                            sto cu odigrati datog meseca kao i u to koliko cu
-                            novca uloziti na odredjeni tiket. Svaki put kada ja
-                            igram dobices 5,6 h pre utakmice sliku tog tiketa sa
-                            slikom moje uplate na njemu. Uzivaj i gledaj kako
+                            sto ću odigrati datog meseca kao i u to koliko ću
+                            novca uložiti na određeni tiket. Svaki put kada ja
+                            igram dobićes 5-6h pre utakmice sliku tog tiketa sa
+                            slikom moje uplate na njemu. Uživaj i gledaj kako
                             najbolji svih vremena gradi svoj profit apsolutno
                             svaki mesec bez izuzetaka. Vaš FLEX TEAM📈
                           </p>
@@ -662,7 +665,18 @@ const Services = ({ isOpen, toggle }) => {
                   Kako?
                 </h1>
                 <p className="text-gray-200 text-md mt-4">
-                  📈Teks to free grupi
+                  💸Free grupa💸 je grupa koja je nastala kao skup svih ljudi
+                  koji podržavaju flex team nakon neobrazloženog gašenja Flex
+                  Team instagram profila koji je u datom trenutku imao 36k
+                  pratilaca. Sve novosti, najava novih videa i novih planova se
+                  šalju tu, a takođe kao nagrada za vernost svim ljudima koji se
+                  tu nalaze, jednom u 4 dana im se zahvaljujem tako što podelim
+                  potpuno free tikete na koje su veliki igrači širom Srbije
+                  stavljali novac..✅ Naravno u sklopu free grupe nikada neće
+                  biti poslati tiketi identični onima koje šaljemo u standardu i
+                  premiumu(pošto pristup tim grupama košta). I dalje najbolji, i
+                  dalje nije stvar u lovi, i dalje želim da nastavim da se borim
+                  sa ekipom koju volim..✅👑
                 </p>
               </div>
             </div>
@@ -787,22 +801,18 @@ const Services = ({ isOpen, toggle }) => {
                 </h1>
                 <p className="text-gray-200 text-md mt-4">
                   📈Standard vip📈 je grupa koja se nalazi na telegram
-                  aplikaciji u kojoj se svakoga dana salje najbolji i
-                  najsigurniji moguci tiket odabran za pravljenje najveceg
-                  profita tog dana. Najcesce su u pitanju singlovi kvota 1.6 -
-                  2.3✅ naravno izmedju ostalog i dublovi. Najbitnije sto je na
-                  vama je da se zargonski receno samo pretvorite u “robota” i
-                  sve sto se posalje samo automatski odigrate , naravno
-                  ispraceno sa procentualnim ulogom koji smo mi prethodno
-                  poslali u grupi . Vremenom gledate kako se mesec sve vise
-                  priblizava kraju tako ce vasa banka rasti iz dana u dan to je
-                  CINJENICA✅👑. Jer sve ovo sto mi prezentujemo pretstavlja
-                  REALNU pricu i ispravnost a ne za razliku od ostalih “pricanje
-                  bajki” … Prilikom prvog susreta sa ubacivanjem u nasu grupu
-                  nakon vase uplate pre svakog igranja kliknite na pinovanu
-                  poruku gde se nalazi lista pravila obaveznih za pridrzavanje
-                  ukoliko zelis da ti garantujem profit. Uzivajte u igri vas
-                  FLEX TEAM.✅👑🌎
+                  aplikaciji u kojoj se svakoga dana šalje najbolji i
+                  najsigurniji mogući tiket odabran za pravljenje najvećeg
+                  profita tog dana. Najčešće su u pitanju singlovi kvota
+                  1.6-2.3✅ naravno između ostalog i dublovi. Najbitnije što je
+                  na vama samo da se zavalite u stolicu i sve što se pošalje
+                  samo odigrate , naravno svaki tiket treba ispratiti
+                  procentualnim ulogom koji smo mi prethodno poslali u grupi.
+                  Kako se mesec privodi kraju tako će i vaša banka rasti iz dana
+                  u dan to je ČINJENICA✅👑 Takođ pre svakog igranja kliknite na
+                  pinovanu poruku gde se nalazi lista pravila obaveznih za
+                  pridržavanje ukoliko želiš da ti garantujem profit. Uživajte u
+                  igri. Vaš FLEX TEAM.✅👑🌎
                 </p>
               </div>
             </div>
@@ -926,11 +936,11 @@ const Services = ({ isOpen, toggle }) => {
                   Kako?
                 </h1>
                 <p className="text-gray-200 text-md mt-4">
-                  🌎Admin premium🌎 - Placanjem pristupa ovoj grupi automatski
-                  si sebi obezbedio uvid u apsolutno sve sto cu odigrati datog
-                  meseca kao i u to koliko cu novca uloziti na odredjeni tiket.
-                  Svaki put kada ja igram dobices 5,6 h pre utakmice sliku tog
-                  tiketa sa slikom moje uplate na njemu. Uzivaj i gledaj kako
+                  🌎Admin premium🌎 - Plaćanjem pristupa ovoj grupi automatski
+                  si sebi obezbedio uvid u apsolutno sve sto ću odigrati datog
+                  meseca kao i u to koliko ću novca uložiti na određeni tiket.
+                  Svaki put kada ja igram dobićes 5-6h pre utakmice sliku tog
+                  tiketa sa slikom moje uplate na njemu. Uživaj i gledaj kako
                   najbolji svih vremena gradi svoj profit apsolutno svaki mesec
                   bez izuzetaka. Vaš FLEX TEAM📈
                 </p>
@@ -1009,12 +1019,12 @@ const Services = ({ isOpen, toggle }) => {
                 Šta je to unit?
               </h1>
               <p className="text-md mt-2 text-gray-300">
-                U flex teamu unit dobijate kada ukupni budzet koji ste odvojili
-                za kladjenje ( ulaganje ) podelite sa 50 . Primer ukoliko ste
-                odvojili 10.000 rsd vas 1 unit bice 10.000 : 50 = 200rsd . Znaci
-                kada ispod tiketa koji se igra napisemo ulog 7/10 - Broj 7
-                predstavlja broj unita koji cete uloziti na taj tiket. Znaci
-                ukoliko vam je unit 200 rsd na taj tiket ulozicete
+                U Flex Teamu unit dobijate kada ukupni budžet koji ste odvojili
+                za klađenje(ulaganje) podelite sa 50. Primer ukoliko ste
+                odvojili 10.000 rsd vas 1 unit biće 10.000:50=200rsd. Znači kada
+                ispod tiketa koji se igra napišemo ulog 7/10 - Broj 7
+                predstavlja broj unita koji ćete uložiti na taj tiket. Znači
+                ukoliko vam je unit 200 rsd na taj tiket uložićete
                 7x200=1400rsd.
               </p>
             </div>
@@ -1023,17 +1033,15 @@ const Services = ({ isOpen, toggle }) => {
                 Koliko mogu zaraditi za mesec dana?
               </h1>
               <p className="text-md mt-2 text-gray-300">
-                Sve zavisi od vaseg ukupnog budzeta kojim raspolazete koji cete
-                kasnije podeliti i dobiti vas unit. Pocetak ovog meseca je za
-                slepe pratioce svakog naseg tiketa i uloga za 2,3 dana uzeo
-                citavih +17 unita. Za 2,3 dana bi ste zaradili ukoliko vam je
-                budzet 10.000 rsd tacnije 1 unit 200. Svaki tiket se najcesce
-                igra sa 5-8 unit-a.Profit cist bi vam bio sa najmanje rizicnim
-                ulogom za 2,3 dana 3400 rsd. Tacnije 1150 dinara ZA DAN. Ne
-                zaboravite ne radite nista i sve je legalno.I to sa budzetom
-                10.000 rsd da imate 20.000 rsd (180e ukupnog budzeta) uzimali bi
-                ste 20e za dan - ne radeci apsolutno nista.I sa minimalnim
-                rizikom kojim rizikujete samo 4% od ukupnog budzeta.
+                Sve zavisi od vašeg ukupnog budžeta kojim raspolažete. Početak
+                ovog meseca je za ljude koji su ispratili svaki naš tiket i ulog
+                za 2,3 dana doneo čitavih +17 unita. Ukoliko vam je budžet
+                10.000 rsd tačnije 1 unit 200, za 2-3 dana biste zaradili
+                3400rsd. Tačnije 1150 dinara DNEVNO. Ne zaboravite ne radite
+                ništa i sve je legalno.I to sa budžetom od 10.000 rsd. Da imate
+                20.000 rsd (180e ukupnog budzeta) uzimali biste 20e za dan - ne
+                radeći apsolutno ništa.I sve to sa minimalnim rizikom kojim
+                rizikujete samo 4% od ukupnog budzeta.
               </p>
             </div>
             <div className="md:max-w-md">
@@ -1041,24 +1049,24 @@ const Services = ({ isOpen, toggle }) => {
                 Da li postoji mogucnost izgubiti novac?
               </h1>
               <p className="text-md mt-2 text-gray-300">
-                Pracenjem unita koji vam mi odredimo i dajemo i igranjem svakog
-                tiketa koji posaljemo apsolutno ne postoji nikakva sansa da ne
-                profitirate i to jako dobro na mesecnom nivou naravno.Ali kada
-                se pravite pametni i all in - ujete , Ili preskacete tikete,
-                povezujete ih , dodajete svoje parove na nase tikete za takve
-                poteze ne odgovaramo.Pojedini retki dan moze zavrsiti u minusu
-                ali mesec je od pocetka flex teama uvek u dobrom profitu.
+                Praćenjem unita koji vam mi odredimo i dajemo i igranjem svakog
+                tiketa koji pošaljemo apsolutno ne postoji nikakva šansa da
+                izgubite na mesečnom nivou. Ali ako se pravite pametni i all
+                in-ujete , Ili preskačete tikete, povezujete ih , dodajete svoje
+                parove na naše tikete za takve poteze ne odgovaramo.Retko se
+                može desiti da se dan završi u minusu ali na kraju meseca ste
+                uvek u profitu.
               </p>
             </div>
             <div className="md:max-w-md">
               <h1 className="text-3xl text-gray-200 font-bold text-shadow ">
-                Koliko je koeficijent prolaznosti?
+                Koliki je koeficijent prolaznosti?
               </h1>
               <p className="text-md mt-2 text-gray-300">
-                Prolazni tiketi su svakoga meseca nekih 85-95% zavisi od meseca
-                do meseca naravno. Ali sistem unit-a i progress u nasem timu je
-                toliko jak da i sa prolaznoscu 70% bi mogli iskidati u profitu.
-                Kladite se pametno.
+                Prolazni tiketi su svakog meseca nekih 85-95% zavisi od meseca
+                do meseca naravno. Ali sistem unit-a i progress u našem timu je
+                toliko jak da bi i sa prolaznošću 70% mogli da pokidate profit i
+                zaradite nenormalno mnogo. Kladite se pametno.
               </p>
             </div>
           </div>

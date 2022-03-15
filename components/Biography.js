@@ -5,7 +5,6 @@ import { useState } from "react";
 import "animate.css";
 
 const Biography = ({ isOpen, toggle }) => {
-
   return (
     <div className="bg-secondary  bg-no-repeat bg-local bg-cover pb-2 min-h-screen">
       <Navbar toggle={toggle} isOpen={isOpen} />
@@ -22,44 +21,57 @@ const Biography = ({ isOpen, toggle }) => {
               />
             </div>
             <div>
-            <h1 className="text-primary animate__animated animate__fadeInUp text-center mt-8 mb-12 italic font-bold text-5xl md:text-7xl text-shadow">
-              O NAMA
-            </h1>
-            <p className="text-center text-gray-200">
-              <span className="text-primary">Flex Team</span> se smatra jednim
-              od{" "}
-              <span className="text-primary">elitnih sportskih stranica</span>{" "}
-              ove ere, koji je postavio brojne rekorde u analizi sportskih
-              dogadjaja. Danas je{" "}
-              <span className="text-primary">Flex Team organizacija</span> koja
-              pruza mocne clanske pakete za sve one koji zele da zarade od
-              sporta. Poznat sam kao Matija Lazic, jedan od najtraženijih i
-              najuspešnijih sportskih tipstera na Balkanu. Izgradio sam izuzetnu
-              karijeru i ugled u poslednjih godinu dana i stekao bogatstvo. Moja
-              imovina vredi više od pola miliona i dolazi sa načinom života koji
-              se samo može zamisliti. Dozvolite mi da vam pomognem u izgradnji
-              života i karijere iz snova svojim znanjem i veštinama u industriji
-              sportskih klađenja.
-              <br />
-              <br />
-              <span className="text-primary">
-                Ovo je vaša prilika da radite sa najboljima u poslu i na akciji!
-              </span>
-              <br />
-              <br />
-              Ako upravo sada citate about us sekciju mozete primetiti da je nas
-              sajt izgradjen da nas podigne na
-              <span className="text-primary"> najvisi nivo u nasem poslu.</span>
-              <br />
-              <br />
-              Sve to zahteva mnogo posla, ali mi smo od početka bili tu za vas i
-              tako će i ostati. Od nule smo izgradili imperiju i ne nameravamo
-              da stanemo. U ovom poslu ne postoji niko bolji od nas!
-              <br />
-              <br />
-              <br />
-              Voli vas ceo <span className="text-primary">Flex Team!</span>
-            </p>
+              <h1 className="text-primary animate__animated animate__fadeInUp text-center mt-8 mb-12 italic font-bold text-5xl md:text-7xl text-shadow">
+                O NAMA
+              </h1>
+              <p className="text-center text-gray-200">
+                <span className="text-primary">Flex Team</span> se smatra jednom
+                od{" "}
+                <span className="text-primary">najelitnijih organizacija</span>{" "}
+                koje se bave sportskim klađenjem.  Rekorde koje iz dana u
+                dan postavljamo u analizi sportskih događaja nas svrstava u sam
+                vrh ovog posla. Pored svih dostignuća odlučili smo da se
+                ne zaustavimo samo na našem profitu, već da svoje znanje i
+                iskustvo podelimo sa vama.
+                <span className="text-primary">
+                  Flex Team organizacija
+                </span>{" "}
+                pruža moćne članske pakete za sve one koji žele da zarade od
+                sportskog klađenja. <br /> Iza organizacije stoji Matija Lazić,
+                jedan od najtraženijih i najuspešnijih sportskih tipstera na
+                Balkanu. Izgradio sam izuzetnu karijeru i ulged u
+                poslednjih godinu dana i stekao ogromno bogatstvo.
+                Moja imovina vredi više od pola miliona i dolazi sa načinom
+                života koji se samo može zamisliti. 
+                Dozvolite mi da vam pomognem u izgradnji života i karijere iz
+                snova svojim znanjem i veštinama u industriji sportskog
+                klađenja.
+                <br />
+                <br />
+                <span className="text-primary">
+                  Ovo je vaša prilika da radite sa najboljima u poslu!
+                </span>
+                <br />
+                <br />
+                Veliki deo novca koji zaradimo ulažemo nazad u organizaciju kroz
+                angažovanje najboljih tipstera, ali i kroz izradu kvalitetnog
+                sajta. <br />
+                Sve to je u cilju da nas podigne na
+                <span className="text-primary">
+                  {" "}
+                  najviši nivo u ovom poslu.
+                </span>
+                <br />
+                <br />
+                Ovo sve zahteva mnogo posla, ali mi smo od početka bili tu za
+                vas i tako će i ostati. Od nule smo izgradili imperiju i ne
+                nameravamo da stanemo. <br />
+                U ovom poslu nema boljih od nas!
+                <br />
+                <br />
+                <br />
+                Voli vas ceo <span className="text-primary">Flex Team!</span>
+              </p>
             </div>
             <div className="hidden md:block ml-auto group relative flex justify-center w-11/12">
               <div className="absolute h-full rounded-sl border-4 bg-gradient-to-b from-transparent to-black inset-x-0 bottom-0 z-20 grid grid-flow-col items-end  transition-opacity opacity-0 group-hover:opacity-100 duration-500">
