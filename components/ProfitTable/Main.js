@@ -23,14 +23,15 @@ const Main = ({ toggle, isOpen }) => {
                   PROFIT TABELA
                 </h1>
                 <h1 className="text-2xl md:text-4xl text-gray-200 italic text-shadow mt-2 mb-6">
-                  Rezultati ne Lažu - <br />{" "}
-                  <span className="text-primary">Istina</span> na Dohvat Ruke
+                  Rezultati ne Lažu - <br /> Uvid u sve naše tikete
                 </h1>
                 <p className="text-lg md:max-w-xl mb-8 text-gray-200">
-                  Istina Vam je na dohvat ruke. Za razliku od drugih tipstera,
-                  mi vam naše rezultate direktno pokazujemo. Profit tabela
-                  prikazuje svaki odigran tiket kao i rezultat za svaki dan,
-                  mesec i godinu. <br /> Vaš Flex Team.
+                  Za razliku od drugih tipstera, mi vam naše rezultate
+                  predstavljamo bez laži. Profit tabela prikazuje svaki odigran
+                  tiket kao i rezultat za svaki dan, mesec i godinu. <br />
+                  Od početka nam je cilj bio da budemo 100% transparentni i da
+                  sve pokazujemo onako kako jeste. Zbog toga sada imamo ogromnu
+                  zajednicu koja ima poverenja u nas. <br/> Vaš Flex Team.
                 </p>
               </div>
 

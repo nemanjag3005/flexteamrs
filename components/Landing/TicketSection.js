@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import Ticket from "./Ticket";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
-import 'animate.css';
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css";
 
 const TicketSection = () => {
   return (
@@ -20,7 +20,7 @@ const TicketSection = () => {
         <h1 className="absolute z-0 pointer-events-none font-['Airbnb Cereal App'] font-bold opacity-20 text-transparent md:hidden block bg-clip-text bg-gradient-to-r from-primary to-transparent text-8xl tracking-mobile-widestest top-[75%] left-36 ">
           TEAM
         </h1>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-24 ">
         <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
           <div className="grid gap-4 grid-cols-2">
@@ -51,19 +51,22 @@ const TicketSection = () => {
               <Ticket variant={"black"} id={"119782926"} naslov={"Srbija - Portugal"} igra={"Ukupno Golova   UG 3+"} uplata={"150,000.00"} dobitak={"270,000.00"}/>
               <Ticket variant={"white"} id={"119782926"} naslov={"Srbija - Portugal"} igra={"Ukupno Golova   UG 3+"} uplata={"150,000.00"} dobitak={"270,000.00"}/>
             </div>
-          </div>
           </AnimationOnScroll>
           <div className="px-4 py-4 flex items-center justify-center flex-col mt-12">
-          <AnimationOnScroll animateIn="animate__fadeInRight" animateOnce={true}>
-            <h1 className="text-primary italic font-bold text-5xl md:text-7xl text-shadow">
-              TOP TIKETI OVE GODINE
-            </h1>
-            <p className="text-gray-200 mt-6 md:text-xl">
-              Tipsteri Flex Team organizacije se smatraju jednim od
-              najtrazenijih tipstera na balkanu, koji su postavili brojne
-              rekorde u analizi sportskih dogadjaja. Danas rade za grupu Flex
-              Team, pružajući moćne pakete svima koji žele da zarade u sportu.
-            </p>
+            <AnimationOnScroll
+              animateIn="animate__fadeInRight"
+              animateOnce={true}
+            >
+              <h1 className="text-primary italic font-bold text-5xl md:text-7xl text-shadow">
+                TOP TIKETI OVE GODINE
+              </h1>
+              <p className="text-gray-200 mt-6 md:text-xl">
+                Tipsteri Flex Team organizacije su ljudi koji su najbolji u
+                svom poslu. <br /> Oni su jedni od najtraženijih tipstera na Balkanu,
+                koji su postavili brojne rekorde u analizama sportskih događaja. <br />
+                Danas rade za Flex Team, pružajući samo najbolje tipove za sve
+                one koji žele da zarade pomoću sportskog klađenja.
+              </p>
             </AnimationOnScroll>
             <Link href="/profit-tabela">
               <button className="text-gray-200 font-bold italic mt-10 shadow-xl px-4 py-2 text-2xl md:text-4xl rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-primary-metallic">

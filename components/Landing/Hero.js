@@ -36,7 +36,7 @@ const Hero = ({ isOpen, toggle }) => {
           </h1>
           <p className="text-gray-200 py-4 text-lg md:text-xl">
             Rezultati ne lažu! Ovo je vaša prilika da radite sa najboljima u
-            poslu i da se upustite u akciju. Pretplatite se na Flex Team.
+            poslu i da se upustite u akciju. <br /> Pretplatite se na Flex Team.
           </p>
           </div>
           <Link href='/paketi'>
