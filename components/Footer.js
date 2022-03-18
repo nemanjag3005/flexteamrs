@@ -11,7 +11,9 @@ const Footer = () => {
         </div>
         <div className="flex justify-center space-x-6 md:space-x-14">
           <div>
-            <h1 className="text-primary md:text-xl md:mb-6 text-md mb-3">Kontakt</h1>
+            <h1 className="text-primary md:text-xl md:mb-6 text-md mb-3">
+              Kontakt
+            </h1>
             <ul className="text-gray-200 text-sm md:text-lg space-y-2">
               <li className="cursor-pointer hover:text-primary">
                 <a href="mailto:flexteamtips@gmail.com">
@@ -22,7 +24,7 @@ const Footer = () => {
               <li className="cursor-pointer hover:text-primary">
                 {" "}
                 <a
-                  href="https://www.instagram.com/flex_team_1/"
+                  href="https://www.instagram.com/flex_team_n1/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -52,13 +54,17 @@ const Footer = () => {
             <h1 className="text-primary md:text-xl md:mb-6 mb-3">O Nama</h1>
             <ul className="text-gray-200 text-sm  md:text-lg space-y-2">
               <li className="cursor-pointer hover:text-primary">
-                <Link href="/onama" >Naša Priča</Link>
+                <Link href="/onama">Naša Priča</Link>
               </li>
               <li className="cursor-pointer hover:text-primary">
                 <Link href="/profit-tabela">Profit</Link>
               </li>
-              <li className="cursor-pointer hover:text-primary"><Link href="/tiketi">Tiketi</Link></li>
-              <li className="cursor-pointer hover:text-primary"><Link href="/paketi">Pridruži nam se</Link></li>
+              <li className="cursor-pointer hover:text-primary">
+                <Link href="/tiketi">Tiketi</Link>
+              </li>
+              <li className="cursor-pointer hover:text-primary">
+                <Link href="/paketi">Pridruži nam se</Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -72,7 +78,7 @@ const Footer = () => {
       <div className="py-4 px-8 flex w-full items-center justify-center space-x-12 text-gray-200">
         <div>
           <a
-            href="https://www.instagram.com/flex_team_1/"
+            href="https://www.instagram.com/flex_team_n1/"
             target="_blank"
             rel="noreferrer"
           >
@@ -109,9 +115,18 @@ const Footer = () => {
       </div>
       <div className="py-4 px-8 text-gray-200 text-xs md:text-sm md:pb-12 text-center">
         © 2022 Flex Team. All rights reserved.
+        <br />
+        <br />
+        Powered by{" "}
+        <a
+          href="https://www.lan-digital.com"
+          rel="noreferrer"
+          target={"_blank"}
+        >
+          LAN Digital
+        </a>
       </div>
-      </div>
-    
+    </div>
   );
 };
 

@@ -25,8 +25,8 @@ const TicketSection = () => {
         <AnimationOnScroll animateIn="animate__fadeInLeft" animateOnce={true}>
           <div className="grid gap-4 grid-cols-2">
             <div className="-rotate-6 space-y-3">
-              <Ticket variant={"white"} />
-              <Ticket variant={"black"} />
+              <Ticket variant={"white"} id={"119782926"} naslov={"Srbija - Portugal"} igra={"Ukupno Golova   UG 3+"} uplata={"150,000.00"} dobitak={"270,000.00"}/>
+              <Ticket variant={"black"} id={"119782926"} naslov={"Srbija - Portugal"} igra={"Ukupno Golova   UG 3+"} uplata={"150,000.00"} dobitak={"270,000.00"}/>
               <Link href='/tiketi'>
               <h1 className="text-gray-200 tik pb-1 group ml-2 md:text-3xl underline-offset-4 cursor-pointer italic font-bold text-lg">
                 VIDI SVE <span className="whitespace-nowrap"> TIKETE<svg
@@ -48,8 +48,8 @@ const TicketSection = () => {
               </Link>
             </div>
             <div className="-rotate-6 space-y-3">
-              <Ticket variant={"black"} />
-              <Ticket variant={"white"} />
+              <Ticket variant={"black"} id={"119782926"} naslov={"Srbija - Portugal"} igra={"Ukupno Golova   UG 3+"} uplata={"150,000.00"} dobitak={"270,000.00"}/>
+              <Ticket variant={"white"} id={"119782926"} naslov={"Srbija - Portugal"} igra={"Ukupno Golova   UG 3+"} uplata={"150,000.00"} dobitak={"270,000.00"}/>
             </div>
           </div>
           </AnimationOnScroll>
