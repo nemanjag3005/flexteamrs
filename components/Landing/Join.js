@@ -39,7 +39,7 @@ const Join = () => {
                       <ul className="space-y-4 mt-4">
                         <li className="mb-2">
                           <span className="text-gray-200  text-2xl italic text-shadow flex items-center">
-                          <svg
+                            <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -58,7 +58,7 @@ const Join = () => {
                         </li>
                         <li className="mb-2">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                          <svg
+                            <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -96,7 +96,7 @@ const Join = () => {
                         </li>
                         <li className="mb-2">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                          <svg
+                            <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -380,40 +380,17 @@ const Join = () => {
                 </Link>
               </AnimationOnScroll>
             </div>
-
-            <p className="text-gray-200 text-lg">
-              Bez obzira na to koji paket uzmete, profit je{" "}
-              <span className="text-primary-metallic inline-block">
-                garantovan
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-6 w-6 inline-block mb-1 mr-1"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
-                  />
-                </svg>
-              </span>
-              . Razlika je samo u veličini profita!
-            </p>
             <div className=" mb-20 mt-6">
-          <Link href="/paketi">
-            <button className="text-gray-200 font-bold italic mt-4 shadow-xl px-4 py-2 text-2xl md:text-4xl rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-primary-metallic">
-              <h1 className="text-transparent bg-clip-text uppercase bg-gradient-to-b from-gray-200 to-gray-400 hover:from-gray-200 hover:to-gray-300">
-                Kako se učlaniti?
-              </h1>
-            </button>
-          </Link>
-        </div>
+              <Link href="/paketi">
+                <button className="text-gray-200 font-bold italic mt-4 shadow-xl px-4 py-2 text-2xl md:text-4xl rounded-full hover:-translate-y-2 transform ease-in-out duration-300 bg-gradient-to-b from-primary-metallic">
+                  <h1 className="text-transparent bg-clip-text uppercase bg-gradient-to-b from-gray-200 to-gray-400 hover:from-gray-200 hover:to-gray-300">
+                    Kako se učlaniti?
+                  </h1>
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
-        
       </div>
     </div>
   );

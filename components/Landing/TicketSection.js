@@ -51,6 +51,7 @@ const TicketSection = () => {
               <Ticket variant={"black"} id={"119782926"} naslov={"Srbija - Portugal"} igra={"Ukupno Golova   UG 3+"} uplata={"150,000.00"} dobitak={"270,000.00"}/>
               <Ticket variant={"white"} id={"119782926"} naslov={"Srbija - Portugal"} igra={"Ukupno Golova   UG 3+"} uplata={"150,000.00"} dobitak={"270,000.00"}/>
             </div>
+            </div>
           </AnimationOnScroll>
           <div className="px-4 py-4 flex items-center justify-center flex-col mt-12">
             <AnimationOnScroll
