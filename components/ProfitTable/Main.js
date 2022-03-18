@@ -134,6 +134,40 @@ const Main = ({ toggle, isOpen }) => {
               </div>
             </div>
           </div>
+          <div className="md:mx-6 flex flex-col justify-center items-center mt-20">
+            {/* <h1 className="text-5xl mb-6 md:text-7xl italic text-shadow text-primary font-bold">
+                  VIŠE O TABELI
+                </h1> */}
+
+            <p className="text-xs text-center md:max-w-5xl mb-8 text-gray-200">
+              <span className="text-primary text-2xl">*</span>
+              Profit tabele na našoj sceni su u jako maloj meri zastupljene kod
+              većine organizacija... Što je zaista tužno videti. Isto kao što je
+              tužno videti da gomila njih prodaje narodu tikete koje ni sami ne
+              isprate sa ulogom - a kada isprate to bude sa 5000 dinara.
+              <br />
+              Ne želim da omalovažavam nikoga, ali to je zaista smešno i tužno u
+              isto vreme . Međutim širenjem svesti o ispravnijoj priči
+              pokazivanjem profit, tabele pojavilo se i dosta organizacija koje
+              je trenutno imaju. Ali još jedna tužna stvar je to što su one u
+              98% slučajeva pune lažnih prolaza i uspeha... Očigledno je da
+              danas ljudi lako prodaju obraz i za 20e članarine...
+              <br />
+              Ono što sam želeo da kažem je PAZITE SE lažnih PROFIT TABELA
+              određenih pojedinaca.
+              <br />
+              Ono što definitivno mogu da kažem za sebe je da to u Flex Team-u
+              nećete nikada videti, a razlog za to je što je moja politika od
+              kad postojim da svaki tiket ikada poslat u grupi i svaka poruka tu
+              ostaju ZAUVEK. - Dakle u Flex Teamu sve što se ikada pošalje i što
+              je poslato i pre 7 meseci možete pogledati listanjem grupe. IZ tog
+              razloga šanse za bilo kakvu korekciju profit tabele NISU MOGUĆE.
+              SAMO SUROVA ISTINA I REALNOST i to je ono što će nas uvek
+              izdvajati. - Dok u isto vreme sve organizacije, čak i poznatije,
+              nastoje ka tome da sve što su poslali jedan dan, već sledeći dan
+              brišu iz grupe i vidokruga ljudi . TOGA NEMA U FLEX TEAMU!
+            </p>
+          </div>
         </div>
       </div>
     </div>

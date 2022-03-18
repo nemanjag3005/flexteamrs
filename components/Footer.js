@@ -24,7 +24,7 @@ const Footer = () => {
               <li className="cursor-pointer hover:text-primary">
                 {" "}
                 <a
-                  href="https://www.instagram.com/flex_team_1/"
+                  href="https://www.instagram.com/flex_team_n1/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -78,7 +78,7 @@ const Footer = () => {
       <div className="py-4 px-8 flex w-full items-center justify-center space-x-12 text-gray-200">
         <div>
           <a
-            href="https://www.instagram.com/flex_team_1/"
+            href="https://www.instagram.com/flex_team_n1/"
             target="_blank"
             rel="noreferrer"
           >
@@ -115,6 +115,16 @@ const Footer = () => {
       </div>
       <div className="py-4 px-8 text-gray-200 text-xs md:text-sm md:pb-12 text-center">
         © 2022 Flex Team. All rights reserved.
+        <br />
+        <br />
+        Powered by{" "}
+        <a
+          href="https://www.lan-digital.com"
+          rel="noreferrer"
+          target={"_blank"}
+        >
+          LAN Digital
+        </a>
       </div>
     </div>
   );
