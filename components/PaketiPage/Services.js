@@ -65,7 +65,7 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
                             0€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
@@ -73,7 +73,7 @@ const Services = ({ isOpen, toggle }) => {
                             </span>
                           </h1>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
                             30€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
@@ -106,124 +106,32 @@ const Services = ({ isOpen, toggle }) => {
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
                       </tr>
+
                       <tr>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-md font-medium leading-5 text-gray-200">
-                                Garantovan Profit
+                                Tiketa Mesečno
                               </div>
                             </div>
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500 mx-auto"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                          <h1 className="text-primary text-center text-xl">
+                            10
+                          </h1>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500 mx-auto"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                          <h1 className="text-primary text-center text-xl">
+                            Svaki Dan
+                          </h1>
                         </td>
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500 mx-auto"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <div className="flex items-center">
-                            <div className="ml-4">
-                              <div className="text-md font-medium leading-5 text-gray-200">
-                                Detaljna Analiza
-                              </div>
-                            </div>
-                          </div>
-                        </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500 mx-auto"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500 mx-auto"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
-                        </td>
-
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-green-500 mx-auto"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                            strokeWidth={2}
-                          >
-                            <path
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              d="M5 13l4 4L19 7"
-                            />
-                          </svg>
+                          <h1 className="text-primary text-center text-xl">
+                            15-20
+                          </h1>
                         </td>
                       </tr>
                       <tr></tr>
@@ -232,15 +140,15 @@ const Services = ({ isOpen, toggle }) => {
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-md font-medium leading-5 text-gray-200">
-                                Dnevni tiketi
+                                Podrška
                               </div>
                             </div>
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -249,11 +157,11 @@ const Services = ({ isOpen, toggle }) => {
                             <path
                               strokeLinecap="round"
                               strokeLinejoin="round"
-                              d="M20 12H4"
+                              d="M5 13l4 4L19 7"
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-green-500 mx-auto"
@@ -292,15 +200,15 @@ const Services = ({ isOpen, toggle }) => {
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-md font-medium leading-5 text-gray-200">
-                                Podrška 24/7
+                                Tiketi Najuspešnijih
                               </div>
                             </div>
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -309,11 +217,11 @@ const Services = ({ isOpen, toggle }) => {
                             <path
                               strokeLinecap="round"
                               strokeLinejoin="round"
-                              d="M20 12H4"
+                              d="M5 13l4 4L19 7"
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-green-500 mx-auto"
@@ -348,16 +256,16 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
                       </tr>
                       <tr>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b  border-zinc-600">
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-md font-medium leading-5 text-gray-200">
-                                Free Tiketi Sigurnosti
+                                Saveti
                               </div>
                             </div>
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
@@ -373,6 +281,23 @@ const Services = ({ isOpen, toggle }) => {
                             />
                           </svg>
                         </td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -386,6 +311,109 @@ const Services = ({ isOpen, toggle }) => {
                               strokeLinecap="round"
                               strokeLinejoin="round"
                               d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b  border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5 text-gray-200">
+                                Garantovan Profit
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
+
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M5 13l4 4L19 7"
+                            />
+                          </svg>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
+                          <div className="flex items-center">
+                            <div className="ml-4">
+                              <div className="text-md font-medium leading-5 text-gray-200">
+                                Svaki Mesec u Plusu
+                              </div>
+                            </div>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
+                            />
+                          </svg>
+                        </td>
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            strokeWidth={2}
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              d="M20 12H4"
                             />
                           </svg>
                         </td>
@@ -417,7 +445,7 @@ const Services = ({ isOpen, toggle }) => {
                             </div>
                           </div>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-primary-metallic">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
@@ -433,7 +461,7 @@ const Services = ({ isOpen, toggle }) => {
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
+                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-primary-metallic">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
@@ -489,7 +517,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap">
+                        <td className="px-6 py-4 flex whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md ">
                             💸Free grupa💸 je grupa koja je nastala kao skup
                             svih ljudi koji podržavaju flex team nakon
@@ -508,7 +536,7 @@ const Services = ({ isOpen, toggle }) => {
                           </p>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap ">
+                        <td className="px-6 py-4 whitespace-no-wrap border-r border-l border-primary-metallic">
                           <p className="text-gray-200 max-w-lg text-md">
                             📈Standard vip📈 je grupa koja se nalazi na telegram
                             aplikaciji u kojoj se svakoga dana šalje najbolji i
@@ -527,16 +555,19 @@ const Services = ({ isOpen, toggle }) => {
                             igri. Vaš FLEX TEAM.✅👑🌎
                           </p>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap ">
+                        <td className="px-6 py-4 flex whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md">
                             🌎Admin premium🌎 - Plaćanjem pristupa ovoj grupi
                             automatski si sebi obezbedio uvid u apsolutno sve
                             sto ću odigrati datog meseca kao i u to koliko ću
-                            novca uložiti na određeni tiket. Svaki put kada ja
-                            igram dobićes 5-6h pre utakmice sliku tog tiketa sa
-                            slikom moje uplate na njemu. Uživaj i gledaj kako
-                            najbolji svih vremena gradi svoj profit apsolutno
-                            svaki mesec bez izuzetaka. Vaš FLEX TEAM📈
+                            novca uložiti na određeni tiket. Ali ne, moj budžet
+                            za klađenje na mesečnom nivou nije 10, 20, 50...
+                            hiljada dinara, već 300+ hiljada dinara, apsolutno
+                            svaki mesec, bez izuzetaka. Svaki put kada ja igram
+                            dobićes 5-6h pre utakmice sliku tog tiketa sa slikom
+                            moje uplate na njemu. Uživaj i gledaj kako najbolji
+                            svih vremena gradi svoj profit apsolutno svaki mesec
+                            bez izuzetaka. Vaš FLEX TEAM📈
                           </p>
                         </td>
                       </tr>
@@ -560,7 +591,45 @@ const Services = ({ isOpen, toggle }) => {
                   Šta dobijaš?
                 </h1>
                 <div className="w-full flex mt-6 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Dnevni Tiketi</h1>
+                  <h1 className="text-lg text-gray-200">Mesečno Tiketa</h1>
+                  <h1 className="text-xl text-gray-200">10</h1>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Podrška</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Tiketi Najuspešnijih</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Saveti</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-zinc-400"
@@ -580,23 +649,6 @@ const Services = ({ isOpen, toggle }) => {
                   <h1 className="text-lg text-gray-200">Garantovan Profit</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 stroke-gray-200"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-                <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Podrška 24/7</h1>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-zinc-400"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -611,24 +663,7 @@ const Services = ({ isOpen, toggle }) => {
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Detaljne Analize</h1>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 stroke-gray-200"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-                <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Tiketi Sigurnosti</h1>
+                  <h1 className="text-lg text-gray-200">Svaki Mesec u Plusu</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-zinc-400"
@@ -695,7 +730,45 @@ const Services = ({ isOpen, toggle }) => {
                   Šta dobijaš?
                 </h1>
                 <div className="w-full flex mt-6 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Dnevni Tiketi</h1>
+                  <h1 className="text-lg text-gray-200">Mesečno Tiketa</h1>
+                  <h1 className="text-lg text-gray-200">Svaki Dan</h1>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Podrška</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Tiketi Najuspešnijih</h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 stroke-gray-200"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Saveti</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -715,7 +788,7 @@ const Services = ({ isOpen, toggle }) => {
                   <h1 className="text-lg text-gray-200">Garantovan Profit</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 stroke-gray-200"
+                    className="h-8 w-8 stroke-zinc-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -724,15 +797,15 @@ const Services = ({ isOpen, toggle }) => {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      d="M5 13l4 4L19 7"
+                      d="M20 12H4"
                     />
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Podrška 24/7</h1>
+                  <h1 className="text-lg text-gray-200">Svaki Mesec u Plusu</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 stroke-gray-200"
+                    className="h-8 w-8 stroke-zinc-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -741,41 +814,7 @@ const Services = ({ isOpen, toggle }) => {
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-                <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Detaljne Analize</h1>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 stroke-gray-200"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5 13l4 4L19 7"
-                    />
-                  </svg>
-                </div>
-                <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Tiketi Sigurnosti</h1>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8 stroke-gray-200"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M5 13l4 4L19 7"
+                      d="M20 12H4"
                     />
                   </svg>
                 </div>
@@ -831,7 +870,11 @@ const Services = ({ isOpen, toggle }) => {
                   Šta dobijaš?
                 </h1>
                 <div className="w-full flex mt-6 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Dnevni Tiketi</h1>
+                  <h1 className="text-lg text-gray-200">Mesečno Tiketa</h1>
+                  <h1 className="text-lg text-gray-200">15-20</h1>
+                </div>
+                <div className="w-full flex my-3 justify-between items-center">
+                  <h1 className="text-lg text-gray-200">Podrška</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -848,7 +891,7 @@ const Services = ({ isOpen, toggle }) => {
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Veći Profit</h1>
+                  <h1 className="text-lg text-gray-200">Tiketi Najuspešnijih</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -865,7 +908,7 @@ const Services = ({ isOpen, toggle }) => {
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Podrška 24/7</h1>
+                  <h1 className="text-lg text-gray-200">Saveti</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -882,7 +925,7 @@ const Services = ({ isOpen, toggle }) => {
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Detaljne Analize</h1>
+                  <h1 className="text-lg text-gray-200">Garantovan Profit</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -899,7 +942,7 @@ const Services = ({ isOpen, toggle }) => {
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Tiketi Sigurnosti</h1>
+                  <h1 className="text-lg text-gray-200">Svaki Mesec u Plusu</h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -939,10 +982,12 @@ const Services = ({ isOpen, toggle }) => {
                   🌎Admin premium🌎 - Plaćanjem pristupa ovoj grupi automatski
                   si sebi obezbedio uvid u apsolutno sve sto ću odigrati datog
                   meseca kao i u to koliko ću novca uložiti na određeni tiket.
-                  Svaki put kada ja igram dobićes 5-6h pre utakmice sliku tog
-                  tiketa sa slikom moje uplate na njemu. Uživaj i gledaj kako
-                  najbolji svih vremena gradi svoj profit apsolutno svaki mesec
-                  bez izuzetaka. Vaš FLEX TEAM📈
+                  Ali ne, moj budžet za klađenje na mesečnom nivou nije 10, 20,
+                  50... hiljada dinara, već 300+ hiljada dinara, apsolutno svaki
+                  mesec, bez izuzetaka. Svaki put kada ja igram dobićes 5-6h pre
+                  utakmice sliku tog tiketa sa slikom moje uplate na njemu.
+                  Uživaj i gledaj kako najbolji svih vremena gradi svoj profit
+                  apsolutno svaki mesec bez izuzetaka. Vaš FLEX TEAM📈
                 </p>
               </div>
             </div>

@@ -28,21 +28,29 @@ const Biography = ({ isOpen, toggle }) => {
                 <span className="text-primary">Flex Team</span> se smatra jednom
                 od{" "}
                 <span className="text-primary">najelitnijih organizacija</span>{" "}
-                koje se bave sportskim klađenjem.  Rekorde koje iz dana u
-                dan postavljamo u analizi sportskih događaja nas svrstava u sam
-                vrh ovog posla. Pored svih dostignuća odlučili smo da se
-                ne zaustavimo samo na našem profitu, već da svoje znanje i
-                iskustvo podelimo sa vama.
+                koje se bave sportskim klađenjem. Rekorde koje iz dana u dan
+                postavljamo u analizi sportskih događaja nas svrstava u sam vrh
+                ovog posla. Pored svih dostignuća odlučili smo da se ne
+                zaustavimo samo na našem profitu, već da svoje znanje i iskustvo
+                podelimo sa vama.{" "}
                 <span className="text-primary">
                   Flex Team organizacija
                 </span>{" "}
                 pruža moćne članske pakete za sve one koji žele da zarade od
                 sportskog klađenja. <br /> Iza organizacije stoji Matija Lazić,
                 jedan od najtraženijih i najuspešnijih sportskih tipstera na
-                Balkanu. Izgradio sam izuzetnu karijeru i ulged u
-                poslednjih godinu dana i stekao ogromno bogatstvo.
-                Moja imovina vredi više od pola miliona i dolazi sa načinom
-                života koji se samo može zamisliti. 
+                Balkanu. Izgradio sam izuzetnu karijeru i ulged u poslednjih
+                godinu dana i stekao ogromno bogatstvo. Nastojim i razumem da
+                mnogi nemaju puno poverenje i skeptični su da povere nekom iznos
+                članarine kako bi ih on savetovao na koje događaje i koliki
+                procenat budžeta treba ulagati. Upravo zbog toga bili ste
+                svedoci na <a className="text-primary" href="https://www.instagram.com/flex_team_n1/"
+            target="_blank"
+            rel="noreferrer">@flex_team_n1</a> nizu free tiketa u rezultatu 5/5. Takođe
+                free grupa je još jedna stvar koja upravo služi da Vam pruži moj
+                rad ovoga posla retko, ali potpuno besplatno, i samim tim
+                steknete poverenje u flex team. Moja imovina vredi više od pola
+                miliona i dolazi sa načinom života koji se samo može zamisliti.
                 Dozvolite mi da vam pomognem u izgradnji života i karijere iz
                 snova svojim znanjem i veštinama u industriji sportskog
                 klađenja.

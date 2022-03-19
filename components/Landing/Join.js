@@ -39,7 +39,7 @@ const Join = () => {
                       <ul className="space-y-4 mt-4">
                         <li className="mb-2">
                           <span className="text-gray-200  text-2xl italic text-shadow flex items-center">
-                            <svg
+                          <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -50,67 +50,10 @@ const Join = () => {
                               <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
-                                d="M6 18L18 6M6 6l12 12"
+                                d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Dnevni Tiketi
-                          </span>
-                        </li>
-                        <li className="mb-2">
-                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="h-6 w-6 mr-1"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M6 18L18 6M6 6l12 12"
-                              />
-                            </svg>{" "}
-                            Dostupnost 24h
-                          </span>
-                        </li>
-                        <li className="mb-2">
-                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="h-6 w-6 mr-1"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M6 18L18 6M6 6l12 12"
-                              />
-                            </svg>{" "}
-                            Uvid u Naše Tikete
-                          </span>
-                        </li>
-                        <li className="mb-2">
-                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="h-6 w-6 mr-1"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={2}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M6 18L18 6M6 6l12 12"
-                              />
-                            </svg>{" "}
-                            Free Tiketi Sigurnosti
+                            10 Tiketa Mesečno
                           </span>
                         </li>
                         <li className="mb-2">
@@ -129,7 +72,74 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Profit Garantovan
+                            Tiketi Najuspešnijih Igrača
+                          </span>
+                        </li>
+                        <li className="mb-2">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                          <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 mr-1"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>{" "}
+                            Podrška
+                          </span>
+                        </li>
+                        <li className="mb-2">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 mr-1"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                              />
+                            </svg>{" "}
+                            Uvid u Moje Tikete
+                          </span>
+                        </li>
+                        <li className="mb-2">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 mr-1"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                              />
+                            </svg>{" "}
+                            Preporuka na Ulog
+                          </span>
+                        </li>
+                        <li className="mb-2 md:block hidden">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                              <br />
+                          </span>
+                        </li>
+                        <li className="mb-2 md:block hidden">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                              <br />
                           </span>
                         </li>
                       </ul>
@@ -144,7 +154,7 @@ const Join = () => {
               >
                 <Link href="paketi">
                   <div className="flex items-center cursor-pointer flex-col border-2 border-primary-metallic shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
-                    <div className="bg-primary-metallic py-2 w-full text-center">
+                    <div className="bg-gold py-2 w-full text-center">
                       <h1 className="text-shadow italic uppercase text-3xl text-gray-200">
                         Standard Vip
                       </h1>
@@ -193,12 +203,12 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Dostupnost 24h
+                            Najbolji Dnevni Odabir
                           </span>
                         </li>
                         <li className="mb-2">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                            <svg
+                          <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -209,10 +219,10 @@ const Join = () => {
                               <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
-                                d="M6 18L18 6M6 6l12 12"
+                                d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Uvid u Naše Tikete
+                            Podrška i Saveti 24h
                           </span>
                         </li>
                         <li className="mb-2">
@@ -231,7 +241,7 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Free Tiketi Sigurnosti
+                            24 Meseca u Profitu
                           </span>
                         </li>
                         <li className="mb-2">
@@ -251,6 +261,44 @@ const Join = () => {
                               />
                             </svg>{" "}
                             Profit + 45% - 65%
+                          </span>
+                        </li>
+                        <li className="mb-2">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                          <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 mr-1"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                              />
+                            </svg>{" "}
+                            Uvid u Moje Tikete
+                          </span>
+                        </li>
+                        <li className="mb-2">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                          <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 mr-1"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                              />
+                            </svg>{" "}
+                            Svaki Mesec u Plusu
                           </span>
                         </li>
                       </ul>
@@ -295,7 +343,7 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Dnevni Tiketi
+                            15-20 Tiketa Mesečno
                           </span>
                         </li>
                         <li className="mb-2">
@@ -314,7 +362,7 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Dostupnost 24h
+                            Jaka Igra 
                           </span>
                         </li>
                         <li className="mb-2">
@@ -333,7 +381,7 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Uvid u Naše Tikete
+                            Ozbiljni Ulozi
                           </span>
                         </li>
                         <li className="mb-2">
@@ -352,7 +400,7 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Free Tiketi Sigurnosti
+                            Minimum 200€ za Igru
                           </span>
                         </li>
                         <li className="mb-2">
@@ -371,7 +419,45 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Profit + 55% - 125%
+                            Profit + 30% - 100%
+                          </span>
+                        </li>
+                        <li className="mb-2">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 mr-1"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>{" "}
+                            Uvid u Moje Tikete
+                          </span>
+                        </li>
+                        <li className="mb-2">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 mr-1"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>{" "}
+                            Svaki Mesec u Plusu
                           </span>
                         </li>
                       </ul>

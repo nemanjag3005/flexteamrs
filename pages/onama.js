@@ -14,7 +14,7 @@ export default function About() {
   return (
       <>
       <Head>
-        <title>FLex Team | O Nama</title>
+        <title>Flex Team | O Nama</title>
         <meta name="description" content="Dobrodošli u Flex Team, najjaču tipstersku organizaciju na Balkanu!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
