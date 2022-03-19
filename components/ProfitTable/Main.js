@@ -134,13 +134,15 @@ const Main = ({ toggle, isOpen }) => {
               </div>
             </div>
           </div>
-          <div className="md:mx-6 flex flex-col justify-center items-center mt-20">
+          <div className="md:mx-6 flex flex-row justify-center items-start mt-20">
             {/* <h1 className="text-5xl mb-6 md:text-7xl italic text-shadow text-primary font-bold">
                   VIŠE O TABELI
                 </h1> */}
-
-            <p className="text-xs text-center md:max-w-5xl mb-8 text-gray-200">
-              <span className="text-primary text-2xl">*</span>
+            <span className="text-primary text-2xl mt-0">*</span>
+            <p className="text-xs text-center md:max-w-5xl mb-8 text-gray-200 pt-3">
+              
+              Profit tabela na našem sajtu odnosi se na admin premium grupu.
+              <br />
               Profit tabele na našoj sceni su u jako maloj meri zastupljene kod
               većine organizacija... Što je zaista tužno videti. Isto kao što je
               tužno videti da gomila njih prodaje narodu tikete koje ni sami ne

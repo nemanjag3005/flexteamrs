@@ -1085,7 +1085,7 @@ const Services = ({ isOpen, toggle }) => {
                 rizikujete samo 4% od ukupnog budzeta.
               </p>
             </div>
-            <div className="md:max-w-md">
+            {/* <div className="md:max-w-md">
               <h1 className="text-3xl text-gray-200 font-bold text-shadow ">
                 Da li postoji mogucnost izgubiti novac?
               </h1>
@@ -1094,19 +1094,19 @@ const Services = ({ isOpen, toggle }) => {
                 tiketa koji pošaljemo apsolutno ne postoji nikakva šansa da
                 izgubite na mesečnom nivou. Ali ako se pravite pametni i all
                 in-ujete , Ili preskačete tikete, povezujete ih , dodajete svoje
-                parove na naše tikete za takve poteze ne odgovaramo.Retko se
+                parove na naše tikete  za takve poteze ne odgovaramo.Retko se
                 može desiti da se dan završi u minusu ali na kraju meseca ste
                 uvek u profitu.
               </p>
-            </div>
+            </div> */}
             <div className="md:max-w-md">
               <h1 className="text-3xl text-gray-200 font-bold text-shadow ">
                 Koliki je koeficijent prolaznosti?
               </h1>
               <p className="text-md mt-2 text-gray-300">
-                Prolazni tiketi su svakog meseca nekih 85-95% zavisi od meseca
+                Prolazni tiketi su svakog meseca nekih 70-85% zavisi od meseca
                 do meseca naravno. Ali sistem unit-a i progress u našem timu je
-                toliko jak da bi i sa prolaznošću 70% mogli da pokidate profit i
+                toliko jak da bi i sa prolaznošću 60% mogli da pokidate profit i
                 zaradite nenormalno mnogo. Kladite se pametno.
               </p>
             </div>
