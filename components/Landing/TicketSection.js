@@ -64,7 +64,7 @@ const TicketSection = () => {
               <p className="text-gray-200 mt-6 md:text-xl">
               Od Flex Team-a možete da očekujete samo najbolje tikete i tipove iz sveta sportskog kladjenja,
               koji će Vam, ukoliko poštujete sva pravila, doneti velike mesečne profite. Ova dva pravila su jasna i jednostavna i na tebi je da ih se držiš. <br/>
-              <span className='text-primary'>1.</span> Samo se žargonski rečeno "pretvori u robota" kada je u pitanju igranje tiketa i prepisuj tikete od provereno najboljih. <br/>
+              <span className='text-primary'>1.</span> Samo se žargonski rečeno &quot;pretvori u robota&quot; kada je u pitanju igranje tiketa i prepisuj tikete od provereno najboljih. <br/>
               <span className='text-primary'>2.</span> Poštuj uloge u procentima u odnosu na tvoj budžet koji ti kažem. <br/>
 Neka moji prethodni rezultati i ostvareni profit govore umesto mene.
 
