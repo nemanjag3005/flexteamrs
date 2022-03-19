@@ -11,11 +11,7 @@ const Tickets = ({ isOpen, toggle }) => {
     "6th.png",
     "7th.png",
     "8th.png",
-    "1st.png",
-    "Tiket N3 1.png",
-    "Tiket N3 1.png",
-    "Tiket N3 1.png",
-    "Tiket N3 1.png",
+    "1st.png"
   ];
 
   const trial = ["Tiket N1 1-1.png"];
