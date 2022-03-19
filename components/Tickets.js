@@ -4,14 +4,14 @@ import "animate.css";
 
 const Tickets = ({ isOpen, toggle }) => {
   const ticketFileNames = [
-    "Tiket N1 1-1.png",
-    "Tiket N3 1.png",
-    "1st.png",
+    "4th.png",
     "2nd.png",
     "3rd.png",
-    "4th.png",
     "5th.png",
     "6th.png",
+    "7th.png",
+    "8th.png",
+    "1st.png",
     "Tiket N3 1.png",
     "Tiket N3 1.png",
     "Tiket N3 1.png",
