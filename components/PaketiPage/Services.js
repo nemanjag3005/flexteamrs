@@ -1009,8 +1009,7 @@ const Services = ({ isOpen, toggle }) => {
                   UPLATA
                 </h1>
                 <p className="text-md mt-2 text-gray-200">
-                  Uplati iznos članarine za izabrati paket na račun /račun/ i
-                  pošalji sliku uplatnice na *nalog*. Za free grupu nema uplate.
+                Za sve načine uplate članarine, kao i dodatne informacije iskljucivo se vrše putem poruke našem instagram profilu <a  href="https://www.instagram.com/flex_team_n1/" target='_blank' rel="noreferrer">@flex_team_n1</a>.
                 </p>
               </div>
             </AnimationOnScroll>
@@ -1028,9 +1027,7 @@ const Services = ({ isOpen, toggle }) => {
                   UČLANJENJE
                 </h1>
                 <p className="text-md mt-2 text-gray-200">
-                  Učlanjuješ se tako što nakon uplate prvo preuzimaš aplikaciju
-                  Telegram nakon čega bivaš ubačen u grupu koja odgovara tvom
-                  paketu! Za free grupu jednostavno klikni na ovaj link *link*
+                Nakon što uplatiš na jedan od nacina koji izabereš, prinosiš sliku uplate takodje u poruci našem instagram profilu nakon čega čekas povratnu poruku, i dalja uputstva.
                 </p>
               </div>
             </AnimationOnScroll>
@@ -1048,9 +1045,8 @@ const Services = ({ isOpen, toggle }) => {
                   IGRA
                 </h1>
                 <p className="text-md mt-2 text-gray-200">
-                  Unutar grupe u Telegramu biće objavljivani Tiketi na dnevnom
-                  nivou. Tikete igraš po principu prepiši i igraj. Sva uputstva,
-                  analiza kao i ulog biće objavljeni!
+                Sva uputstva o igri, i pravilima kojima se morati pridržavati, ukoliko želite da budem odgovoran za Vaš profit dobijate u grupi u koju ste ubačeni.
+
                 </p>
               </div>
             </AnimationOnScroll>
