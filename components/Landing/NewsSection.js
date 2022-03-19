@@ -28,7 +28,7 @@ const NewsSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 md:gap-x-10 gap-y-8 mb-12 px-8">
         <div className="flex justify-center flex-col w-full">
         <AnimationOnScroll animateIn="animate__fadeInUp" delay={200} animateOnce={true}>
-          <a href="https://www.instagram.com/p/CZ4WcO1sZD7-8h1aaFkpoX86IF1rusvzURtAvY0/" target='_blank' rel="noreferrer" className="group relative flex ">
+          <a href="https://www.instagram.com/flex_team_n1/" target='_blank' rel="noreferrer" className="group relative flex ">
             <div className=" absolute rounded-xl top-0 bg-hero3 left-0 w-full h-full p-5 hidden group-hover:flex items-center justify-center z-20 ">
             <svg
           xmlns="http://www.w3.org/2000/svg"

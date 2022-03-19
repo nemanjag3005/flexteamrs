@@ -62,11 +62,12 @@ const TicketSection = () => {
                 TOP TIKETI OVE GODINE
               </h1>
               <p className="text-gray-200 mt-6 md:text-xl">
-                Tipsteri Flex Team organizacije su ljudi koji su najbolji u
-                svom poslu. <br /> Oni su jedni od najtraženijih tipstera na Balkanu,
-                koji su postavili brojne rekorde u analizama sportskih događaja. <br />
-                Danas rade za Flex Team, pružajući samo najbolje tipove za sve
-                one koji žele da zarade pomoću sportskog klađenja.
+              Od Flex Team-a možete da očekujete samo najbolje tikete i tipove iz sveta sportskog kladjenja,
+              koji će Vam, ukoliko poštujete sva pravila, doneti velike mesečne profite. Ova dva pravila su jasna i jednostavna i na tebi je da ih se držiš. <br/>
+              <span className='text-primary'>1.</span> Samo se žargonski rečeno "pretvori u robota" kada je u pitanju igranje tiketa i prepisuj tikete od provereno najboljih. <br/>
+              <span className='text-primary'>2.</span> Poštuj uloge u procentima u odnosu na tvoj budžet koji ti kažem. <br/>
+Neka moji prethodni rezultati i ostvareni profit govore umesto mene.
+
               </p>
             </AnimationOnScroll>
             <Link href="/profit-tabela">

@@ -35,7 +35,7 @@ module.exports = {
         'secondary': "url('/bg4.png')",
         'hero2': "url('/bg2.jpg')",
         'hero3': "url('/bg3.jpg')",
-        'gold' : 'linear-gradient(to right, #fff 20%, #fff 40%, #ECD08C 50%, #ECD08C 55%, #fff 70%, #fff 100%)'
+        'gold' : 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)'
       },
       fontSize: {
         'xxxs': '.50rem',
