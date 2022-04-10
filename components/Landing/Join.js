@@ -33,8 +33,12 @@ const Join = () => {
                       </h1>
                     </div>
                     <div className="w-full bg-zinc-800 h-full flex items-center justify-start flex-col py-8 px-4">
-                      <h1 className="text-primary-metallic border-b-2 border-gray-200 pb-2 mb-4 text-3xl italic text-shadow">
+                    <h1 className="text-primary-metallic border-b-2 border-gray-200 pb-2 mb-4 text-3xl italic text-shadow">
                         15€
+                        <span className="text-gray-200 text-xl italic text-shadow">
+                          {" "}
+                          / mesečno
+                        </span>
                       </h1>
                       <ul className="space-y-4 mt-4">
                         <li className="mb-2">
