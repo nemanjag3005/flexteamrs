@@ -43,7 +43,7 @@ const Services = ({ isOpen, toggle }) => {
                           Paketi
                         </th>
                         <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-green-600 uppercase border-b border-primary-metallic bg-hero3">
-                          FREE
+                          JAKE UPLATE
                         </th>
                         <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-primary-metallic uppercase border-b border-primary-metallic bg-hero3">
                           Standard Vip
@@ -67,7 +67,7 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
-                            0€{" "}
+                            15€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
                               /mesečno
                             </span>
@@ -119,7 +119,7 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <h1 className="text-primary text-center text-xl">
-                            10
+                            70-110
                           </h1>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
@@ -266,9 +266,9 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
-                          <svg
+                        <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="h-6 w-6 stroke-zinc-400 mx-auto"
+                            className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -277,7 +277,7 @@ const Services = ({ isOpen, toggle }) => {
                             <path
                               strokeLinecap="round"
                               strokeLinejoin="round"
-                              d="M20 12H4"
+                              d="M5 13l4 4L19 7"
                             />
                           </svg>
                         </td>
@@ -519,20 +519,7 @@ const Services = ({ isOpen, toggle }) => {
 
                         <td className="px-6 py-4 flex whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md ">
-                            💸Free grupa💸 je grupa koja je nastala kao skup
-                            svih ljudi koji podržavaju flex team nakon
-                            neobrazloženog gašenja Flex Team instagram profila
-                            koji je u datom trenutku imao 36k pratilaca. Sve
-                            novosti, najava novih videa i novih planova se šalju
-                            tu, a takođe kao nagrada za vernost svim ljudima
-                            koji se tu nalaze, jednom u 4 dana im se zahvaljujem
-                            tako što podelim potpuno free tikete na koje su
-                            veliki igrači širom Srbije stavljali novac..✅
-                            Naravno u sklopu free grupe nikada neće biti poslati
-                            tiketi identični onima koje šaljemo u standardu i
-                            premiumu(pošto pristup tim grupama košta). I dalje
-                            najbolji, i dalje nije stvar u lovi, i dalje želim
-                            da nastavim da se borim sa ekipom koju volim..✅👑
+                          💸Jake uplate grupa💸 je grupa koja svakodnevno šalje informacije koje samo flex team poseduje o najuspešnijim igračima kladionice širom Srbije. Svakodnevno se šalje prosecno 3 do 6 tiketa sa različitih uplatnih mesta u lokalima u kojima su jaki igrači uplatili svoje tikete. Ova metoda se pokazala kao jako uspešna, pošto Vam šaljemo slike tiketa na koje su određeni ljudi imali toliku dozu sigurnosti, da su stavili od 500 do 10 000 evra. Kvote koje gađaju su najčešće zaista zavidne ~1.9-4.0 a politika i money menadžment ove grupe je da pratite apsolutno svaki tiket koji pošaljem konstantnim (identičnim) ulogom.
                           </p>
                         </td>
 
@@ -580,11 +567,11 @@ const Services = ({ isOpen, toggle }) => {
           <div className="py-12 space-y-6 md:hidden">
             <div className="border-2 border-green-700 rounded-lg">
               <h1 className="text-4xl uppercase italic px-4 py-2 bg-green-700 w-full text-gray-200 text-shadow">
-                Free
+                  JAKE UPLATE
               </h1>
               <div className="py-6 px-4">
                 <h1 className="text-4xl text-primary-metallic ">
-                  0€ <span className="text-lg text-gray-400">/mesečno</span>
+                  15€ <span className="text-lg text-gray-400">/mesečno</span>
                 </h1>
 
                 <h1 className="text-gray-200 italic text-3xl mt-4 text-shadow w-full border-primary-metallic border-t-2 pt-4">
@@ -592,7 +579,7 @@ const Services = ({ isOpen, toggle }) => {
                 </h1>
                 <div className="w-full flex mt-6 justify-between items-center">
                   <h1 className="text-lg text-gray-200">Mesečno Tiketa</h1>
-                  <h1 className="text-xl text-gray-200">10</h1>
+                  <h1 className="text-xl text-gray-200">80</h1>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
                   <h1 className="text-lg text-gray-200">Podrška</h1>
@@ -700,18 +687,7 @@ const Services = ({ isOpen, toggle }) => {
                   Kako?
                 </h1>
                 <p className="text-gray-200 text-md mt-4">
-                  💸Free grupa💸 je grupa koja je nastala kao skup svih ljudi
-                  koji podržavaju flex team nakon neobrazloženog gašenja Flex
-                  Team instagram profila koji je u datom trenutku imao 36k
-                  pratilaca. Sve novosti, najava novih videa i novih planova se
-                  šalju tu, a takođe kao nagrada za vernost svim ljudima koji se
-                  tu nalaze, jednom u 4 dana im se zahvaljujem tako što podelim
-                  potpuno free tikete na koje su veliki igrači širom Srbije
-                  stavljali novac..✅ Naravno u sklopu free grupe nikada neće
-                  biti poslati tiketi identični onima koje šaljemo u standardu i
-                  premiumu(pošto pristup tim grupama košta). I dalje najbolji, i
-                  dalje nije stvar u lovi, i dalje želim da nastavim da se borim
-                  sa ekipom koju volim..✅👑
+                  💸Jake uplate grupa💸 je grupa koja svakodnevno šalje informacije koje samo flex team poseduje o najuspešnijim igračima kladionice širom Srbije. Svakodnevno se šalje prosecno 3 do 6 tiketa sa različitih uplatnih mesta u lokalima u kojima su jaki igrači uplatili svoje tikete. Ova metoda se pokazala kao jako uspešna, pošto Vam šaljemo slike tiketa na koje su određeni ljudi imali toliku dozu sigurnosti, da su stavili od 500 do 10 000 evra. Kvote koje gađaju su najčešće zaista zavidne ~1.9-4.0 a politika i money menadžment ove grupe je da pratite apsolutno svaki tiket koji pošaljem konstantnim (identičnim) ulogom.
                 </p>
               </div>
             </div>

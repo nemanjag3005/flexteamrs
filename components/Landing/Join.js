@@ -29,12 +29,12 @@ const Join = () => {
                   <div className="flex items-center cursor-pointer flex-col border-2 border-green-700 shadow-xl ease-in-out transform transition duration-300 hover:scale-105">
                     <div className="bg-green-700 py-2 w-full text-center">
                       <h1 className="text-shadow italic uppercase text-3xl text-gray-200">
-                        FREE
+                        JAKE UPLATE
                       </h1>
                     </div>
                     <div className="w-full bg-zinc-800 h-full flex items-center justify-start flex-col py-8 px-4">
                       <h1 className="text-primary-metallic border-b-2 border-gray-200 pb-2 mb-4 text-3xl italic text-shadow">
-                        BESPLATNO
+                        15€
                       </h1>
                       <ul className="space-y-4 mt-4">
                         <li className="mb-2">
@@ -53,7 +53,7 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            10 Tiketa Mesečno
+                            80 Tiketa Mesečno
                           </span>
                         </li>
                         <li className="mb-2">
@@ -96,6 +96,25 @@ const Join = () => {
                         </li>
                         <li className="mb-2">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
+                          <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              className="h-6 w-6 mr-1"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              stroke="currentColor"
+                              strokeWidth={2}
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M5 13l4 4L19 7"
+                              />
+                            </svg>{" "}
+                            Tiketi jakih uplata
+                          </span>
+                        </li>
+                        <li className="mb-2">
+                          <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
@@ -115,7 +134,7 @@ const Join = () => {
                         </li>
                         <li className="mb-2">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                            <svg
+                          <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -126,7 +145,7 @@ const Join = () => {
                               <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
-                                d="M6 18L18 6M6 6l12 12"
+                                d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
                             Preporuka na Ulog
@@ -362,7 +381,7 @@ const Join = () => {
                                 d="M5 13l4 4L19 7"
                               />
                             </svg>{" "}
-                            Jaka Igra 
+                            Jaka Igra
                           </span>
                         </li>
                         <li className="mb-2">
