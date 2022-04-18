@@ -546,4 +546,180 @@ export default [
             },
         ]
     },
+    {
+        id: 3,
+        mesec: 'April',
+        profit: '+19.46%',
+        dani: [
+            {
+                dan: '1.',
+                kvota: '1.50',
+                ulog: '4 unita',
+                profit: '+2 unita',
+                prosao: true
+            },
+            {
+                dan: '2.',
+                kvota: '1.50',
+                ulog: '6.6 unita',
+                profit: '+3.3 unita',
+                prosao: true
+            },
+            {
+                dan: '2.',
+                kvota: '2.06',
+                ulog: '3.3 unita',
+                profit: '-3.3 unita',
+                prosao: false
+            },
+            {
+                dan: '2.',
+                kvota: '2.25',
+                ulog: '2.7 unita',
+                profit: '+3.37 unita',
+                prosao: true
+            },
+            {
+                dan: '2.',
+                kvota: '1.53',
+                ulog: '4 unita',
+                profit: '-4 unita',
+                prosao: false
+            },
+            {
+                dan: '3.',
+                kvota: '1.58',
+                ulog: '3 unita',
+                profit: '-3 unita',
+                prosao: false
+            },
+            {
+                dan: '3.',
+                kvota: '1.65',
+                ulog: '3 unita',
+                profit: '+1.95 unita',
+                prosao: true
+            },
+            {
+                dan: '4.',
+                kvota: '1.66',
+                ulog: '4 unita',
+                profit: '-4 unita',
+                prosao: false
+            },
+            {
+                dan: '5.',
+                kvota: '1.50',
+                ulog: '4 unita',
+                profit: '+2.5 unita',
+                prosao: true
+            },
+            {
+                dan: '6.',
+                kvota: '1.63',
+                ulog: '4 unita',
+                profit: '-4 unita',
+                prosao: false
+            },
+            {
+                dan: '6.',
+                kvota: '1.6',
+                ulog: '3 unita',
+                profit: '+1.8 unita',
+                prosao: true
+            },
+            {
+                dan: '6.',
+                kvota: '2.25',
+                ulog: '1 unita',
+                profit: '-1 unita',
+                prosao: false
+            },
+            {
+                dan: '7.',
+                kvota: '1.58',
+                ulog: '5.9 unita',
+                profit: '+3.48 unita',
+                prosao: true
+            },
+            {
+                dan: '8.',
+                kvota: '1.55',
+                ulog: '4 unita',
+                profit: '+2.2 unita',
+                prosao: true
+            },
+            {
+                dan: '8.',
+                kvota: '3.15',
+                ulog: '0.7 unita',
+                profit: '-0.7 unita',
+                prosao: false
+            },
+            {
+                dan: '9.',
+                kvota: '1.55',
+                ulog: '4 unita',
+                profit: '+2.2 unita',
+                prosao: true
+            },
+            {
+                dan: '9.',
+                kvota: '1.53',
+                ulog: '2 unita',
+                profit: '+1.06 unita',
+                prosao: true
+            },
+            
+            {
+                dan: '10.',
+                kvota: '1.65',
+                ulog: '4 unita',
+                profit: '-4 unita',
+                prosao: false
+            },
+            {
+                dan: '10.',
+                kvota: '1.91',
+                ulog: '5 unita',
+                profit: '+4.85 unita',
+                prosao: true
+            },
+            {
+                dan: '11.',
+                kvota: '1.6',
+                ulog: '4.3 unita',
+                profit: '+2.58 unita',
+                prosao: true
+            },
+            {
+                dan: '11.',
+                kvota: '1.67',
+                ulog: '4.3 unita',
+                profit: '+2.88 unita',
+                prosao: true
+            },
+            {
+                dan: '13.',
+                kvota: '1.45',
+                ulog: '3.9 unita',
+                profit: '-3.9 unita',
+                prosao: false
+            },
+            {
+                dan: '14.',
+                kvota: '1.53',
+                ulog: '3.7 unita',
+                profit: '+1.96 unita',
+                prosao: true
+            },
+            {
+                dan: '15.',
+                kvota: '4.0',
+                ulog: '0.5 unita',
+                profit: '+1.5 unita',
+                prosao: true
+            },
+        ]
+    },
 ]

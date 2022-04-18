@@ -266,7 +266,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
-                        <svg
+                          <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-green-500 mx-auto"
                             fill="none"
