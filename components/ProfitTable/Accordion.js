@@ -26,7 +26,8 @@ const Accordion = ({ mesec, profit, dani }) => {
       >
         <h1 className="inline-block w-32 text-left text-shadow text-2xl italic text-gray-200">
           {mesec}{" "}</h1>
-          <span className="bg-green-600 shadow-xl rounded-full px-2 py-1 text-md text-shadow-none text-gray-50 not-italic">{profit} Profit</span>
+
+          <span className={profit[0] == '+' ? "bg-green-600 shadow-xl rounded-full px-2 py-1 text-md text-shadow-none text-gray-50 not-italic" : "bg-red-600 shadow-xl rounded-full px-2 py-1 text-md text-shadow-none text-gray-50 not-italic"}>{profit} Profit</span>
         
         <svg
           xmlns="http://www.w3.org/2000/svg"

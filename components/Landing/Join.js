@@ -20,7 +20,7 @@ const Join = () => {
             </h1>
           </div>
           <div className="flex flex-col items-center">
-            <div className="grid grid-cols-1 md:grid-cols-3 w-full py-8 space-y-6 md:space-y-0 md:space-x-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 w-4/6 py-8 space-y-6 md:space-y-0 md:space-x-4">
               <AnimationOnScroll
                 animateIn="animate__fadeInUp"
                 animateOnce={true}
@@ -34,7 +34,7 @@ const Join = () => {
                     </div>
                     <div className="w-full bg-zinc-800 h-full flex items-center justify-start flex-col py-8 px-4">
                     <h1 className="text-primary-metallic border-b-2 border-gray-200 pb-2 mb-4 text-3xl italic text-shadow">
-                        15€
+                        25€
                         <span className="text-gray-200 text-xl italic text-shadow">
                           {" "}
                           / mesečno
@@ -170,7 +170,7 @@ const Join = () => {
                   </div>
                 </Link>
               </AnimationOnScroll>
-              <AnimationOnScroll
+              {/* <AnimationOnScroll
                 animateIn="animate__fadeInUp"
                 animateOnce={true}
                 delay={200}
@@ -328,7 +328,7 @@ const Join = () => {
                     </div>
                   </div>
                 </Link>
-              </AnimationOnScroll>
+              </AnimationOnScroll> */}
               <AnimationOnScroll
                 animateIn="animate__fadeInUp"
                 delay={300}

@@ -38,16 +38,16 @@ const Services = ({ isOpen, toggle }) => {
                 <div className="inline-block min-w-full overflow-hidden align-middle shadow-md rounded-lg">
                   <table className="min-w-full table-fixed border-2 border-primary rounded-lg shadow-lg">
                     <thead>
-                      <tr>
+                      <tr className="">
                         <th className="px-6 py-3 text-xs font-medium leading-4 tracking-wider text-left text-gray-400 uppercase border-b border-primary-metallic bg-hero3">
                           Paketi
                         </th>
                         <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-green-600 uppercase border-b border-primary-metallic bg-hero3">
                           JAKE UPLATE
                         </th>
-                        <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-primary-metallic uppercase border-b border-primary-metallic bg-hero3">
+                        {/* <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-primary-metallic uppercase border-b border-primary-metallic bg-hero3">
                           Standard Vip
-                        </th>
+                        </th> */}
                         <th className="px-6 py-3 text-xl font-medium text-shadow leading-4 tracking-wider text-center text-platinum uppercase border-b border-primary-metallic bg-hero3 mr-auto">
                           Admin Premium
                         </th>
@@ -67,20 +67,20 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
-                            15€{" "}
+                            25€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
                               /mesečno
                             </span>
                           </h1>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-primary-metallic">
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
                             30€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
                               /mesečno
                             </span>
                           </h1>
-                        </td>
+                        </td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <h1 className="text-4xl text-shadow text-center text-primary-metallic ">
@@ -102,7 +102,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
                       </tr>
@@ -122,11 +122,11 @@ const Services = ({ isOpen, toggle }) => {
                             70-110
                           </h1>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <h1 className="text-primary text-center text-xl">
                             Svaki Dan
                           </h1>
-                        </td>
+                        </td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <h1 className="text-primary text-center text-xl">
@@ -161,7 +161,7 @@ const Services = ({ isOpen, toggle }) => {
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-green-500 mx-auto"
@@ -176,7 +176,7 @@ const Services = ({ isOpen, toggle }) => {
                               d="M5 13l4 4L19 7"
                             />
                           </svg>
-                        </td>
+                        </td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
@@ -221,7 +221,8 @@ const Services = ({ isOpen, toggle }) => {
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-green-500 mx-auto"
@@ -236,7 +237,7 @@ const Services = ({ isOpen, toggle }) => {
                               d="M5 13l4 4L19 7"
                             />
                           </svg>
-                        </td>
+                        </td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
@@ -281,7 +282,7 @@ const Services = ({ isOpen, toggle }) => {
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-green-500 mx-auto"
@@ -296,7 +297,7 @@ const Services = ({ isOpen, toggle }) => {
                               d="M5 13l4 4L19 7"
                             />
                           </svg>
-                        </td>
+                        </td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
@@ -341,7 +342,7 @@ const Services = ({ isOpen, toggle }) => {
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
@@ -356,7 +357,7 @@ const Services = ({ isOpen, toggle }) => {
                               d="M20 12H4"
                             />
                           </svg>
-                        </td>
+                        </td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
@@ -401,7 +402,7 @@ const Services = ({ isOpen, toggle }) => {
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
@@ -416,7 +417,7 @@ const Services = ({ isOpen, toggle }) => {
                               d="M20 12H4"
                             />
                           </svg>
-                        </td>
+                        </td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-zinc-600">
                           <svg
@@ -461,7 +462,7 @@ const Services = ({ isOpen, toggle }) => {
                             />
                           </svg>
                         </td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-primary-metallic">
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-primary-metallic">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-6 w-6 stroke-zinc-400 mx-auto"
@@ -476,7 +477,7 @@ const Services = ({ isOpen, toggle }) => {
                               d="M20 12H4"
                             />
                           </svg>
-                        </td>
+                        </td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic">
                           <svg
@@ -506,7 +507,7 @@ const Services = ({ isOpen, toggle }) => {
                           </div>
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
-                        <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td> */}
 
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-primary-metallic"></td>
                       </tr>
@@ -523,7 +524,7 @@ const Services = ({ isOpen, toggle }) => {
                           </p>
                         </td>
 
-                        <td className="px-6 py-4 whitespace-no-wrap border-r border-l border-primary-metallic">
+                        {/* <td className="px-6 py-4 whitespace-no-wrap border-r border-l border-primary-metallic">
                           <p className="text-gray-200 max-w-lg text-md">
                             📈Standard vip📈 je grupa koja se nalazi na telegram
                             aplikaciji u kojoj se svakoga dana šalje najbolji i
@@ -541,7 +542,7 @@ const Services = ({ isOpen, toggle }) => {
                             ukoliko želiš da ti garantujem profit. Uživajte u
                             igri. Vaš FLEX TEAM.✅👑🌎
                           </p>
-                        </td>
+                        </td> */}
                         <td className="px-6 py-4 flex whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md">
                             🌎Admin premium🌎 - Plaćanjem pristupa ovoj grupi
@@ -691,7 +692,7 @@ const Services = ({ isOpen, toggle }) => {
                 </p>
               </div>
             </div>
-            <div className="border-2 border-primary-metallic rounded-lg">
+            {/* <div className="border-2 border-primary-metallic rounded-lg">
               <h1 className="text-4xl uppercase italic px-4 py-2 bg-primary-metallic w-full text-gray-200 text-shadow">
                 Standard Vip
               </h1>
@@ -830,7 +831,7 @@ const Services = ({ isOpen, toggle }) => {
                   igri. Vaš FLEX TEAM.✅👑🌎
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="border-2 border-platinum rounded-lg">
               <h1 className="text-4xl uppercase italic px-4 py-2 bg-platinum w-full text-gray-200 text-shadow">
                 Admin Premium
