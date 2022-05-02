@@ -572,7 +572,7 @@ const Services = ({ isOpen, toggle }) => {
               </h1>
               <div className="py-6 px-4">
                 <h1 className="text-4xl text-primary-metallic ">
-                  15€ <span className="text-lg text-gray-400">/mesečno</span>
+                  25€ <span className="text-lg text-gray-400">/mesečno</span>
                 </h1>
 
                 <h1 className="text-gray-200 italic text-3xl mt-4 text-shadow w-full border-primary-metallic border-t-2 pt-4">
