@@ -20,7 +20,7 @@ const Join = () => {
             </h1>
           </div>
           <div className="flex flex-col items-center">
-            <div className="grid grid-cols-1 md:grid-cols-2 w-4/6 py-8 space-y-6 md:space-y-0 md:space-x-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 md:w-4/6 py-8 space-y-6 md:space-y-0 md:space-x-4">
               <AnimationOnScroll
                 animateIn="animate__fadeInUp"
                 animateOnce={true}
