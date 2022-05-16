@@ -856,4 +856,81 @@ export default [
             },
         ]
     },
+    {
+        id: 4,
+        mesec: 'Maj',
+        profit: '+12%',
+        dani: [
+            {
+                dan: '1.',
+                kvota: '1.65',
+                ulog: '4.3 unita',
+                profit: '+2.8 unita',
+                prosao: true
+            },
+            {
+                dan: '4.',
+                kvota: '1.65',
+                ulog: '3.3 unita',
+                profit: '+1.65 unita',
+                prosao: true
+            },
+            {
+                dan: '5.',
+                kvota: '1.65',
+                ulog: '3.83 unita',
+                profit: '-3.83 unita',
+                prosao: false
+            },
+            {
+                dan: '6.',
+                kvota: '1.50',
+                ulog: '4 unita',
+                profit: '-4 unita',
+                prosao: false
+            },
+            {
+                dan: '7.',
+                kvota: '1.70',
+                ulog: '4.5 unita',
+                profit: '+3.15 unita',
+                prosao: true
+            },
+            {
+                dan: '9.',
+                kvota: '1.47',
+                ulog: '4.5 unita',
+                profit: '+2.11 unita',
+                prosao: true
+            },
+            {
+                dan: '12.',
+                kvota: '1.75',
+                ulog: '3.3 unita',
+                profit: '+2.47 unita',
+                prosao: true
+            },
+            {
+                dan: '13.',
+                kvota: '1.65',
+                ulog: '3 unita',
+                profit: '-3 unita',
+                prosao: false
+            },
+            {
+                dan: '14.',
+                kvota: '1.72',
+                ulog: '3.3 unita',
+                profit: '+2.34 unita',
+                prosao: true
+            },
+            {
+                dan: '15.',
+                kvota: '1.77',
+                ulog: '3 unita',
+                profit: '+2.31 unita',
+                prosao: true
+            },
+        ]
+    },
 ]
