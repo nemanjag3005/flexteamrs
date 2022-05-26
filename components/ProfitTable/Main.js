@@ -1,16 +1,19 @@
 import React from "react";
 import Navbar from "../Navbar";
 import { useRef, useState } from "react";
-import MonthsData2022 from "./MonthsData2022";
+import APMonthsData2022 from "./Data/APMonthsData2022";
 import Accordion from "./Accordion";
-import MonthsData2021 from "./MonthsData2021";
+import APMonthsData2021 from "./Data/APMonthsData2021";
+import JUMonthsData2022 from "./Data/JUMonthsData2022";
 import "animate.css";
 import Image from "next/image";
 
 const Main = ({ toggle, isOpen }) => {
   const [year, setYear] = useState(2022);
-  const data2022 = MonthsData2022;
-  const data2021 = MonthsData2021;
+  const [divizija, setDivizija] = useState("jake-uplate");
+  const APdata2022 = APMonthsData2022;
+  const APdata2021 = APMonthsData2021;
+  const JUdata2022 = JUMonthsData2022;
   return (
     <div className="bg-secondary bg-repeat flex justify-center">
       <div className="max-w-7xl w-full flex flex-col py-2">
@@ -31,7 +34,7 @@ const Main = ({ toggle, isOpen }) => {
                   tiket kao i rezultat za svaki dan, mesec i godinu. <br />
                   Od početka nam je cilj bio da budemo 100% transparentni i da
                   sve pokazujemo onako kako jeste. Zbog toga sada imamo ogromnu
-                  zajednicu koja ima poverenja u nas. <br/> Vaš Flex Team.
+                  zajednicu koja ima poverenja u nas. <br /> Vaš Flex Team.
                 </p>
               </div>
 
@@ -44,6 +47,28 @@ const Main = ({ toggle, isOpen }) => {
               </div>
             </div>
             <div className="w-full flex flex-col justify-center">
+              <div className="flex mx-auto shadow-lg mb-10">
+                <button
+                  onClick={() => setDivizija("jake-uplate")}
+                  className={` hover:text-primary-metallic text-xl py-2 px-4 bg-zinc-900 border-t-2 border-l-2 rounded-l-lg border-b-2 border-primary ${
+                    divizija === "jake-uplate"
+                      ? "text-primary-metallic"
+                      : "text-gray-200"
+                  }`}
+                >
+                  JAKE UPLATE
+                </button>
+                <button
+                  onClick={() => setDivizija("admin-premium")}
+                  className={` hover:text-primary-metallic bg-zinc-900 text-xl py-2 rounded-r-lg px-4 border-2  border-primary ${
+                    divizija === "admin-premium"
+                      ? "text-primary-metallic"
+                      : "text-gray-200"
+                  }`}
+                >
+                  ADMIN PREMIUM
+                </button>
+              </div>
               <h1 className="text-shadow mb-4 text-gray-200 text-2xl mx-auto italic text-center border-b-2 border-gray-200">
                 {year}. Godina
               </h1>
@@ -106,25 +131,40 @@ const Main = ({ toggle, isOpen }) => {
               <div className="w-full py-4 grid grid-cols-1 md:max-w-lg md:mx-auto">
                 {year == 2022 ? (
                   <>
-                    {data2022.map((data2022, index) => (
-                      <Accordion
-                        key={index}
-                        mesec={data2022.mesec}
-                        profit={data2022.profit}
-                        dani={data2022.dani}
-                      />
-                    ))}{" "}
+                    {divizija === "admin-premium" ? (
+                      APdata2022.map((data2022, index) => (
+                        <Accordion
+                          key={index}
+                          mesec={data2022.mesec}
+                          profit={data2022.profit}
+                          dani={data2022.dani}
+                        />
+                      ))
+                    ) : (
+                      JUdata2022.map((data2022, index) => (
+                        <Accordion
+                          key={index}
+                          mesec={data2022.mesec}
+                          profit={data2022.profit}
+                          dani={data2022.dani}
+                        />
+                      ))
+                    )}{" "}
                   </>
                 ) : year == 2021 ? (
                   <>
-                    {data2021.map((data2021, index) => (
-                      <Accordion
-                        key={index}
-                        mesec={data2021.mesec}
-                        profit={data2021.profit}
-                        dani={data2021.dani}
-                      />
-                    ))}
+                    {divizija === "admin-premium" ? (
+                      APdata2021.map((data2021, index) => (
+                        <Accordion
+                          key={index}
+                          mesec={data2021.mesec}
+                          profit={data2021.profit}
+                          dani={data2021.dani}
+                        />
+                      ))
+                    ) : (
+                      <></>
+                    )}
                   </>
                 ) : (
                   <h1 className="text-2xl text-center text-gray-200 italic">
@@ -135,12 +175,8 @@ const Main = ({ toggle, isOpen }) => {
             </div>
           </div>
           <div className="md:mx-6 flex flex-row justify-center items-start mt-20">
-            {/* <h1 className="text-5xl mb-6 md:text-7xl italic text-shadow text-primary font-bold">
-                  VIŠE O TABELI
-                </h1> */}
             <span className="text-primary text-2xl mt-0">*</span>
             <p className="text-xs text-center md:max-w-5xl mb-8 text-gray-200 pt-3">
-              
               Profit tabela na našem sajtu odnosi se na admin premium grupu.
               <br />
               Profit tabele na našoj sceni su u jako maloj meri zastupljene kod
