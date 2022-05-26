@@ -1,17 +1,19 @@
 import React from "react";
 import Navbar from "../Navbar";
 import { useRef, useState } from "react";
-import MonthsData2022 from "./Data/JUMonthsData2022";
+import APMonthsData2022 from "./Data/APMonthsData2022";
 import Accordion from "./Accordion";
-import MonthsData2021 from "./Data/JUMonthsData2021";
+import APMonthsData2021 from "./Data/APMonthsData2021";
+import JUMonthsData2022 from "./Data/JUMonthsData2022";
 import "animate.css";
 import Image from "next/image";
 
 const Main = ({ toggle, isOpen }) => {
   const [year, setYear] = useState(2022);
   const [divizija, setDivizija] = useState("jake-uplate");
-  const data2022 = MonthsData2022;
-  const data2021 = MonthsData2021;
+  const APdata2022 = APMonthsData2022;
+  const APdata2021 = APMonthsData2021;
+  const JUdata2022 = JUMonthsData2022;
   return (
     <div className="bg-secondary bg-repeat flex justify-center">
       <div className="max-w-7xl w-full flex flex-col py-2">
@@ -129,8 +131,8 @@ const Main = ({ toggle, isOpen }) => {
               <div className="w-full py-4 grid grid-cols-1 md:max-w-lg md:mx-auto">
                 {year == 2022 ? (
                   <>
-                    {divizija === "jake-uplate" ? (
-                      data2022.map((data2022, index) => (
+                    {divizija === "admin-premium" ? (
+                      APdata2022.map((data2022, index) => (
                         <Accordion
                           key={index}
                           mesec={data2022.mesec}
@@ -139,13 +141,20 @@ const Main = ({ toggle, isOpen }) => {
                         />
                       ))
                     ) : (
-                      <></>
+                      JUdata2022.map((data2022, index) => (
+                        <Accordion
+                          key={index}
+                          mesec={data2022.mesec}
+                          profit={data2022.profit}
+                          dani={data2022.dani}
+                        />
+                      ))
                     )}{" "}
                   </>
                 ) : year == 2021 ? (
                   <>
-                    {divizija === "jake-uplate" ? (
-                      data2021.map((data2021, index) => (
+                    {divizija === "admin-premium" ? (
+                      APdata2021.map((data2021, index) => (
                         <Accordion
                           key={index}
                           mesec={data2021.mesec}
