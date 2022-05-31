@@ -160,11 +160,11 @@ const Join = () => {
                             <br />
                           </span>
                         </li>
-                        <li className="mb-2 md:block hidden">
+                        {/* <li className="mb-2 md:block hidden">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
                             <br />
                           </span>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
