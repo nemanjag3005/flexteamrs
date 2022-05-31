@@ -67,7 +67,7 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
-                            25€{" "}
+                            30€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
                               /mesečno
                             </span>
@@ -520,7 +520,19 @@ const Services = ({ isOpen, toggle }) => {
 
                         <td className="px-6 py-4 flex whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md ">
-                          💸Jake uplate grupa💸 je grupa koja svakodnevno šalje informacije koje samo flex team poseduje o najuspešnijim igračima kladionice širom Srbije. Svakodnevno se šalje prosecno 3 do 6 tiketa sa različitih uplatnih mesta u lokalima u kojima su jaki igrači uplatili svoje tikete. Ova metoda se pokazala kao jako uspešna, pošto Vam šaljemo slike tiketa na koje su određeni ljudi imali toliku dozu sigurnosti, da su stavili od 500 do 10 000 evra. Kvote koje gađaju su najčešće zaista zavidne ~1.9-4.0 a politika i money menadžment ove grupe je da pratite apsolutno svaki tiket koji pošaljem konstantnim (identičnim) ulogom.
+                            💸Jake uplate grupa💸 je grupa koja svakodnevno
+                            šalje informacije koje samo flex team poseduje o
+                            najuspešnijim igračima kladionice širom Srbije.
+                            Svakodnevno se šalje prosecno 3 do 6 tiketa sa
+                            različitih uplatnih mesta u lokalima u kojima su
+                            jaki igrači uplatili svoje tikete. Ova metoda se
+                            pokazala kao jako uspešna, pošto Vam šaljemo slike
+                            tiketa na koje su određeni ljudi imali toliku dozu
+                            sigurnosti, da su stavili od 500 do 10 000 evra.
+                            Kvote koje gađaju su najčešće zaista zavidne
+                            ~1.9-4.0 a politika i money menadžment ove grupe je
+                            da pratite apsolutno svaki tiket koji pošaljem
+                            konstantnim (identičnim) ulogom.
                           </p>
                         </td>
 
@@ -568,11 +580,11 @@ const Services = ({ isOpen, toggle }) => {
           <div className="py-12 space-y-6 md:hidden">
             <div className="border-2 border-green-700 rounded-lg">
               <h1 className="text-4xl uppercase italic px-4 py-2 bg-green-700 w-full text-gray-200 text-shadow">
-                  JAKE UPLATE
+                JAKE UPLATE
               </h1>
               <div className="py-6 px-4">
                 <h1 className="text-4xl text-primary-metallic ">
-                  25€ <span className="text-lg text-gray-400">/mesečno</span>
+                  30€ <span className="text-lg text-gray-400">/mesečno</span>
                 </h1>
 
                 <h1 className="text-gray-200 italic text-3xl mt-4 text-shadow w-full border-primary-metallic border-t-2 pt-4">
@@ -600,7 +612,9 @@ const Services = ({ isOpen, toggle }) => {
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Tiketi Najuspešnijih</h1>
+                  <h1 className="text-lg text-gray-200">
+                    Tiketi Najuspešnijih
+                  </h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -688,7 +702,17 @@ const Services = ({ isOpen, toggle }) => {
                   Kako?
                 </h1>
                 <p className="text-gray-200 text-md mt-4">
-                  💸Jake uplate grupa💸 je grupa koja svakodnevno šalje informacije koje samo flex team poseduje o najuspešnijim igračima kladionice širom Srbije. Svakodnevno se šalje prosecno 3 do 6 tiketa sa različitih uplatnih mesta u lokalima u kojima su jaki igrači uplatili svoje tikete. Ova metoda se pokazala kao jako uspešna, pošto Vam šaljemo slike tiketa na koje su određeni ljudi imali toliku dozu sigurnosti, da su stavili od 500 do 10 000 evra. Kvote koje gađaju su najčešće zaista zavidne ~1.9-4.0 a politika i money menadžment ove grupe je da pratite apsolutno svaki tiket koji pošaljem konstantnim (identičnim) ulogom.
+                  💸Jake uplate grupa💸 je grupa koja svakodnevno šalje
+                  informacije koje samo flex team poseduje o najuspešnijim
+                  igračima kladionice širom Srbije. Svakodnevno se šalje
+                  prosecno 3 do 6 tiketa sa različitih uplatnih mesta u lokalima
+                  u kojima su jaki igrači uplatili svoje tikete. Ova metoda se
+                  pokazala kao jako uspešna, pošto Vam šaljemo slike tiketa na
+                  koje su određeni ljudi imali toliku dozu sigurnosti, da su
+                  stavili od 500 do 10 000 evra. Kvote koje gađaju su najčešće
+                  zaista zavidne ~1.9-4.0 a politika i money menadžment ove
+                  grupe je da pratite apsolutno svaki tiket koji pošaljem
+                  konstantnim (identičnim) ulogom.
                 </p>
               </div>
             </div>
@@ -868,7 +892,9 @@ const Services = ({ isOpen, toggle }) => {
                   </svg>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
-                  <h1 className="text-lg text-gray-200">Tiketi Najuspešnijih</h1>
+                  <h1 className="text-lg text-gray-200">
+                    Tiketi Najuspešnijih
+                  </h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-8 w-8 stroke-gray-200"
@@ -986,7 +1012,16 @@ const Services = ({ isOpen, toggle }) => {
                   UPLATA
                 </h1>
                 <p className="text-md mt-2 text-gray-200">
-                Za sve načine uplate članarine, kao i dodatne informacije iskljucivo se vrše putem poruke našem instagram profilu <a  href="https://www.instagram.com/flex_team_n1/" target='_blank' rel="noreferrer">@flex_team_n1</a>.
+                  Za sve načine uplate članarine, kao i dodatne informacije
+                  iskljucivo se vrše putem poruke našem instagram profilu{" "}
+                  <a
+                    href="https://www.instagram.com/flex_team_n1/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    @flex_team_n1
+                  </a>
+                  .
                 </p>
               </div>
             </AnimationOnScroll>
@@ -1004,7 +1039,9 @@ const Services = ({ isOpen, toggle }) => {
                   UČLANJENJE
                 </h1>
                 <p className="text-md mt-2 text-gray-200">
-                Nakon što uplatiš na jedan od nacina koji izabereš, prinosiš sliku uplate takodje u poruci našem instagram profilu nakon čega čekas povratnu poruku, i dalja uputstva.
+                  Nakon što uplatiš na jedan od nacina koji izabereš, prinosiš
+                  sliku uplate takodje u poruci našem instagram profilu nakon
+                  čega čekas povratnu poruku, i dalja uputstva.
                 </p>
               </div>
             </AnimationOnScroll>
@@ -1022,8 +1059,9 @@ const Services = ({ isOpen, toggle }) => {
                   IGRA
                 </h1>
                 <p className="text-md mt-2 text-gray-200">
-                Sva uputstva o igri, i pravilima kojima se morati pridržavati, ukoliko želite da budem odgovoran za Vaš profit dobijate u grupi u koju ste ubačeni.
-
+                  Sva uputstva o igri, i pravilima kojima se morati pridržavati,
+                  ukoliko želite da budem odgovoran za Vaš profit dobijate u
+                  grupi u koju ste ubačeni.
                 </p>
               </div>
             </AnimationOnScroll>

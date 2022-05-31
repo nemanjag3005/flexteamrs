@@ -33,8 +33,8 @@ const Join = () => {
                       </h1>
                     </div>
                     <div className="w-full bg-zinc-800 h-full flex items-center justify-start flex-col py-8 px-4">
-                    <h1 className="text-primary-metallic border-b-2 border-gray-200 pb-2 mb-4 text-3xl italic text-shadow">
-                        25€
+                      <h1 className="text-primary-metallic border-b-2 border-gray-200 pb-2 mb-4 text-3xl italic text-shadow">
+                        30€
                         <span className="text-gray-200 text-xl italic text-shadow">
                           {" "}
                           / mesečno
@@ -43,7 +43,7 @@ const Join = () => {
                       <ul className="space-y-4 mt-4">
                         <li className="mb-2">
                           <span className="text-gray-200  text-2xl italic text-shadow flex items-center">
-                          <svg
+                            <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -81,7 +81,7 @@ const Join = () => {
                         </li>
                         <li className="mb-2">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                          <svg
+                            <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -100,7 +100,7 @@ const Join = () => {
                         </li>
                         <li className="mb-2">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                          <svg
+                            <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -138,7 +138,7 @@ const Join = () => {
                         </li>
                         <li className="mb-2">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                          <svg
+                            <svg
                               xmlns="http://www.w3.org/2000/svg"
                               className="h-6 w-6 mr-1"
                               fill="none"
@@ -157,12 +157,12 @@ const Join = () => {
                         </li>
                         <li className="mb-2 md:block hidden">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                              <br />
+                            <br />
                           </span>
                         </li>
                         <li className="mb-2 md:block hidden">
                           <span className="text-gray-200 flex items-center text-2xl italic text-shadow">
-                              <br />
+                            <br />
                           </span>
                         </li>
                       </ul>
