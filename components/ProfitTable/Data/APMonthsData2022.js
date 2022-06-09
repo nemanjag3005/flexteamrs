@@ -1003,4 +1003,39 @@ export default [
             },
         ]
     },
+    {
+        id: 5,
+        mesec: 'Jun',
+        profit: '-7.98%',
+        dani: [
+            {
+                dan: '5.',
+                kvota: '1.90',
+                ulog: '12.5 unita',
+                profit: '-12.5 unita',
+                prosao: false
+            },
+            {
+                dan: '7.',
+                kvota: '1.85',
+                ulog: '4.3 unita',
+                profit: '+3.65 unita',
+                prosao: true
+            },
+            {
+                dan: '8.',
+                kvota: '1.91',
+                ulog: '3 unita',
+                profit: '+2.73 unita',
+                prosao: true
+            },
+            {
+                dan: '9.',
+                kvota: '1.71',
+                ulog: '3 unita',
+                profit: '+2.13 unita',
+                prosao: true
+            },
+        ]
+    }
 ]

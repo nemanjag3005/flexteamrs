@@ -334,7 +334,7 @@ export default [
     {
         id: 4,
         mesec: 'Maj',
-        profit: '+43.45%',
+        profit: '+25.95%',
         dani: [
             {
                 dan: '1.',
@@ -658,6 +658,139 @@ export default [
                 profit: '+3.7%',
                 prosao: true
             },
+            {
+                dan: '27.',
+                kvota: '1.69',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '28.',
+                kvota: '2.50',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '28.',
+                kvota: '1.50',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '29.',
+                kvota: '1.50',
+                ulog: '5%',
+                profit: '+2.5%',
+                prosao: true
+            },
+            {
+                dan: '30.',
+                kvota: '1.56',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
         ]
     },
+    {
+        id: 5,
+        mesec: 'Jun',
+        profit: '+4.3%',
+        dani: [
+            {
+                dan: '1.',
+                kvota: '1.53',
+                ulog: '5%',
+                profit: '+2.65%',
+                prosao: true
+            },
+            {
+                dan: '1.',
+                kvota: '1.60',
+                ulog: '5%',
+                profit: '+3%',
+                prosao: true
+            },
+            {
+                dan: '2.',
+                kvota: '1.62',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '3.',
+                kvota: '1.68',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '4.',
+                kvota: '1.85',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '4.',
+                kvota: '1.37',
+                ulog: '5%',
+                profit: '+1.85%',
+                prosao: true
+            },
+            {
+                dan: '5.',
+                kvota: '1.20',
+                ulog: '5%',
+                profit: '+1%',
+                prosao: true
+            },
+            {
+                dan: '5.',
+                kvota: '1.50',
+                ulog: '5%',
+                profit: '+2.5%',
+                prosao: true
+            },
+            {
+                dan: '6.',
+                kvota: '1.55',
+                ulog: '5%',
+                profit: '+2.75%',
+                prosao: true
+            },
+            {
+                dan: '6.',
+                kvota: '1.25',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '7.',
+                kvota: '1.85',
+                ulog: '5%',
+                profit: '+4.25%',
+                prosao: true
+            },
+            {
+                dan: '8.',
+                kvota: '1.55',
+                ulog: '5%',
+                profit: '+2.75%',
+                prosao: true
+            },
+            {
+                dan: '9.',
+                kvota: '1.71',
+                ulog: '5%',
+                profit: '+3.55%',
+                prosao: true
+            },
+        ]
+    }
 ]
