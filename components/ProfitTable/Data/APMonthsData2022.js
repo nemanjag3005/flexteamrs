@@ -1006,7 +1006,7 @@ export default [
     {
         id: 5,
         mesec: 'Jun',
-        profit: '-42,42%',
+        profit: '-60,96%',
         dani: [
             {
                 dan: '5.',
@@ -1090,6 +1090,48 @@ export default [
                 kvota: '1.60',
                 ulog: '4.7 unita',
                 profit: '-4.7 unita',
+                prosao: false
+            },
+            {
+                dan: '16.',
+                kvota: '1.60',
+                ulog: '4.7 unita',
+                profit: '-4.7 unita',
+                prosao: false
+            },
+            {
+                dan: '18.',
+                kvota: '1.53',
+                ulog: '5 unita',
+                profit: '+2.65 unita',
+                prosao: true
+            },
+            {
+                dan: '19.',
+                kvota: '1.47',
+                ulog: '4 unita',
+                profit: '-4 unita',
+                prosao: false
+            },
+            {
+                dan: '19.',
+                kvota: '1.62',
+                ulog: '8.3 unita',
+                profit: '+5.14 unita',
+                prosao: true
+            },
+            {
+                dan: '21.',
+                kvota: '1.55',
+                ulog: '5 unita',
+                profit: '-5 unita',
+                prosao: false
+            },
+            {
+                dan: '22.',
+                kvota: '2.01',
+                ulog: '3.3 unita',
+                profit: '-3.3 unita',
                 prosao: false
             },
         ]
