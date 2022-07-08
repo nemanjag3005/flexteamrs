@@ -1142,5 +1142,68 @@ export default [
                 prosao: true
             },
         ]
+    },
+    {
+        id: 6,
+        mesec: 'Jul',
+        profit: '-7%',
+        dani: [
+            {
+                dan: '1.',
+                kvota: '1.47',
+                ulog: '4 unita',
+                profit: '+1.88 unita',
+                prosao: true
+            },
+            {
+                dan: '2.',
+                kvota: '1.80',
+                ulog: '4 unita',
+                profit: '-4 unita',
+                prosao: false
+            },
+            {
+                dan: '2.',
+                kvota: '5.50',
+                ulog: '0.5 unita',
+                profit: '-0.5 unita',
+                prosao: false
+            },
+            {
+                dan: '3.',
+                kvota: '1.50',
+                ulog: '5.5 unita',
+                profit: '+2.75 unita',
+                prosao: true
+            },
+            {
+                dan: '4.',
+                kvota: '1.47',
+                ulog: '4.7 unita',
+                profit: '-4.7 unita',
+                prosao: false
+            },
+            {
+                dan: '5.',
+                kvota: '1.62',
+                ulog: '6 unita',
+                profit: '+3.75 unita',
+                prosao: true
+            },
+            {
+                dan: '5.',
+                kvota: '3.65',
+                ulog: '0.5 unita',
+                profit: '+1.32 unita',
+                prosao: true
+            },
+            {
+                dan: '6.',
+                kvota: '1.75',
+                ulog: '4 unita',
+                profit: '-4 unita',
+                prosao: false
+            },
+        ]
     }
 ]

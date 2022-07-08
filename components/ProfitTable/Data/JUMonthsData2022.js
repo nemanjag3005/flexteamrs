@@ -876,5 +876,61 @@ export default [
                 prosao: true
             },
         ]
+    },
+    {
+        id: 6,
+        mesec: 'Jul',
+        profit: '+0.0%',
+        dani: [
+            {
+                dan: '1.',
+                kvota: '1.47',
+                ulog: '5%',
+                profit: '+2.35%',
+                prosao: true
+            },
+            {
+                dan: '2.',
+                kvota: '2.0',
+                ulog: '5%',
+                profit: '+5%',
+                prosao: true
+            },
+            {
+                dan: '3.',
+                kvota: '2.40',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '3.',
+                kvota: '2.40',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '4.',
+                kvota: '1.97',
+                ulog: '5%',
+                profit: '+4.8%',
+                prosao: true
+            },
+            {
+                dan: '6.',
+                kvota: '1.56',
+                ulog: '5%',
+                profit: '-5%',
+                prosao: false
+            },
+            {
+                dan: '7.',
+                kvota: '1.57',
+                ulog: '5%',
+                profit: '+2.85%',
+                prosao: true
+            },
+        ]
     }
 ]
