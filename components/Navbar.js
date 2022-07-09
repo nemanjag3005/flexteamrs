@@ -26,7 +26,7 @@ const Navbar = ({ isOpen, toggle }) => {
         <button
           onClick={toggle}
           type="button"
-          className="inline-flex items-center p-2 text-sm rounded-lg md:hidden  focus:outline-none focus:ring-2 text-gray-200 focus:ring-gray-600"
+          className="inline-flex items-center p-2 text-sm rounded-lg md:hidden focus:outline-none focus:ring-2 text-gray-200 focus:ring-gray-600"
         >
           <svg
             className=" w-8 h-8"
