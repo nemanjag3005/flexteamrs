@@ -1299,7 +1299,7 @@ export default [
         kvota: "1.73",
         ulog: "3 unita",
         profit: "+2.19 unita",
-        prosao: false,
+        prosao: true,
       },
     ],
   },
