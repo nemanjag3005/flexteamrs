@@ -9,6 +9,7 @@ const Tickets = ({ isOpen, toggle }) => {
     "3rd.png",
     "5th.png",
     "6th.png",
+    "10th.png",
     "7th.png",
     "9th.png",
     "8th.png",
