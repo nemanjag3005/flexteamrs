@@ -1348,7 +1348,7 @@ export default [
   {
     id: 7,
     mesec: "Avgust",
-    profit: "+9.2%",
+    profit: "+10.86%",
     dani: [
       {
         dan: "2.",
