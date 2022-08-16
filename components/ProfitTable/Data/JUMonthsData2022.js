@@ -1416,14 +1416,14 @@ export default [
         kvota: "1.58",
         ulog: "4%",
         profit: "-4%",
-        prosao: true,
+        prosao: false,
       },
       {
         dan: "16.",
         kvota: "1.60",
         ulog: "5%",
         profit: "-5%",
-        prosao: true,
+        prosao: false,
       },
     ]
   }
