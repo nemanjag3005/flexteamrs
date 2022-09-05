@@ -1566,5 +1566,75 @@ export default [
         prosao: true,
       },
     ]
+  },
+  {
+    id: 8,
+    mesec: "Septembar",
+    profit: "+12.48%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "1.40",
+        ulog: "6%",
+        profit: "-6%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "1.77",
+        ulog: "10%",
+        profit: "+7.7%",
+        prosao: true,
+      },
+      {
+        dan: "2.",
+        kvota: "1.50",
+        ulog: "7%",
+        profit: "-7%",
+        prosao: false,
+      },
+      {
+        dan: "3.",
+        kvota: "1.52",
+        ulog: "10%",
+        profit: "+5.2%",
+        prosao: true,
+      },
+      {
+        dan: "3.",
+        kvota: "1.60",
+        ulog: "8%",
+        profit: "+4.8%",
+        prosao: true,
+      },
+      {
+        dan: "4.",
+        kvota: "1.50",
+        ulog: "7%",
+        profit: "+3.5%",
+        prosao: true,
+      },
+      {
+        dan: "4.",
+        kvota: "1.52",
+        ulog: "14%",
+        profit: "+7.28%",
+        prosao: true,
+      },
+      {
+        dan: "4.",
+        kvota: "1.50",
+        ulog: "10%",
+        profit: "+5%",
+        prosao: true,
+      },
+      {
+        dan: "4.",
+        kvota: "1.50",
+        ulog: "8%",
+        profit: "-8%",
+        prosao: false,
+      },
+    ]
   }
 ];
