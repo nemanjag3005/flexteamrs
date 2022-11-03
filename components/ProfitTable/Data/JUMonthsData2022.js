@@ -2442,4 +2442,53 @@ export default [
       }
     ]
   },
+  {
+    id: 10,
+    mesec: "Novembar",
+    profit: "+2.1%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "2.03",
+        ulog: "15%",
+        profit: "-15%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "1.70",
+        ulog: "6%",
+        profit: "-6%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "1.70",
+        ulog: "10%",
+        profit: "+7%",
+        prosao: true,
+      },
+      {
+        dan: "2.",
+        kvota: "1.96",
+        ulog: "7%",
+        profit: "+6.72%",
+        prosao: true,
+      },
+      {
+        dan: "3.",
+        kvota: "1.68",
+        ulog: "7%",
+        profit: "+4.76%",
+        prosao: true,
+      },
+      {
+        dan: "3.",
+        kvota: "1.66",
+        ulog: "7%",
+        profit: "+4.62%",
+        prosao: true,
+      }
+    ]
+  }
 ];
