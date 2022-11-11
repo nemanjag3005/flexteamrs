@@ -2298,7 +2298,7 @@ export default [
         kvota: "1.60",
         ulog: "6%",
         profit: "-6%",
-        prosao: false
+        prosao: false,
       },
       {
         dan: "9.",
@@ -2439,8 +2439,8 @@ export default [
         ulog: "10%",
         profit: "+7%",
         prosao: true,
-      }
-    ]
+      },
+    ],
   },
   {
     id: 10,
@@ -2517,6 +2517,41 @@ export default [
         profit: "+8.75%",
         prosao: true,
       },
-    ]
-  }
+      {
+        dan: "8.",
+        kvota: "3.03",
+        ulog: "3%",
+        profit: "-3%",
+        prosao: false,
+      },
+      {
+        dan: "8.",
+        kvota: "1.97",
+        ulog: "5%",
+        profit: "-5%",
+        prosao: false,
+      },
+      {
+        dan: "9.",
+        kvota: "2.07",
+        ulog: "4%",
+        profit: "-4%",
+        prosao: false,
+      },
+      {
+        dan: "10.",
+        kvota: "1.46",
+        ulog: "40%",
+        profit: "+18.4%",
+        prosao: true,
+      },
+      {
+        dan: "10.",
+        kvota: "1.89",
+        ulog: "5%",
+        profit: "+4.45%",
+        prosao: true,
+      },
+    ],
+  },
 ];

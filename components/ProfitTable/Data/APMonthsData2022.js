@@ -1560,7 +1560,7 @@ export default [
         profit: "-16.5 unita",
         prosao: false,
       },
-    ]
+    ],
   },
   {
     id: 8,
@@ -1749,7 +1749,7 @@ export default [
         profit: "-3%",
         prosao: false,
       },
-    ]
+    ],
   },
   {
     id: 9,
@@ -1875,7 +1875,7 @@ export default [
         profit: "+7%",
         prosao: true,
       },
-    ]
+    ],
   },
   {
     id: 10,
@@ -1917,6 +1917,13 @@ export default [
         profit: "9.6%",
         prosao: true,
       },
-    ]
-  }
+      {
+        dan: "10.",
+        kvota: "1.46",
+        ulog: "42%",
+        profit: "+19.32%",
+        prosao: true,
+      },
+    ],
+  },
 ];
