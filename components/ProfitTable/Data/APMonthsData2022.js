@@ -1,3 +1,5 @@
+import { PolarRadiusAxis } from "recharts";
+
 export default [
   {
     id: 0,
@@ -676,7 +678,6 @@ export default [
         profit: "+1.06 unita",
         prosao: true,
       },
-
       {
         dan: "10.",
         kvota: "1.65",
