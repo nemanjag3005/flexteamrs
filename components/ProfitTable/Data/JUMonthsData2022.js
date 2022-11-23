@@ -2445,7 +2445,7 @@ export default [
   {
     id: 10,
     mesec: "Novembar",
-    profit: "+20.9%",
+    profit: "+47.6%",
     dani: [
       {
         dan: "1.",
@@ -2656,6 +2656,41 @@ export default [
         ulog: "2%",
         profit: "-2%",
         prosao: false
+      },
+      {
+        dan: "21.",
+        kvota: "1.40",
+        ulog: "12%",
+        profit: "+4.8%",
+        prosao: true
+      },
+      {
+        dan: "21.",
+        kvota: "1.96",
+        ulog: "4%",
+        profit: "+3.84%",
+        prosao: true
+      },
+      {
+        dan: "22.",
+        kvota: "1.42",
+        ulog: "5%",
+        profit: "-5%",
+        prosao: false
+      },
+      {
+        dan: "22.",
+        kvota: "1.89",
+        ulog: "20%",
+        profit: "-20%",
+        prosao: false
+      },
+      {
+        dan: "23.",
+        kvota: "2.25",
+        ulog: "34.54%",
+        profit: "+43.06%",
+        prosao: true
       }
     ],
   },
