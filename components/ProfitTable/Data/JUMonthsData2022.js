@@ -2715,4 +2715,60 @@ export default [
       }
     ],
   },
+  {
+    id: 11,
+    mesec: "Decembar",
+    profit: "+8.8%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "3.21",
+        ulog: "3.5%",
+        profit: "-3%",
+        prosao: false,
+      },
+      {
+        dan: "1.",
+        kvota: "1.50",
+        ulog: "15%",
+        profit: "-15%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "2.47",
+        ulog: "5%",
+        profit: "-5%",
+        prosao: false,
+      },
+      {
+        dan: "3.",
+        kvota: "1.93",
+        ulog: "10%",
+        profit: "+9.3%",
+        prosao: true,
+      },
+      {
+        dan: "4.",
+        kvota: "1.75",
+        ulog: "10%",
+        profit: "+7.5%",
+        prosao: true,
+      },
+      {
+        dan: "4.",
+        kvota: "1.40",
+        ulog: "20%",
+        profit: "+8%",
+        prosao: true,
+      },
+      {
+        dan: "5.",
+        kvota: "1.70",
+        ulog: "10%",
+        profit: "+7%",
+        prosao: true,
+      },
+    ]
+  }
 ];
