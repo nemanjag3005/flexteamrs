@@ -2784,10 +2784,31 @@ export default [
         prosao: true,
       },
       {
-        dan: "2.",
+        dan: "8.",
         kvota: "5.20",
         ulog: "0.8%",
         profit: "-0.8%",
+        prosao: false,
+      },
+      {
+        dan: "9.",
+        kvota: "1.48",
+        ulog: "17%",
+        profit: "-17%",
+        prosao: false,
+      },
+      {
+        dan: "9.",
+        kvota: "1.85",
+        ulog: "9%",
+        profit: "+7.65%",
+        prosao: true,
+      },
+      {
+        dan: "10.",
+        kvota: "1.93",
+        ulog: "12%",
+        profit: "-12%",
         prosao: false,
       },
     ]

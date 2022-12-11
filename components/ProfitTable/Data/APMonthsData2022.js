@@ -2010,11 +2010,25 @@ export default [
         prosao: true,
       },
       {
-        dan: "2.",
+        dan: "8.",
         kvota: "5.20",
         ulog: "0.8%",
         profit: "-0.8%",
         prosao: false,
+      },
+      {
+        dan: "9.",
+        kvota: "1.48",
+        ulog: "12%",
+        profit: "-12%",
+        prosao: false,
+      },
+      {
+        dan: "9.",
+        kvota: "1.85",
+        ulog: "8%",
+        profit: "+6.8%",
+        prosao: true,
       },
     ]
   }
