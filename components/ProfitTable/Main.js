@@ -5,6 +5,8 @@ import APMonthsData2022 from "./Data/APMonthsData2022";
 import Accordion from "./Accordion";
 import APMonthsData2021 from "./Data/APMonthsData2021";
 import JUMonthsData2022 from "./Data/JUMonthsData2022";
+import APMonthsData2023 from "./Data/APMonthsData2023";
+import JUMonthsData2023 from "./Data/JUMonthsData2023";
 import "animate.css";
 import Image from "next/image";
 
@@ -14,6 +16,8 @@ const Main = ({ toggle, isOpen }) => {
   const APdata2022 = APMonthsData2022;
   const APdata2021 = APMonthsData2021;
   const JUdata2022 = JUMonthsData2022;
+  const APdata2023 = APMonthsData2023;
+  const JUdata2023 = JUMonthsData2023;
   return (
     <div className="bg-secondary bg-repeat flex justify-center">
       <div className="max-w-7xl w-full flex flex-col py-2">
@@ -165,6 +169,28 @@ const Main = ({ toggle, isOpen }) => {
                     ) : (
                       <></>
                     )}
+                  </>
+                ) :year == 2023 ? (
+                  <>
+                    {divizija === "admin-premium" ? (
+                      APdata2023.map((data2022, index) => (
+                        <Accordion
+                          key={index}
+                          mesec={data2022.mesec}
+                          profit={data2022.profit}
+                          dani={data2022.dani}
+                        />
+                      ))
+                    ) : (
+                      JUdata2023.map((data2022, index) => (
+                        <Accordion
+                          key={index}
+                          mesec={data2022.mesec}
+                          profit={data2022.profit}
+                          dani={data2022.dani}
+                        />
+                      ))
+                    )}{" "}
                   </>
                 ) : (
                   <h1 className="text-2xl text-center text-gray-200 italic">
