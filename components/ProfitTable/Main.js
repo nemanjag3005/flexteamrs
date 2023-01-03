@@ -11,7 +11,7 @@ import "animate.css";
 import Image from "next/image";
 
 const Main = ({ toggle, isOpen }) => {
-  const [year, setYear] = useState(2022);
+  const [year, setYear] = useState(2023);
   const [divizija, setDivizija] = useState("jake-uplate");
   const APdata2022 = APMonthsData2022;
   const APdata2021 = APMonthsData2021;
