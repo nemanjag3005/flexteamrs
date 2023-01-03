@@ -5,5 +5,5 @@ export default [
       profit: "+0%",
       dani: [
     ]
-}
+},
 ]

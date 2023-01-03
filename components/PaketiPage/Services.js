@@ -119,7 +119,7 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
                           <h1 className="text-primary text-center text-xl">
-                            70-110
+                            24-30
                           </h1>
                         </td>
                         {/* <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-r-primary-metallic border-zinc-600">
@@ -200,7 +200,7 @@ const Services = ({ isOpen, toggle }) => {
                           <div className="flex items-center">
                             <div className="ml-4">
                               <div className="text-md font-medium leading-5 text-gray-200">
-                                Tiketi Najuspešnijih
+                                Flex team pickovi
                               </div>
                             </div>
                           </div>
@@ -520,19 +520,14 @@ const Services = ({ isOpen, toggle }) => {
 
                         <td className="px-6 py-4 flex whitespace-no-wrap ">
                           <p className="text-gray-200 max-w-lg text-md ">
-                            💸Jake uplate grupa💸 je grupa koja svakodnevno
-                            šalje informacije koje samo flex team poseduje o
-                            najuspešnijim igračima kladionice širom Srbije.
-                            Svakodnevno se šalje prosecno 3 do 6 tiketa sa
-                            različitih uplatnih mesta u lokalima u kojima su
-                            jaki igrači uplatili svoje tikete. Ova metoda se
-                            pokazala kao jako uspešna, pošto Vam šaljemo slike
-                            tiketa na koje su određeni ljudi imali toliku dozu
-                            sigurnosti, da su stavili od 500 do 10 000 evra.
-                            Kvote koje gađaju su najčešće zaista zavidne
-                            ~1.9-4.0 a politika i money menadžment ove grupe je
-                            da pratite apsolutno svaki tiket koji pošaljem
-                            konstantnim (identičnim) ulogom.
+                            Jake uplate je grupa koja svakodnevno šalje sastavljen najsigurniji tiket datog dana ispod koga precizno piše sa koliko
+                            procenata budžeta član treba ispratiti dati tiket, kao i glasovna poruka u kojoj se jasno dobija detaljno 
+                            obrazloženje zašto je odlučeno novac uložiti baš na taj tiket. Analiza je isključivo na bazi razmišljanja Flex
+                            team-a, što je neverovatno urodilo plodom, a to se jasno vidi na stranici profit tabele, u sekciji jakih
+                            uplata. Svakodnevno se šalje 1-2 najsigurnija tiketa, a to su u 95% slučajeva jaki singlovi, sa kvotom 1.6 do 2.2. Sve dodatne 
+                            informacije možete dobiti putem poruke našoj instagram stranici, a nakon učlanjenja, tikete dobijate uglavnom 4 do 7 sati pre 
+                            početka meča, a na Vama je samo da ispratite svaki tiket 
+                            koji se pošalje sa procentom Vašeg budžeta koji piše ispod tiketa.
                           </p>
                         </td>
 
@@ -559,15 +554,17 @@ const Services = ({ isOpen, toggle }) => {
                           <p className="text-gray-200 max-w-lg text-md">
                             🌎Admin premium🌎 - Plaćanjem pristupa ovoj grupi
                             automatski si sebi obezbedio uvid u apsolutno sve
-                            sto ću odigrati datog meseca kao i u to koliko ću
-                            novca uložiti na određeni tiket. Ali ne, moj budžet
-                            za klađenje na mesečnom nivou nije 10, 20, 50...
-                            hiljada dinara, već 300+ hiljada dinara, apsolutno
-                            svaki mesec, bez izuzetaka. Svaki put kada ja igram
-                            dobićes 5-6h pre utakmice sliku tog tiketa sa slikom
-                            moje uplate na njemu. Uživaj i gledaj kako najbolji
-                            svih vremena gradi svoj profit apsolutno svaki mesec
-                            bez izuzetaka. Vaš FLEX TEAM📈
+                            na šta bih lično uložio svoj novac. Dakle ova grupa
+                            je grupa namenjena ljudima istog stila igre poput Flex team-a.
+                            A to odlikuju osobine retkih i jakih udaraca i u momentima loše
+                            ponude spremnosti na pauzu i do 7 dana. Do avgusta 2022 slao 
+                            sam tikete sa lično svojim ulozima koje je pratila banka od 3.000e, 
+                            ali kako sam primetio da su rezultati daleko bolji 
+                            kada je moja glava van igre i razmišljanje potpuno objektivno, 
+                            odlučio sam da se odreknem svog profita zarad boljih rezultata članova
+                            premium grupe. Takođe plaćanjem pristupa premium grupi, gratis se dobija 
+                            uvid i u grupu jakih uplata, te u momentima pauze premium grupe se možete 
+                            okrenuti igri grupe jakih uplata.
                           </p>
                         </td>
                       </tr>
@@ -592,7 +589,7 @@ const Services = ({ isOpen, toggle }) => {
                 </h1>
                 <div className="w-full flex mt-6 justify-between items-center">
                   <h1 className="text-lg text-gray-200">Mesečno Tiketa</h1>
-                  <h1 className="text-xl text-gray-200">80</h1>
+                  <h1 className="text-xl text-gray-200">24-30</h1>
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
                   <h1 className="text-lg text-gray-200">Podrška</h1>
@@ -613,7 +610,7 @@ const Services = ({ isOpen, toggle }) => {
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
                   <h1 className="text-lg text-gray-200">
-                    Tiketi Najuspešnijih
+                  Flex team pickovi
                   </h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -702,17 +699,14 @@ const Services = ({ isOpen, toggle }) => {
                   Kako?
                 </h1>
                 <p className="text-gray-200 text-md mt-4">
-                  💸Jake uplate grupa💸 je grupa koja svakodnevno šalje
-                  informacije koje samo flex team poseduje o najuspešnijim
-                  igračima kladionice širom Srbije. Svakodnevno se šalje
-                  prosecno 3 do 6 tiketa sa različitih uplatnih mesta u lokalima
-                  u kojima su jaki igrači uplatili svoje tikete. Ova metoda se
-                  pokazala kao jako uspešna, pošto Vam šaljemo slike tiketa na
-                  koje su određeni ljudi imali toliku dozu sigurnosti, da su
-                  stavili od 500 do 10 000 evra. Kvote koje gađaju su najčešće
-                  zaista zavidne ~1.9-4.0 a politika i money menadžment ove
-                  grupe je da pratite apsolutno svaki tiket koji pošaljem
-                  konstantnim (identičnim) ulogom.
+                            Jake uplate je grupa koja svakodnevno šalje sastavljen najsigurniji tiket datog dana ispod koga precizno piše sa koliko
+                            procenata budžeta član treba ispratiti dati tiket, kao i glasovna poruka u kojoj se jasno dobija detaljno 
+                            obrazloženje zašto je odlučeno novac uložiti baš na taj tiket. Analiza je isključivo na bazi razmišljanja Flex
+                            team-a, što je neverovatno urodilo plodom, a to se jasno vidi na stranici profit tabele, u sekciji jakih
+                            uplata. Svakodnevno se šalje 1-2 najsigurnija tiketa, a to su u 95% slučajeva jaki singlovi, sa kvotom 1.6 do 2.2. Sve dodatne 
+                            informacije možete dobiti putem poruke našoj instagram stranici, a nakon učlanjenja, tikete dobijate uglavnom 4 do 7 sati pre 
+                            početka meča, a na Vama je samo da ispratite svaki tiket 
+                            koji se pošalje sa procentom Vašeg budžeta koji piše ispod tiketa.
                 </p>
               </div>
             </div>
@@ -893,7 +887,7 @@ const Services = ({ isOpen, toggle }) => {
                 </div>
                 <div className="w-full flex my-3 justify-between items-center">
                   <h1 className="text-lg text-gray-200">
-                    Tiketi Najuspešnijih
+                  Flex team pickovi
                   </h1>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -982,15 +976,19 @@ const Services = ({ isOpen, toggle }) => {
                   Kako?
                 </h1>
                 <p className="text-gray-200 text-md mt-4">
-                  🌎Admin premium🌎 - Plaćanjem pristupa ovoj grupi automatski
-                  si sebi obezbedio uvid u apsolutno sve sto ću odigrati datog
-                  meseca kao i u to koliko ću novca uložiti na određeni tiket.
-                  Ali ne, moj budžet za klađenje na mesečnom nivou nije 10, 20,
-                  50... hiljada dinara, već 300+ hiljada dinara, apsolutno svaki
-                  mesec, bez izuzetaka. Svaki put kada ja igram dobićes 5-6h pre
-                  utakmice sliku tog tiketa sa slikom moje uplate na njemu.
-                  Uživaj i gledaj kako najbolji svih vremena gradi svoj profit
-                  apsolutno svaki mesec bez izuzetaka. Vaš FLEX TEAM📈
+                🌎Admin premium🌎 - Plaćanjem pristupa ovoj grupi
+                            automatski si sebi obezbedio uvid u apsolutno sve
+                            na šta bih lično uložio svoj novac. Dakle ova grupa
+                            je grupa namenjena ljudima istog stila igre poput Flex team-a.
+                            A to odlikuju osobine retkih i jakih udaraca i u momentima loše
+                            ponude spremnosti na pauzu i do 7 dana. Do avgusta 2022 slao 
+                            sam tikete sa lično svojim ulozima koje je pratila banka od 3.000e, 
+                            ali kako sam primetio da su rezultati daleko bolji 
+                            kada je moja glava van igre i razmišljanje potpuno objektivno, 
+                            odlučio sam da se odreknem svog profita zarad boljih rezultata članova
+                            premium grupe. Takođe plaćanjem pristupa premium grupi, gratis se dobija 
+                            uvid i u grupu jakih uplata, te u momentima pauze premium grupe se možete 
+                            okrenuti igri grupe jakih uplata.
                 </p>
               </div>
             </div>
