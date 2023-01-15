@@ -2,7 +2,7 @@ export default [
     {
       id: 0,
       mesec: "Januar",
-      profit: "-10.9%",
+      profit: "-0.9%",
       dani: [
         
         {
@@ -59,6 +59,13 @@ export default [
           kvota: "1.60",
           ulog: "30%",
           profit: "+18%",
+          prosao: true,
+        },
+        {
+          dan: "15.",
+          kvota: "1.40",
+          ulog: "25%",
+          profit: "+10%",
           prosao: true,
         },
     ]
