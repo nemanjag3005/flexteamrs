@@ -117,6 +117,13 @@ export default [
           profit: "+0%",
           prosao: true,
         },
+        {
+          dan: "17.",
+          kvota: "1.62",
+          ulog: "0%",
+          profit: "+0%",
+          prosao: false,
+        },
     ]
 },
 ]
