@@ -148,8 +148,8 @@ export default [
         {
           dan: "22.",
           kvota: "1.90",
-          ulog: "5%",
-          profit: "+4.5%",
+          ulog: "0%",
+          profit: "+0%",
           prosao: true,
         },
         {
