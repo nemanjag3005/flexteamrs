@@ -98,4 +98,18 @@ export default [
         },
     ]
 },
+{
+  id: 1,
+  mesec: "Februar",
+  profit: "+5.6%",
+  dani: [
+    {
+      dan: "3.",
+      kvota: "1.40",
+      ulog: "14%",
+      profit: "+5.6%",
+      prosao: true,
+    },
+  ]
+}
 ]
