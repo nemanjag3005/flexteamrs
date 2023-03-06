@@ -369,6 +369,27 @@ export default [
       profit: "+11.1%",
       prosao: true,
     },
+    {
+      dan: "4.",
+      kvota: "1.65",
+      ulog: "6%",
+      profit: "-6%",
+      prosao: false,
+    },
+    {
+      dan: "5.",
+      kvota: "1.54",
+      ulog: "15%",
+      profit: "-15%",
+      prosao: false,
+    },
+    {
+      dan: "5.",
+      kvota: "2.08",
+      ulog: "5%",
+      profit: "-5%",
+      prosao: false,
+    },
   ]
 },
 ]
