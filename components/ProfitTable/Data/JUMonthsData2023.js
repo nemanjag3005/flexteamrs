@@ -352,7 +352,7 @@ export default [
   {
     id: 2,
     mesec: "Mart",
-    profit: "+57.9%",
+    profit: "+78.0%",
     dani: [
       {
         dan: "2.",
@@ -528,7 +528,21 @@ export default [
         ulog: "25%",
         profit: "+12.75%",
         prosao: true,
-      }
+      },
+      {
+        dan: "28.",
+        kvota: "1.51",
+        ulog: "30%",
+        profit: "+15.3%",
+        prosao: true,
+      },
+      {
+        dan: "28.",
+        kvota: "1.96",
+        ulog: "5%",
+        profit: "+4.8%",
+        prosao: true,
+      },
     ],
   },
 ];
