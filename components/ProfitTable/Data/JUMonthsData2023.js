@@ -523,5 +523,19 @@ export default [
         prosao: false,
       }
     ],
-  },
+  },  
+  {
+    id: 3,
+    mesec: "April",
+    profit: "+8.12%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "1.58",
+        ulog: "14%",
+        profit: "+8.12%",
+        prosao: true,
+      },
+    ]
+  }
 ];
