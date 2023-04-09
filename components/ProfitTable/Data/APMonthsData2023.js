@@ -310,7 +310,7 @@ export default [
         kvota: "2.99",
         ulog: "3%",
         profit: "-3%",
-        prosao: true,
+        prosao: false,
       },
     ]
   }
