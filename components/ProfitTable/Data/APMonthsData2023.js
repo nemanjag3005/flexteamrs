@@ -261,7 +261,7 @@ export default [
   {
     id: 3,
     mesec: "April",
-    profit: "-9.38%",
+    profit: "-7.68%",
     dani: [
       {
         dan: "1.",
@@ -333,6 +333,20 @@ export default [
         profit: "+11.4%",
         prosao: true,
       },
-    ]
-  }
+      {
+        dan: "16.",
+        kvota: "1.77",
+        ulog: "10%",
+        profit: "-10%",
+        prosao: false,
+      },
+      {
+        dan: "16.",
+        kvota: "1.90",
+        ulog: "13%",
+        profit: "+11.7%",
+        prosao: true,
+      },
+    ],
+  },
 ];
