@@ -650,7 +650,7 @@ export default [
       },
       {
         dan: "25.",
-        kvota: "1.48",
+        kvota: "1.40",
         ulog: "8%",
         profit: "+3.2%",
         prosao: true,
