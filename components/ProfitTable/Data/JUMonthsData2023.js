@@ -825,4 +825,46 @@ export default [
       },
     ],
   },
+  {
+    id: 5,
+    mesec: "Jun",
+    profit: "+3%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "1.52",
+        ulog: "10%",
+        profit: "+5.2%",
+        prosao: true,
+      },
+      {
+        dan: "2.",
+        kvota: "1.57",
+        ulog: "6%",
+        profit: "-6%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "1.62",
+        ulog: "6%",
+        profit: "-6%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "1.45",
+        ulog: "8%",
+        profit: "+3.6%",
+        prosao: true,
+      },
+      {
+        dan: "3.",
+        kvota: "1.62",
+        ulog: "10%",
+        profit: "+6.2%",
+        prosao: true,
+      },
+    ],
+  }
 ];
