@@ -492,7 +492,7 @@ export default [
   {
     id: 5,
     mesec: "Jun",
-    profit: "+50.5%",
+    profit: "+50.05%",
     dani: [
       {
         dan: "1.",
