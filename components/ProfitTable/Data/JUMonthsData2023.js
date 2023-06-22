@@ -828,7 +828,7 @@ export default [
   {
     id: 5,
     mesec: "Jun",
-    profit: "+40%",
+    profit: "+42.25%",
     dani: [
       {
         dan: "1.",
@@ -947,6 +947,27 @@ export default [
         kvota: "2.39",
         ulog: "3.16%",
         profit: "-3.16%",
+        prosao: false,
+      },
+      {
+        dan: "22.",
+        kvota: "1.85",
+        ulog: "3%",
+        profit: "+2.55%",
+        prosao: true,
+      },
+      {
+        dan: "22.",
+        kvota: "1.90",
+        ulog: "3%",
+        profit: "+2.7%",
+        prosao: true,
+      },
+      {
+        dan: "22.",
+        kvota: "1.90",
+        ulog: "3%",
+        profit: "-3%",
         prosao: false,
       },
     ],
