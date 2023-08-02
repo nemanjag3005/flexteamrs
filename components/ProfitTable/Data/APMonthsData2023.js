@@ -601,4 +601,18 @@ export default [
       },
     ],
   },
+  {
+    id: 7,
+    mesec: "Avgust",
+    profit: "+9%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "1.60",
+        ulog: "15%",
+        profit: "+9%",
+        prosao: true,
+      },
+    ]
+  }
 ];
