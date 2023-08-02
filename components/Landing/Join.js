@@ -34,7 +34,7 @@ const Join = () => {
                     </div>
                     <div className="w-full bg-zinc-800 h-full flex items-center justify-start flex-col py-8 px-4">
                       <h1 className="text-primary-metallic border-b-2 border-gray-200 pb-2 mb-4 text-3xl italic text-shadow">
-                        30€
+                        50€
                         <span className="text-gray-200 text-xl italic text-shadow">
                           {" "}
                           / mesečno

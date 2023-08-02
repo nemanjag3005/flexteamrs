@@ -17,7 +17,7 @@ const Services = ({ isOpen, toggle }) => {
               </h1>
               <p className="text-gray-200 text-lg max-w-lg">
                 Članarina našeg tima je: <br />{" "}
-                <span className="font-bold">30e (3600rsd)</span> - Standard
+                <span className="font-bold">50e (5800rsd)</span> - Standard
                 vip✅ (mesec dana od dana uplate) <br />{" "}
                 <span className="font-bold">100e (11700rsd)</span> - Admin
                 premium✅ (pristup i pregled naših tiketa na koje mi stavljamo
@@ -67,7 +67,7 @@ const Services = ({ isOpen, toggle }) => {
                         </td>
                         <td className="px-6 py-4 whitespace-no-wrap border-b border-r border-primary-metallic">
                           <h1 className="text-4xl text-shadow  text-center text-primary-metallic ">
-                            30€{" "}
+                            50€{" "}
                             <span className="text-lg text-shadow-none text-gray-400">
                               /mesečno
                             </span>
@@ -581,7 +581,7 @@ const Services = ({ isOpen, toggle }) => {
               </h1>
               <div className="py-6 px-4">
                 <h1 className="text-4xl text-primary-metallic ">
-                  30€ <span className="text-lg text-gray-400">/mesečno</span>
+                  50€ <span className="text-lg text-gray-400">/mesečno</span>
                 </h1>
 
                 <h1 className="text-gray-200 italic text-3xl mt-4 text-shadow w-full border-primary-metallic border-t-2 pt-4">
@@ -1068,20 +1068,6 @@ const Services = ({ isOpen, toggle }) => {
             ČESTO POSTAVLJANA PITANJA...
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 md:space-y-0 items-center w-full mb-16 space-y-6">
-            <div className="md:max-w-md">
-              <h1 className="text-3xl text-gray-200 font-bold text-shadow ">
-                Šta je to unit?
-              </h1>
-              <p className="text-md mt-2 text-gray-300">
-                U Flex Teamu unit dobijate kada ukupni budžet koji ste odvojili
-                za klađenje(ulaganje) podelite sa 50. Primer ukoliko ste
-                odvojili 10.000 rsd vas 1 unit biće 10.000:50=200rsd. Znači kada
-                ispod tiketa koji se igra napišemo ulog 7/10 - Broj 7
-                predstavlja broj unita koji ćete uložiti na taj tiket. Znači
-                ukoliko vam je unit 200 rsd na taj tiket uložićete
-                7x200=1400rsd.
-              </p>
-            </div>
             <div className="md:max-w-md">
               <h1 className="text-3xl text-gray-200 font-bold text-shadow ">
                 Koliko mogu zaraditi za mesec dana?
