@@ -7,6 +7,8 @@ import APMonthsData2021 from "./Data/APMonthsData2021";
 import JUMonthsData2022 from "./Data/JUMonthsData2022";
 import APMonthsData2023 from "./Data/APMonthsData2023";
 import JUMonthsData2023 from "./Data/JUMonthsData2023";
+import JUMonthsData2024 from "./Data/JUMonthsData2024";
+import APMonthsData2024 from "./Data/APMonthsData2024";
 import "animate.css";
 import Image from "next/image";
 
@@ -18,6 +20,8 @@ const Main = ({ toggle, isOpen }) => {
   const JUdata2022 = JUMonthsData2022;
   const APdata2023 = APMonthsData2023;
   const JUdata2023 = JUMonthsData2023;
+  const APdata2024 = APMonthsData2024;
+  const JUdata2024 = JUMonthsData2024;
   return (
     <div className="bg-secondary bg-repeat flex justify-center">
       <div className="max-w-7xl w-full flex flex-col py-2">
@@ -54,21 +58,19 @@ const Main = ({ toggle, isOpen }) => {
               <div className="flex mx-auto shadow-lg mb-10">
                 <button
                   onClick={() => setDivizija("jake-uplate")}
-                  className={` hover:text-primary-metallic text-xl py-2 px-4 bg-zinc-900 border-t-2 border-l-2 rounded-l-lg border-b-2 border-primary ${
-                    divizija === "jake-uplate"
+                  className={` hover:text-primary-metallic text-xl py-2 px-4 bg-zinc-900 border-t-2 border-l-2 rounded-l-lg border-b-2 border-primary ${divizija === "jake-uplate"
                       ? "text-primary-metallic"
                       : "text-gray-200"
-                  }`}
+                    }`}
                 >
                   JAKE UPLATE
                 </button>
                 <button
                   onClick={() => setDivizija("admin-premium")}
-                  className={` hover:text-primary-metallic bg-zinc-900 text-xl py-2 rounded-r-lg px-4 border-2  border-primary ${
-                    divizija === "admin-premium"
+                  className={` hover:text-primary-metallic bg-zinc-900 text-xl py-2 rounded-r-lg px-4 border-2  border-primary ${divizija === "admin-premium"
                       ? "text-primary-metallic"
                       : "text-gray-200"
-                  }`}
+                    }`}
                 >
                   ADMIN PREMIUM
                 </button>
@@ -135,8 +137,8 @@ const Main = ({ toggle, isOpen }) => {
               <div className="w-full py-4 grid grid-cols-1 md:max-w-lg md:mx-auto">
                 {year == 2022 ? (
                   <>
-                    {divizija === "admin-premium" ? (
-                      APdata2022.map((data2022, index) => (
+                    {divizija === "admin-premium"
+                      ? APdata2022.map((data2022, index) => (
                         <Accordion
                           key={index}
                           mesec={data2022.mesec}
@@ -144,16 +146,14 @@ const Main = ({ toggle, isOpen }) => {
                           dani={data2022.dani}
                         />
                       ))
-                    ) : (
-                      JUdata2022.map((data2022, index) => (
+                      : JUdata2022.map((data2022, index) => (
                         <Accordion
                           key={index}
                           mesec={data2022.mesec}
                           profit={data2022.profit}
                           dani={data2022.dani}
                         />
-                      ))
-                    )}{" "}
+                      ))}{" "}
                   </>
                 ) : year == 2021 ? (
                   <>
@@ -170,10 +170,10 @@ const Main = ({ toggle, isOpen }) => {
                       <></>
                     )}
                   </>
-                ) :year == 2023 ? (
+                ) : year == 2023 ? (
                   <>
-                    {divizija === "admin-premium" ? (
-                      APdata2023.map((data2022, index) => (
+                    {divizija === "admin-premium"
+                      ? APdata2023.map((data2022, index) => (
                         <Accordion
                           key={index}
                           mesec={data2022.mesec}
@@ -181,8 +181,19 @@ const Main = ({ toggle, isOpen }) => {
                           dani={data2022.dani}
                         />
                       ))
-                    ) : (
-                      JUdata2023.map((data2022, index) => (
+                      : JUdata2023.map((data2022, index) => (
+                        <Accordion
+                          key={index}
+                          mesec={data2022.mesec}
+                          profit={data2022.profit}
+                          dani={data2022.dani}
+                        />
+                      ))}{" "}
+                  </>
+                ) : year == 2024 ? (
+                  <>
+                    {divizija === "admin-premium"
+                      ? APdata2024.map((data2022, index) => (
                         <Accordion
                           key={index}
                           mesec={data2022.mesec}
@@ -190,7 +201,14 @@ const Main = ({ toggle, isOpen }) => {
                           dani={data2022.dani}
                         />
                       ))
-                    )}{" "}
+                      : JUdata2024.map((data2022, index) => (
+                        <Accordion
+                          key={index}
+                          mesec={data2022.mesec}
+                          profit={data2022.profit}
+                          dani={data2022.dani}
+                        />
+                      ))}{" "}
                   </>
                 ) : (
                   <h1 className="text-2xl text-center text-gray-200 italic">
@@ -203,7 +221,9 @@ const Main = ({ toggle, isOpen }) => {
           <div className="md:mx-6 flex flex-row justify-center items-start mt-20">
             <span className="text-primary text-2xl mt-0">*</span>
             <p className="text-xs text-center md:max-w-5xl mb-8 text-gray-200 pt-3">
-              Profit tabela na našem sajtu odnosi se na admin premium grupu, kao i na grupu jakih uplata, na dovhat ruke imate čiste rezultate svake naše grupe.
+              Profit tabela na našem sajtu odnosi se na admin premium grupu, kao
+              i na grupu jakih uplata, na dovhat ruke imate čiste rezultate
+              svake naše grupe.
               <br />
               Profit tabele na našoj sceni su u jako maloj meri zastupljene kod
               većine organizacija... Što je zaista tužno videti. Isto kao što je
