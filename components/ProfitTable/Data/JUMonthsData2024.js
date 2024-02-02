@@ -125,4 +125,32 @@ export default [
       },
     ],
   },
+  {
+    id: 1,
+    mesec: "Februar",
+    profit: "-2.45%",
+    dani: [
+      {
+        dan: "2.",
+        kvota: "1.37",
+        ulog: "15%",
+        profit: "+5.55%",
+        prosao: true,
+      },
+      {
+        dan: "2.",
+        kvota: "2.85",
+        ulog: "3%",
+        profit: "-3%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "2.3",
+        ulog: "5%",
+        profit: "-5%",
+        prosao: false,
+      },
+    ],
+  },
 ];
