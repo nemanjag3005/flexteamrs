@@ -71,9 +71,9 @@ const Footer = () => {
       </div>
       <div className="py-4 px-8 text-gray-200 max-w-4xl text-xs md:text-sm text-center">
         Dozvolite da vam pomognem u izgradnji života i karijere iz snova svojim
-        znanjem i veštinama u industriji sportskog klađenja. <br /> Ovo je vaša prilika
-        da radite sa najboljima u poslu i da se upustite u akciju. <br /> Učlanite se u
-        Flex Team. Rezultati ne lažu!
+        znanjem i veštinama u industriji sportskog klađenja. <br /> Ovo je vaša
+        prilika da radite sa najboljima u poslu i da se upustite u akciju.{" "}
+        <br /> Učlanite se u Flex Team. Rezultati ne lažu!
       </div>
       <div className="py-4 px-8 flex w-full items-center justify-center space-x-12 text-gray-200">
         <div>
@@ -114,12 +114,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-4 px-8 text-gray-200 text-xs md:text-sm md:pb-12 text-center">
-        © 2022 Flex Team. All rights reserved.
+        © 2024 Flex Team. All rights reserved.
         <br />
         <br />
         Powered by{" "}
         <a
-          href="https://www.lan-digital.com"
+          href="https://www.wearelandigital.com"
           rel="noreferrer"
           target={"_blank"}
         >
