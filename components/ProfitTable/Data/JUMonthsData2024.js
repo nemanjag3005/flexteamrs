@@ -1,4 +1,4 @@
-export default [
+const ju_2024 = [
   {
     id: 0,
     mesec: "Januar",
@@ -492,7 +492,7 @@ export default [
   {
     id: 3,
     mesec: "April",
-    profit: "+16.2%",
+    profit: "-7.95%",
     dani: [
       {
         dan: "4.",
@@ -501,6 +501,29 @@ export default [
         profit: "+16.2%",
         prosao: true,
       },
+      {
+        dan: "5.",
+        kvota: "1.45",
+        ulog: "13%",
+        profit: "+5.85%",
+        prosao: true,
+      },
+      {
+        dan: "6.",
+        kvota: "1.80",
+        ulog: "10%",
+        profit: "-10%",
+        prosao: false,
+      },
+      {
+        dan: "7.",
+        kvota: "1.45",
+        ulog: "20%",
+        profit: "-20%",
+        prosao: false,
+      },
     ],
   },
 ];
+
+export default ju_2024;
