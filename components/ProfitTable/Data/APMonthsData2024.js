@@ -457,7 +457,7 @@ const table = [
   {
     id: 3,
     mesec: "April",
-    profit: "-7.95%",
+    profit: "+19.35%",
     dani: [
       {
         dan: "4.",
