@@ -1,4 +1,4 @@
-const table = [
+const ap_table = [
   {
     id: 0,
     mesec: "Januar",
@@ -457,7 +457,7 @@ const table = [
   {
     id: 3,
     mesec: "April",
-    profit: "+19.35%",
+    profit: "+14.51%",
     dani: [
       {
         dan: "4.",
@@ -487,7 +487,7 @@ const table = [
         profit: "-20%",
         prosao: false,
       },
-{
+      {
         dan: "9.",
         kvota: "1.83",
         ulog: "10%",
@@ -508,8 +508,43 @@ const table = [
         profit: "-2%",
         prosao: false,
       },
+      {
+        dan: "12.",
+        kvota: "2.75",
+        ulog: "5%",
+        profit: "-5%",
+        prosao: false,
+      },
+      {
+        dan: "12.",
+        kvota: "1.83",
+        ulog: "5%",
+        profit: "-5%",
+        prosao: false,
+      },
+      {
+        dan: "13.",
+        kvota: "1.60",
+        ulog: "7%",
+        profit: "+4.2%",
+        prosao: true,
+      },
+      {
+        dan: "13.",
+        kvota: "2.74",
+        ulog: "5%",
+        profit: "-5%",
+        prosao: false,
+      },
+      {
+        dan: "14.",
+        kvota: "3.98",
+        ulog: "2%",
+        profit: "+5.96%",
+        prosao: true,
+      },
     ],
   },
 ];
 
-export default table;
+export default ap_table;
