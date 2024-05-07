@@ -632,7 +632,7 @@ const ap_table = [
   {
     id: 4,
     mesec: "Maj",
-    profit: "+19.22%",
+    profit: "+23.22%",
     dani: [
       {
         dan: "1.",
@@ -675,6 +675,20 @@ const ap_table = [
         ulog: "4%",
         profit: "+4.96%",
         prosao: true,
+      },
+      {
+        dan: "6.",
+        kvota: "1.35",
+        ulog: "20%",
+        profit: "+7%",
+        prosao: true,
+      },
+      {
+        dan: "6.",
+        kvota: "2.97",
+        ulog: "3%",
+        profit: "-3%",
+        prosao: false,
       },
     ],
   },
