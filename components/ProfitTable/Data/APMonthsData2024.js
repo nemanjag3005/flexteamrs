@@ -804,6 +804,27 @@ const ap_table = [
       },
     ],
   },
+  {
+    id: 5,
+    mesec: "Jun",
+    profit: "16.53%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "1.35",
+        ulog: "30%",
+        profit: "+10.5%",
+        prosao: true,
+      },
+      {
+        dan: "1.",
+        kvota: "1.67",
+        ulog: "9%",
+        profit: "+6.03%",
+        prosao: true,
+      },
+    ],
+  },
 ];
 
 export default ap_table;
