@@ -807,7 +807,7 @@ const ap_table = [
   {
     id: 5,
     mesec: "Jun",
-    profit: "16.53%",
+    profit: "+16.53%",
     dani: [
       {
         dan: "1.",
