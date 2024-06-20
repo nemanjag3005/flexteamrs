@@ -1,3 +1,5 @@
+import { trusted } from "mongoose";
+
 const ap_table = [
   {
     id: 0,
@@ -807,7 +809,7 @@ const ap_table = [
   {
     id: 5,
     mesec: "Jun",
-    profit: "+51.24%",
+    profit: "+60.05%",
     dani: [
       {
         dan: "1.",
@@ -898,6 +900,34 @@ const ap_table = [
         kvota: "1.50",
         ulog: "10%",
         profit: "+5.0%",
+        prosao: true,
+      },
+      {
+        dan: "18.",
+        kvota: "1.53",
+        ulog: "12%",
+        profit: "+6.36%",
+        prosao: true,
+      },
+      {
+        dan: "19.",
+        kvota: "1.52",
+        ulog: "12%",
+        profit: "-12%",
+        prosao: false,
+      },
+      {
+        dan: "19.",
+        kvota: "1.65",
+        ulog: "13%",
+        profit: "+8.45%",
+        prosao: true,
+      },
+      {
+        dan: "20.",
+        kvota: "1.60",
+        ulog: "10%",
+        profit: "+6%",
         prosao: true,
       },
     ],
