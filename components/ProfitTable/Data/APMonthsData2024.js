@@ -1,5 +1,3 @@
-import { trusted } from "mongoose";
-
 const ap_table = [
   {
     id: 0,
