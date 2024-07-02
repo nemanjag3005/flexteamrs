@@ -1070,6 +1070,34 @@ const ju_2024 = [
       },
     ],
   },
+  {
+    id: 6,
+    mesec: "Jul",
+    profit: "-22%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "1.74",
+        ulog: "8%",
+        profit: "-8%",
+        prosao: false,
+      },
+      {
+        dan: "1.",
+        kvota: "1.40",
+        ulog: "4%",
+        profit: "-4%",
+        prosao: false,
+      },
+      {
+        dan: "3.",
+        kvota: "1.89",
+        ulog: "10%",
+        profit: "-10%",
+        prosao: false,
+      },
+    ],
+  },
 ];
 
 export default ju_2024;
