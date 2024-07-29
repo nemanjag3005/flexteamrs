@@ -13,7 +13,7 @@ import "animate.css";
 import Image from "next/image";
 
 const Main = ({ toggle, isOpen }) => {
-  const [year, setYear] = useState(2022);
+  const [year, setYear] = useState(new Date().getFullYear());
   const [divizija, setDivizija] = useState("jake-uplate");
   const APdata2022 = APMonthsData2022;
   const APdata2021 = APMonthsData2021;
@@ -58,19 +58,21 @@ const Main = ({ toggle, isOpen }) => {
               <div className="flex mx-auto shadow-lg mb-10">
                 <button
                   onClick={() => setDivizija("jake-uplate")}
-                  className={` hover:text-primary-metallic text-xl py-2 px-4 bg-zinc-900 border-t-2 border-l-2 rounded-l-lg border-b-2 border-primary ${divizija === "jake-uplate"
+                  className={` hover:text-primary-metallic text-xl py-2 px-4 bg-zinc-900 border-t-2 border-l-2 rounded-l-lg border-b-2 border-primary ${
+                    divizija === "jake-uplate"
                       ? "text-primary-metallic"
                       : "text-gray-200"
-                    }`}
+                  }`}
                 >
                   JAKE UPLATE
                 </button>
                 <button
                   onClick={() => setDivizija("admin-premium")}
-                  className={` hover:text-primary-metallic bg-zinc-900 text-xl py-2 rounded-r-lg px-4 border-2  border-primary ${divizija === "admin-premium"
+                  className={` hover:text-primary-metallic bg-zinc-900 text-xl py-2 rounded-r-lg px-4 border-2  border-primary ${
+                    divizija === "admin-premium"
                       ? "text-primary-metallic"
                       : "text-gray-200"
-                    }`}
+                  }`}
                 >
                   ADMIN PREMIUM
                 </button>
@@ -101,16 +103,16 @@ const Main = ({ toggle, isOpen }) => {
                   </div>
                 </button>
                 <button
-                  onClick={() => setYear(2021)}
+                  onClick={() => setYear(new Date().getFullYear() - 1)}
                   className="text-primary hover:text-primary-metallic text-lg py-1 px-2 border-t-2 border-l-2 rounded-l-lg border-b-2 border-primary"
                 >
-                  2021.
+                  {new Date().getFullYear() - 1}
                 </button>
                 <button
-                  onClick={() => setYear(2022)}
+                  onClick={() => setYear(new Date().getFullYear())}
                   className="text-primary hover:text-primary-metallic text-lg py-1 rounded-r-lg px-2 border-2  border-primary "
                 >
-                  2022.
+                  {new Date().getFullYear()}
                 </button>
                 <button
                   onClick={() => setYear(year + 1)}
@@ -139,21 +141,21 @@ const Main = ({ toggle, isOpen }) => {
                   <>
                     {divizija === "admin-premium"
                       ? APdata2022.map((data2022, index) => (
-                        <Accordion
-                          key={index}
-                          mesec={data2022.mesec}
-                          profit={data2022.profit}
-                          dani={data2022.dani}
-                        />
-                      ))
+                          <Accordion
+                            key={index}
+                            mesec={data2022.mesec}
+                            profit={data2022.profit}
+                            dani={data2022.dani}
+                          />
+                        ))
                       : JUdata2022.map((data2022, index) => (
-                        <Accordion
-                          key={index}
-                          mesec={data2022.mesec}
-                          profit={data2022.profit}
-                          dani={data2022.dani}
-                        />
-                      ))}{" "}
+                          <Accordion
+                            key={index}
+                            mesec={data2022.mesec}
+                            profit={data2022.profit}
+                            dani={data2022.dani}
+                          />
+                        ))}{" "}
                   </>
                 ) : year == 2021 ? (
                   <>
@@ -174,41 +176,41 @@ const Main = ({ toggle, isOpen }) => {
                   <>
                     {divizija === "admin-premium"
                       ? APdata2023.map((data2022, index) => (
-                        <Accordion
-                          key={index}
-                          mesec={data2022.mesec}
-                          profit={data2022.profit}
-                          dani={data2022.dani}
-                        />
-                      ))
+                          <Accordion
+                            key={index}
+                            mesec={data2022.mesec}
+                            profit={data2022.profit}
+                            dani={data2022.dani}
+                          />
+                        ))
                       : JUdata2023.map((data2022, index) => (
-                        <Accordion
-                          key={index}
-                          mesec={data2022.mesec}
-                          profit={data2022.profit}
-                          dani={data2022.dani}
-                        />
-                      ))}{" "}
+                          <Accordion
+                            key={index}
+                            mesec={data2022.mesec}
+                            profit={data2022.profit}
+                            dani={data2022.dani}
+                          />
+                        ))}{" "}
                   </>
                 ) : year == 2024 ? (
                   <>
                     {divizija === "admin-premium"
                       ? APdata2024.map((data2022, index) => (
-                        <Accordion
-                          key={index}
-                          mesec={data2022.mesec}
-                          profit={data2022.profit}
-                          dani={data2022.dani}
-                        />
-                      ))
+                          <Accordion
+                            key={index}
+                            mesec={data2022.mesec}
+                            profit={data2022.profit}
+                            dani={data2022.dani}
+                          />
+                        ))
                       : JUdata2024.map((data2022, index) => (
-                        <Accordion
-                          key={index}
-                          mesec={data2022.mesec}
-                          profit={data2022.profit}
-                          dani={data2022.dani}
-                        />
-                      ))}{" "}
+                          <Accordion
+                            key={index}
+                            mesec={data2022.mesec}
+                            profit={data2022.profit}
+                            dani={data2022.dani}
+                          />
+                        ))}{" "}
                   </>
                 ) : (
                   <h1 className="text-2xl text-center text-gray-200 italic">

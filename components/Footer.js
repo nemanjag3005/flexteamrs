@@ -114,7 +114,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="py-4 px-8 text-gray-200 text-xs md:text-sm md:pb-12 text-center">
-        © 2024 Flex Team. All rights reserved.
+        © {new Date().getFullYear()} Flex Team. All rights reserved.
         <br />
         <br />
         Powered by{" "}
