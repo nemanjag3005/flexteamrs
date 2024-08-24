@@ -1206,7 +1206,7 @@ const ju_2024 = [
   {
     id: 7,
     mesec: "Avgust",
-    profit: "-70.1%",
+    profit: "-70%",
     dani: [
       {
         dan: "1.",
