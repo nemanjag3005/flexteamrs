@@ -1206,7 +1206,7 @@ const ju_2024 = [
   {
     id: 7,
     mesec: "Avgust",
-    profit: "-40.1%",
+    profit: "-70.1%",
     dani: [
       {
         dan: "1.",
@@ -1353,6 +1353,13 @@ const ju_2024 = [
         kvota: "1.30",
         ulog: "8.28%",
         profit: "-8.28%",
+        prosao: false,
+      },
+      {
+        dan: "24.",
+        kvota: "1.40",
+        ulog: "30%",
+        profit: "-30%",
         prosao: false,
       },
     ],
