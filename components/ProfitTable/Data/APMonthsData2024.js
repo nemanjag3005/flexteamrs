@@ -1318,7 +1318,7 @@ const ap_table = [
         kvota: "1.52",
         ulog: "30%",
         profit: "+15.6",
-        prosao: false,
+        prosao: true,
       },
     ],
   },

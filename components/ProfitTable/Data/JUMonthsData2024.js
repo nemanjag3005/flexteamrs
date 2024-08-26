@@ -1367,7 +1367,7 @@ const ju_2024 = [
         kvota: "1.52",
         ulog: "30%",
         profit: "+15.6",
-        prosao: false,
+        prosao: true,
       },
     ],
   },
