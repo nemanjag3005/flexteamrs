@@ -1448,6 +1448,48 @@ const ap_table = [
       },
     ]
   },
+  {
+    id: 9,
+    mesec: "Oktobar",
+    profit: "-42%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "1.96",
+        ulog: "11%",
+        profit: "-11%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "1.66",
+        ulog: "11%",
+        profit: "-11%",
+        prosao: false,
+      },
+      {
+        dan: "2.",
+        kvota: "1.80",
+        ulog: "5%",
+        profit: "-5%",
+        prosao: false,
+      },
+      {
+        dan: "3.",
+        kvota: "1.60",
+        ulog: "4%",
+        profit: "-4%",
+        prosao: false,
+      },
+      {
+        dan: "3.",
+        kvota: "1.72",
+        ulog: "11%",
+        profit: "-11%",
+        prosao: false,
+      },
+    ]
+  },
 ];
 
 export default ap_table;
