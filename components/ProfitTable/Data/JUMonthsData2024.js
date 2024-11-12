@@ -1799,16 +1799,16 @@ const ju_2024 = [
       {
         dan: "12.",
         kvota: "1.62",
-        ulog: "7%",
-        profit: "+4.34%",
-        prosao: true,
+        ulog: "13%",
+        profit: "-13%",
+        prosao: false,
       },
       {
         dan: "12.",
         kvota: "1.62",
-        ulog: "13%",
-        profit: "-13%",
-        prosao: false,
+        ulog: "7%",
+        profit: "+4.34%",
+        prosao: true,
       },
     ]
   },
