@@ -1833,6 +1833,34 @@ const ap_table = [
       },
     ]
   },
+  {
+    id: 11,
+    mesec: "Decembar",
+    profit: "+7.76%",
+    dani: [
+      {
+        dan: "1.",
+        kvota: "1.26",
+        ulog: "10%",
+        profit: "+2.6%",
+        prosao: true,
+      },
+      {
+        dan: "3.",
+        kvota: "1.62",
+        ulog: "18%",
+        profit: "+11.16%",
+        prosao: true,
+      },
+      {
+        dan: "3.",
+        kvota: "1.78",
+        ulog: "6%",
+        profit: "-6%",
+        prosao: false,
+      },
+    ]
+  }
 ];
 
 export default ap_table;
