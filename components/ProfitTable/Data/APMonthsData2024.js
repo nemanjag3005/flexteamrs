@@ -1836,7 +1836,7 @@ const ap_table = [
   {
     id: 11,
     mesec: "Decembar",
-    profit: "+7.76%",
+    profit: "+39.39%",
     dani: [
       {
         dan: "1.",
@@ -1859,8 +1859,50 @@ const ap_table = [
         profit: "-6%",
         prosao: false,
       },
+      {
+        dan: "4.",
+        kvota: "1.38",
+        ulog: "6%",
+        profit: "+2.28%",
+        prosao: true,
+      },
+      {
+        dan: "5.",
+        kvota: "2.45",
+        ulog: "4%",
+        profit: "+5.8%",
+        prosao: true,
+      },
+      {
+        dan: "5.",
+        kvota: "1.80",
+        ulog: "8%",
+        profit: "+6.4%",
+        prosao: true,
+      },
+      {
+        dan: "5.",
+        kvota: "1.73",
+        ulog: "5%",
+        profit: "+3.65%",
+        prosao: true,
+      },
+      {
+        dan: "7.",
+        kvota: "1.60",
+        ulog: "15%",
+        profit: "+9%",
+        prosao: true,
+      },
+      {
+        dan: "7.",
+        kvota: "1.45",
+        ulog: "10%",
+        profit: "+4.5%",
+        prosao: true,
+      },
     ]
-  }
+  },
 ];
 
 export default ap_table;
