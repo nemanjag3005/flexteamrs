@@ -22,6 +22,8 @@ const Main = ({ toggle, isOpen }) => {
   const JUdata2023 = JUMonthsData2023;
   const APdata2024 = APMonthsData2024;
   const JUdata2024 = JUMonthsData2024;
+  const APdata2025 = APMonthsData2025;
+  const JUdata2025 = JUMonthsData2025;
   return (
     <div className="bg-secondary bg-repeat flex justify-center">
       <div className="max-w-7xl w-full flex flex-col py-2">
@@ -204,6 +206,26 @@ const Main = ({ toggle, isOpen }) => {
                           />
                         ))
                       : JUdata2024.map((data2022, index) => (
+                          <Accordion
+                            key={index}
+                            mesec={data2022.mesec}
+                            profit={data2022.profit}
+                            dani={data2022.dani}
+                          />
+                        ))}{" "}
+                  </>
+                ) : year == 2025 ? (
+                  <>
+                    {divizija === "admin-premium"
+                      ? APdata2025.map((data2022, index) => (
+                          <Accordion
+                            key={index}
+                            mesec={data2022.mesec}
+                            profit={data2022.profit}
+                            dani={data2022.dani}
+                          />
+                        ))
+                      : JUdata2025.map((data2022, index) => (
                           <Accordion
                             key={index}
                             mesec={data2022.mesec}
