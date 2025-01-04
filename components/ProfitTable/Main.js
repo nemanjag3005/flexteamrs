@@ -9,6 +9,8 @@ import APMonthsData2023 from "./Data/APMonthsData2023";
 import JUMonthsData2023 from "./Data/JUMonthsData2023";
 import JUMonthsData2024 from "./Data/JUMonthsData2024";
 import APMonthsData2024 from "./Data/APMonthsData2024";
+import JUMonthsData2025 from "./Data/JUMonthsData2025";
+import APMonthsData2025 from "./Data/APMonthsData2025";
 import "animate.css";
 import Image from "next/image";
 
