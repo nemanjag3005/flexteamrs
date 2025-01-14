@@ -2,7 +2,7 @@ const ju_table = [
     {
         id: 0,
         mesec: "Januar",
-        profit: "+40.63%",
+        profit: "+46.63%",
         dani: [
             {
                 dan: "2.",
@@ -79,6 +79,13 @@ const ju_table = [
                 kvota: "1.55",
                 ulog: "21%",
                 profit: "+11.55%",
+                prosao: true,
+            },
+            {
+                dan: "13.",
+                kvota: "1.40",
+                ulog: "15%",
+                profit: "+6%",
                 prosao: true,
             },
         ]
