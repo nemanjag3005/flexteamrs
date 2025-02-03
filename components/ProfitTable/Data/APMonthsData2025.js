@@ -289,7 +289,7 @@ const ap_table = [
     {
         id: 1,
         mesec: "Februar",
-        profit: "-36.68%",
+        profit: "-27.68%",
         dani: [
             {
                 dan: "1.",
