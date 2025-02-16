@@ -289,7 +289,7 @@ const ap_table = [
     {
         id: 1,
         mesec: "Februar",
-        profit: "-45.23%",
+        profit: "-100%",
         dani: [
             {
                 dan: "1.",
@@ -430,6 +430,69 @@ const ap_table = [
                 ulog: "10%",
                 profit: "-10%",
                 prosao: false,
+            },
+            {
+                dan: "11.",
+                kvota: "1.69",
+                ulog: "10%",
+                profit: "+6.9%",
+                prosao: true,
+            },
+            {
+                dan: "11.",
+                kvota: "1.57",
+                ulog: "8%",
+                profit: "+4.56%",
+                prosao: true,
+            },
+            {
+                dan: "12.",
+                kvota: "1.50",
+                ulog: "8%",
+                profit: "-8%",
+                prosao: false,
+            },
+            {
+                dan: "12.",
+                kvota: "1.30",
+                ulog: "20%",
+                profit: "+6%",
+                prosao: true,
+            },
+            {
+                dan: "13.",
+                kvota: "1.30",
+                ulog: "38.23%",
+                profit: "-38.23%",
+                prosao: false,
+            },
+            {
+                dan: "13.",
+                kvota: "1.62",
+                ulog: "26%",
+                profit: "-26%",
+                prosao: false,
+            },
+            {
+                dan: "15.",
+                kvota: "1.39",
+                ulog: "25%",
+                profit: "+0%",
+                prosao: true,
+            },
+            {
+                dan: "15.",
+                kvota: "1.68",
+                ulog: "10%",
+                profit: "-0%",
+                prosao: false,
+            },
+            {
+                dan: "15.",
+                kvota: "1.47",
+                ulog: "16%",
+                profit: "+0%",
+                prosao: true,
             },
         ]
     },
