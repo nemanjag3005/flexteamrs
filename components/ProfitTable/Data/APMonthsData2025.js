@@ -496,6 +496,41 @@ const ap_table = [
             },
         ]
     },
+    {
+        id: 2,
+        mesec: "Mart",
+        profit: "+26.6%",
+        dani: [
+            {
+                dan: "1.",
+                kvota: "2.0",
+                ulog: "7%",
+                profit: "+7%",
+                prosao: true,
+            },
+            {
+                dan: "4.",
+                kvota: "1.82",
+                ulog: "20%",
+                profit: "+16.4%",
+                prosao: true,
+            },
+            {
+                dan: "6.",
+                kvota: "1.43",
+                ulog: "10%",
+                profit: "-10%",
+                prosao: false,
+            },
+            {
+                dan: "7.",
+                kvota: "1.66",
+                ulog: "20%",
+                profit: "+13.2%",
+                prosao: true,
+            },
+        ]
+    },
 ];
 
 export default ap_table;
